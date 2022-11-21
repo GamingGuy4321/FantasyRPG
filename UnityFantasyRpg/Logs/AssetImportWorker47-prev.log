@@ -1,0 +1,485 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 24461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker47
+-projectPath
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+-logFile
+Logs/AssetImportWorker47.log
+-srvPort
+64560
+Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 81.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004101 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (517ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.2 KB). Loaded Objects now: 3863.
+Memory consumption went from 137.9 MB to 137.8 MB.
+Total: 6.522300 ms (FindLiveObjects: 0.750100 ms CreateObjectMapping: 0.301600 ms MarkObjects: 5.246700 ms  DeleteObjects: 0.222900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 906353.196669 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 2.prefab
+  artifactKey: Guid(cee711f63aee1b74bbf4aa13af0f9d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 2.prefab using Guid(cee711f63aee1b74bbf4aa13af0f9d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c17b51c967d17fbcf74ce3118dbf05') in 0.135665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 22.prefab
+  artifactKey: Guid(b89d674e6490f674c9d9b4e34cdd3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 22.prefab using Guid(b89d674e6490f674c9d9b4e34cdd3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987c076350653608b91dd5272a6f9305') in 0.024967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 24.prefab
+  artifactKey: Guid(5c90cac47c6d2574babbb1fb4621a467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 24.prefab using Guid(5c90cac47c6d2574babbb1fb4621a467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2909627c77d12485a987113c17341db') in 0.030427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 27.prefab
+  artifactKey: Guid(06ef3319fedce014f869119d73af0f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 27.prefab using Guid(06ef3319fedce014f869119d73af0f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8464bc46b858497c9fb46d31619db7d') in 0.025860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 19.prefab
+  artifactKey: Guid(75df6968cc4572d4688a573414aa91e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles 2D/2D Projectile 19.prefab using Guid(75df6968cc4572d4688a573414aa91e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379141589c6ec99562f4109b8a32580') in 0.023483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.089931 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Characters/Character_Goblin_Female.prefab
+  artifactKey: Guid(d48e97c38730e6d4a8a87d44d568bc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Characters/Character_Goblin_Female.prefab using Guid(d48e97c38730e6d4a8a87d44d568bc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df28dd14e4b0c676c71eabf13e40b89') in 0.110906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Characters/Character_Skeleton_Knight.prefab
+  artifactKey: Guid(616cc160fcb3b124b8e0fc587258594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Characters/Character_Skeleton_Knight.prefab using Guid(616cc160fcb3b124b8e0fc587258594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd2f5ef16932ba1087d1eceab07ff1') in 0.043379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.204657 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Alter_01_Convex 1.asset
+  artifactKey: Guid(ea2317e2f19aa494eb2fa413132c8f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Alter_01_Convex 1.asset using Guid(ea2317e2f19aa494eb2fa413132c8f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f28564ce175789578dc09a7697434b') in 0.019588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Alter_01_Convex.asset
+  artifactKey: Guid(5bd9f39fcec9dd8489a46720f70cd0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Alter_01_Convex.asset using Guid(5bd9f39fcec9dd8489a46720f70cd0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271455f3e6759f960a96d649d7af7f95') in 0.008759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002404 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Rib_01_Convex.asset
+  artifactKey: Guid(e8ec214e4e9b1454ab9a7c1212b4f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Rib_01_Convex.asset using Guid(e8ec214e4e9b1454ab9a7c1212b4f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c2821f77faab662ba58bc45aca6a9b') in 0.010098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001539 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Skull_02_Convex.asset
+  artifactKey: Guid(d0d0965f86c1dc34b9f4724cf728e6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Skull_02_Convex.asset using Guid(d0d0965f86c1dc34b9f4724cf728e6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776474786db44ee87eb2d48c420f789c') in 0.008629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spike_03_Convex.asset
+  artifactKey: Guid(0f0ada11729cfe146a30d81428d81439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spike_03_Convex.asset using Guid(0f0ada11729cfe146a30d81428d81439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01464ea8cbdd969f3ac145b1d050cde0') in 0.008273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_01_Convex 1.asset
+  artifactKey: Guid(8374299ad29ee904fa000980a5845496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_01_Convex 1.asset using Guid(8374299ad29ee904fa000980a5845496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c7cb647551d5a00b998c8aac932012') in 0.012921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_03_Convex.asset
+  artifactKey: Guid(86a1f62eaa3e98340ad418170fba0e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_03_Convex.asset using Guid(86a1f62eaa3e98340ad418170fba0e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b612b0ab588cea26f02b5fd19503d5c6') in 0.008843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Flat_07_Convex 1.asset
+  artifactKey: Guid(6743b46f9964e96448900e3ffad5f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Flat_07_Convex 1.asset using Guid(6743b46f9964e96448900e3ffad5f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a537a26298e9780c76fc053ba2ecd043') in 0.011872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Tail_01_Convex.asset
+  artifactKey: Guid(60e6f0efb9862b14fb3be9086f065383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Tail_01_Convex.asset using Guid(60e6f0efb9862b14fb3be9086f065383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79e97818922d59ae5097fcb0982fa24') in 0.007118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_02_Convex 1.asset
+  artifactKey: Guid(58d03b690981ce6469e93ee1712e863b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_02_Convex 1.asset using Guid(58d03b690981ce6469e93ee1712e863b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e208a30fc0982f9a40b21a754c2be') in 0.014962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_BonePile_02_Convex.asset
+  artifactKey: Guid(dce79eddb1f19244d94b925ff2be24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_BonePile_02_Convex.asset using Guid(dce79eddb1f19244d94b925ff2be24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf7ae835e240cfc61b93c9c3cf7d3c4') in 0.012534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Flat_07_Convex 2.asset
+  artifactKey: Guid(1649a3c45f961c14f99845ef84f816ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Flat_07_Convex 2.asset using Guid(1649a3c45f961c14f99845ef84f816ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbd71a7722f6433054bafe872493d70') in 0.010774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spine_02_Convex.asset
+  artifactKey: Guid(504334d97647a41419cd4e6c3b840ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spine_02_Convex.asset using Guid(504334d97647a41419cd4e6c3b840ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637a57945c68d7d5dad86e5c47bf02bb') in 0.007749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Basement_Support_Beam_Bolt_01_Convex.asset
+  artifactKey: Guid(e2788e502f6feb545acf52d75b78bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Basement_Support_Beam_Bolt_01_Convex.asset using Guid(e2788e502f6feb545acf52d75b78bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c82167e640fc7e7bc2c31a9f715fe') in 0.007651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Basement_Support_Pole_01_Convex.asset
+  artifactKey: Guid(798f4b59bcf4d5349b83099327334827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Basement_Support_Pole_01_Convex.asset using Guid(798f4b59bcf4d5349b83099327334827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b60b1f55f6923e0098a9300a4629a7') in 0.008789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spine_01_Convex.asset
+  artifactKey: Guid(16c1e300e79995a4aaaf5a7f54fc843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spine_01_Convex.asset using Guid(16c1e300e79995a4aaaf5a7f54fc843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943d3891ad0d7cf8002333be992f39a6') in 0.008096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_Corner_01_Convex 2.asset
+  artifactKey: Guid(884a3b55d35ef7140875a53f8a0f4919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_Corner_01_Convex 2.asset using Guid(884a3b55d35ef7140875a53f8a0f4919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0e59e8ac94750d693be7abfe85a720') in 0.018267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Flowers_01_Convex.asset
+  artifactKey: Guid(9e4c6ed0f6546d8468f290b38d053b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Flowers_01_Convex.asset using Guid(9e4c6ed0f6546d8468f290b38d053b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aeea1d3bba2d8ab0c9564498b1573a') in 0.008223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_01_Convex 1.asset
+  artifactKey: Guid(a3c8f11d8fcd871469b849d922d722d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_01_Convex 1.asset using Guid(a3c8f11d8fcd871469b849d922d722d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3def1c153527f0e8bb7bc8a4991287d') in 0.010636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_01_Convex 2.asset
+  artifactKey: Guid(c5e39ee5e1d87e84a8fd8c7180fbf1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_01_Convex 2.asset using Guid(c5e39ee5e1d87e84a8fd8c7180fbf1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45af9e99c3379f7295e3b195dc9b0d46') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spike_02_Convex.asset
+  artifactKey: Guid(d01a106c92cfb8c4d9c3b223ba6e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spike_02_Convex.asset using Guid(d01a106c92cfb8c4d9c3b223ba6e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c08ea51d2e8484c38e39804747cd7e') in 0.008357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_01_Convex.asset
+  artifactKey: Guid(d88fdb6fff0a45b479f3bf27431681cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_01_Convex.asset using Guid(d88fdb6fff0a45b479f3bf27431681cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8578fb970f4dd915b1379dc59936de1') in 0.008618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_02_Convex.asset
+  artifactKey: Guid(16e822d162961e84a9a11a200deb6eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_02_Convex.asset using Guid(16e822d162961e84a9a11a200deb6eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1b85acfbc3e47e69bd505fb15110c') in 0.007912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Metal_Spikes_02_Convex.asset
+  artifactKey: Guid(f214ded5db8b917448b589033946cf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Metal_Spikes_02_Convex.asset using Guid(f214ded5db8b917448b589033946cf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec5b4b4b3733e9fad7da1622839ec72') in 0.007980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Metal_Spikes_01_Convex.asset
+  artifactKey: Guid(6d22f6fbbfeddf649a05be61f452e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Metal_Spikes_01_Convex.asset using Guid(6d22f6fbbfeddf649a05be61f452e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dd249e2cb832cc9855b40a71e6b16a') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Pillar_01_Convex 1.asset
+  artifactKey: Guid(4225d37a2111d4b409473fb555123ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Pillar_01_Convex 1.asset using Guid(4225d37a2111d4b409473fb555123ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ba016c0ade5d234fd56de658472cef') in 0.020859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Goblin_02_Convex.asset
+  artifactKey: Guid(c71a2b829f2ff734d92ea154c2a509f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Goblin_02_Convex.asset using Guid(c71a2b829f2ff734d92ea154c2a509f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d7b6d0251bd3ac674e275c78a76f4') in 0.008391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Flat_05_Convex.asset
+  artifactKey: Guid(acb072777b0ef7b468374dbc3c560514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Flat_05_Convex.asset using Guid(acb072777b0ef7b468374dbc3c560514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00514e48a1e9fa3e0ce1e490ee34139f') in 0.008480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_02_Convex 1.asset
+  artifactKey: Guid(ed370138f9bbca1468ffca889c1a63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_02_Convex 1.asset using Guid(ed370138f9bbca1468ffca889c1a63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1f47e25725691711ecf1f77b902867') in 0.012449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_01_Convex.asset
+  artifactKey: Guid(35f3da08d67f5bd4497cc40189d2c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_01_Convex.asset using Guid(35f3da08d67f5bd4497cc40189d2c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ffcf716c514991d355388ab7e10c8') in 0.009200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Pillar_01_Convex.asset
+  artifactKey: Guid(07877c881f38db04691269340924b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Pillar_01_Convex.asset using Guid(07877c881f38db04691269340924b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9fd5ef6b6f25321edd19392ba9913c') in 0.010282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Skull_Jaw_01_Convex.asset
+  artifactKey: Guid(565714ac61d67934dbb2da53553a35c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Skull_Jaw_01_Convex.asset using Guid(565714ac61d67934dbb2da53553a35c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f416f65657bad59f2f51ba5147fc12') in 0.008388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_BonePile_Small_01_Convex.asset
+  artifactKey: Guid(f790d66a5a1f22c46baa9bb0e4fbc44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_BonePile_Small_01_Convex.asset using Guid(f790d66a5a1f22c46baa9bb0e4fbc44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4458ef64ab2c6ab2cc506d1525029f50') in 0.009740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Goblin_01_Convex.asset
+  artifactKey: Guid(22d08e8e9a8bd654aa160fc53956e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Fence_Goblin_01_Convex.asset using Guid(22d08e8e9a8bd654aa160fc53956e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e356cb7568fa1a8d8d53bc071052f738') in 0.010355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spike_05_Convex.asset
+  artifactKey: Guid(86fcf2a8a11fba849acb8952ad9afb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Spike_05_Convex.asset using Guid(86fcf2a8a11fba849acb8952ad9afb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e4f942203a3d33f4dd361aac5456a5') in 0.010981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Cracked_01_Convex.asset
+  artifactKey: Guid(6f5be3d4d26a61a4cb991a6869e63f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Bone_Cracked_01_Convex.asset using Guid(6f5be3d4d26a61a4cb991a6869e63f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4672ed398480b1f007da814f92b759') in 0.009647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_02_Convex.asset
+  artifactKey: Guid(54eb68f4d7add7641bc8eef768975d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Ceiling_Stone_Curved_02_Convex.asset using Guid(54eb68f4d7add7641bc8eef768975d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7769cca2a4c22b14f9e2d13e2f280066') in 0.008701 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003105 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (809ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (175.0 KB). Loaded Objects now: 4049.
+Memory consumption went from 158.9 MB to 158.8 MB.
+Total: 4.950000 ms (FindLiveObjects: 0.521400 ms CreateObjectMapping: 0.197300 ms MarkObjects: 4.049200 ms  DeleteObjects: 0.180700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

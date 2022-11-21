@@ -1,0 +1,428 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 24461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker32
+-projectPath
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+-logFile
+Logs/AssetImportWorker32.log
+-srvPort
+64560
+Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005630 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003704 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.5 KB). Loaded Objects now: 3862.
+Memory consumption went from 137.7 MB to 137.6 MB.
+Total: 5.669100 ms (FindLiveObjects: 0.675800 ms CreateObjectMapping: 0.217200 ms MarkObjects: 4.607000 ms  DeleteObjects: 0.167800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 905834.008450 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Characters/ScaleFixedCharacters/Character_Hero_Knight_Female.prefab
+  artifactKey: Guid(45608daf8c357ac4883238b3247d64b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Characters/ScaleFixedCharacters/Character_Hero_Knight_Female.prefab using Guid(45608daf8c357ac4883238b3247d64b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b19685b5fa67707a96ac2f57f64475') in 0.244412 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.4 KB). Loaded Objects now: 3874.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 4.900800 ms (FindLiveObjects: 0.566800 ms CreateObjectMapping: 0.112200 ms MarkObjects: 4.068000 ms  DeleteObjects: 0.152600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.641931 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Barrel_Large_01.prefab
+  artifactKey: Guid(4ddf6f65a614aa742b0f4f1012b3d339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Barrel_Large_01.prefab using Guid(4ddf6f65a614aa742b0f4f1012b3d339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b7145a00d8e8faf673d45751b0c2f1') in 0.079433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Coffin_01.prefab
+  artifactKey: Guid(ac72a98c062e432478eb557db53fdc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Coffin_01.prefab using Guid(ac72a98c062e432478eb557db53fdc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e251ed774d84281597e22479acb12a5') in 0.027247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Crate_Metal_Open_01.prefab
+  artifactKey: Guid(abf07ccdbcba5d747bb51ff4aa1b29cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Crate_Metal_Open_01.prefab using Guid(abf07ccdbcba5d747bb51ff4aa1b29cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f190a14d55649dca9d7a9a58db505d5c') in 0.021908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chain_08.prefab
+  artifactKey: Guid(e2ed58c181474c441adc906f9a058932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chain_08.prefab using Guid(e2ed58c181474c441adc906f9a058932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240c2f8ac91777217309fa168ca2a961') in 0.022006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Goblin_Branch_01.prefab
+  artifactKey: Guid(1cf0f7973f8349e4bbce9a4382f74bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Goblin_Branch_01.prefab using Guid(1cf0f7973f8349e4bbce9a4382f74bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4bac58eb3e5a14d088255cbeced793') in 0.024558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chest_04.prefab
+  artifactKey: Guid(6a57b9f39fb08014aabf0466d55fedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chest_04.prefab using Guid(6a57b9f39fb08014aabf0466d55fedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990bc0b5e47496b7a5a454b618c301ae') in 0.025769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Bolt_01.prefab
+  artifactKey: Guid(312a0e66578f8924ba3e7105a3033bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Bolt_01.prefab using Guid(312a0e66578f8924ba3e7105a3033bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30094120b210ad5910e46284dcf87fc0') in 0.024110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Crate_Wood_03.prefab
+  artifactKey: Guid(a2e4cdc587395c04cba2cad21f37b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Crate_Wood_03.prefab using Guid(a2e4cdc587395c04cba2cad21f37b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb5262f7fd7241357b1a556e4c74b6d') in 0.024077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chest_03.prefab
+  artifactKey: Guid(045cc9e875b3f1f48b4774837b97b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chest_03.prefab using Guid(045cc9e875b3f1f48b4774837b97b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b14b6d1ec57723a2fff1cfe43e634e1') in 0.022619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chain_01.prefab
+  artifactKey: Guid(2178485d4c522584aa93ff4f062b058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Chain_01.prefab using Guid(2178485d4c522584aa93ff4f062b058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efc6918813f41236c9eaa361bed2666') in 0.016686 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004208 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.3 KB). Loaded Objects now: 3877.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 6.721000 ms (FindLiveObjects: 0.600900 ms CreateObjectMapping: 0.325400 ms MarkObjects: 5.647300 ms  DeleteObjects: 0.146000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.272975 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Jewel_02.prefab
+  artifactKey: Guid(b60cc4a33939fc64d9b14ef84e1cc476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Jewel_02.prefab using Guid(b60cc4a33939fc64d9b14ef84e1cc476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd733fa11098af4aaf8e5d90251449b59') in 0.165612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Jewel_07.prefab
+  artifactKey: Guid(15091d7e6dee66e4997a3d048491e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Jewel_07.prefab using Guid(15091d7e6dee66e4997a3d048491e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbf5d5807d3e8fecacf97f7e32507a3') in 0.061263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Skeleton_Slave_Lying_01.prefab
+  artifactKey: Guid(ec78f1131a3a5464a8882bd020e329ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Skeleton_Slave_Lying_01.prefab using Guid(ec78f1131a3a5464a8882bd020e329ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c256cdc241e6bc9c0aea55073147e7b1') in 0.057284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Log_Spike_04.prefab
+  artifactKey: Guid(b4d766866a398414ca2b5df381a1f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Log_Spike_04.prefab using Guid(b4d766866a398414ca2b5df381a1f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c487b38bb381388ad457989589995563') in 0.020280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Rug_01.prefab
+  artifactKey: Guid(785e40498aac69e4aae4bc7b5cbbc7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Rug_01.prefab using Guid(785e40498aac69e4aae4bc7b5cbbc7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158acaadce868cf31c1f6ffffa8cbd91') in 0.026340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Tech_Cog_04.prefab
+  artifactKey: Guid(ffa5b4cd3713e454abc79b01ede4d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Tech_Cog_04.prefab using Guid(ffa5b4cd3713e454abc79b01ede4d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9ae3b4673b8025cc1b961229a2adc3') in 0.021813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Jewel_05.prefab
+  artifactKey: Guid(3136ef9e830534e42a482aa0962a92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Jewel_05.prefab using Guid(3136ef9e830534e42a482aa0962a92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c71e29d12b9204291c2c6b16f3bf2de') in 0.022853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Skeleton_Slave_Shackles_02.prefab
+  artifactKey: Guid(f60435eb25eeef148afa615a40a4eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Skeleton_Slave_Shackles_02.prefab using Guid(f60435eb25eeef148afa615a40a4eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98b1032515995bcdd912e4aa51424c7') in 0.018458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Tech_Conveyor_01.prefab
+  artifactKey: Guid(e3f271622febd0f499a685ebb28fdf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Tech_Conveyor_01.prefab using Guid(e3f271622febd0f499a685ebb28fdf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1fd7349c1e5f590d36f36b3152f2f7') in 0.023919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025262 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Torch_Ornate_01.prefab
+  artifactKey: Guid(8995caca94342db4c831349441b30d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Torch_Ornate_01.prefab using Guid(8995caca94342db4c831349441b30d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe566227422b97f557dcd3a3ea84a2f') in 0.023099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Vase_Broken_01.prefab
+  artifactKey: Guid(c34daa6d7ae26f243b4ceaf341d6ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Vase_Broken_01.prefab using Guid(c34daa6d7ae26f243b4ceaf341d6ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dbab7f63211236a39844c534a05696') in 0.033079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Weight_01.prefab
+  artifactKey: Guid(6909bf91eec20eb4b88365b6b4893dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Weight_01.prefab using Guid(6909bf91eec20eb4b88365b6b4893dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f8ca3c7ca75e2ceed56f814a01274e') in 0.025812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Vase_Shard_01.prefab
+  artifactKey: Guid(5e9efdfde310f03478a6e582976088eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Vase_Shard_01.prefab using Guid(5e9efdfde310f03478a6e582976088eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8685e4b9743aee94fef5ee28a59709f2') in 0.022838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Vase_02.prefab
+  artifactKey: Guid(b024094a7a82a15488ff3693e5c8568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props/SM_Prop_Vase_02.prefab using Guid(b024094a7a82a15488ff3693e5c8568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a16771aa09e7b4f8c6bf9964d73fe88') in 0.029309 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

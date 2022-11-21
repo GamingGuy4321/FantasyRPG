@@ -15,7 +15,7 @@ G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55343
+64560
 Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 75.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005405 seconds.
+Registered in 0.004051 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.530 seconds
+- Completed reload, in  0.481 seconds
 Domain Reload Profiling:
-	ReloadAssembly (530ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (482ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (374ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (77ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003097 seconds.
+Registered in 0.003017 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
+- Completed reload, in  0.913 seconds
 Domain Reload Profiling:
-	ReloadAssembly (827ms)
+	ReloadAssembly (913ms)
 		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (634ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3808.
-Memory consumption went from 118.1 MB to 118.0 MB.
-Total: 3.035500 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.566800 ms  DeleteObjects: 0.090700 ms)
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.3 KB). Loaded Objects now: 3843.
+Memory consumption went from 125.5 MB to 125.4 MB.
+Total: 5.006100 ms (FindLiveObjects: 0.319700 ms CreateObjectMapping: 0.189700 ms MarkObjects: 4.356900 ms  DeleteObjects: 0.138900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,6 +158,582 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 905073.200744 seconds.
+  path: Assets/Toon Fantasy Nature/Post Processing/TFF_Night_1.asset
+  artifactKey: Guid(737f8ab24fe53b640a60327ecbf11ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Post Processing/TFF_Night_1.asset using Guid(737f8ab24fe53b640a60327ecbf11ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6bbcbfc700e46bb67e5ae1dc5a6f30') in 0.035297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Fantasy Nature/Post Processing/TFF_Day_4.asset
+  artifactKey: Guid(3234ec45310ed8c44b8d82880d31eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Post Processing/TFF_Day_4.asset using Guid(3234ec45310ed8c44b8d82880d31eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9240f1a4d2c8873008e80148d719ff0c') in 0.004895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Fantasy Nature/Post Processing/TFF_Day_3.asset
+  artifactKey: Guid(b51f238856e44d14398df4469fcea5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Post Processing/TFF_Day_3.asset using Guid(b51f238856e44d14398df4469fcea5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef1637c6effab2b2148745296ffab72') in 0.004607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Fantasy Nature/Post Processing/TFF_Dusk_1.asset
+  artifactKey: Guid(d9527a7f7ca8ff94aa77f93ac5012394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Post Processing/TFF_Dusk_1.asset using Guid(d9527a7f7ca8ff94aa77f93ac5012394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e69911ecc717f509bcc830d41bc546e') in 0.004758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Fantasy Nature/Post Processing/TFF_Day_2.asset
+  artifactKey: Guid(57196ef1b2cb7bf4c8c5416e5a4d97d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Post Processing/TFF_Day_2.asset using Guid(57196ef1b2cb7bf4c8c5416e5a4d97d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0f9fe2c27f16b634591f6543fc1184') in 0.004311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.495148 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Dirt_1A_D.terrainlayer
+  artifactKey: Guid(e202698675a9dda49beb30db3052df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Dirt_1A_D.terrainlayer using Guid(e202698675a9dda49beb30db3052df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5ba589ac4785871a684a9c3cb1af2d') in 0.085959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_3A_D.tif
+  artifactKey: Guid(038c56af2090de54d8aa879268abf1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_3A_D.tif using Guid(038c56af2090de54d8aa879268abf1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3203b0ca79ed7460ff4110e1aa9ef215') in 0.064494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Grass_1A_D.terrainlayer
+  artifactKey: Guid(10b4bf30f859a2243b48b86bb8759c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Grass_1A_D.terrainlayer using Guid(10b4bf30f859a2243b48b86bb8759c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cbacdc97d9d64806269c2f869f6fa6') in 0.005692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_3A_D.terrainlayer
+  artifactKey: Guid(5ae6a6247d9fd7145bd438b27f9badc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_3A_D.terrainlayer using Guid(5ae6a6247d9fd7145bd438b27f9badc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d8847ae8a601644ef5d07a126a781d') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Sand_1A_D.terrainlayer
+  artifactKey: Guid(b54d2076d64cc084c81eb5829c6c81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Sand_1A_D.terrainlayer using Guid(b54d2076d64cc084c81eb5829c6c81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297cdeeef95122713f3ebb7b0178c806') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_1A_D.tif
+  artifactKey: Guid(40b05e1edee0066469adff5ca1723217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_1A_D.tif using Guid(40b05e1edee0066469adff5ca1723217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3b4f862894373b64e4345b1652ab16') in 0.013180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.546551 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5271b3575eefaa4bdba69992d4e8e35b') in 0.043126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Chain1.png
+  artifactKey: Guid(043d92615bd157d4c85b0064b9f76625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Chain1.png using Guid(043d92615bd157d4c85b0064b9f76625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245588703f04f24f0040dddc90685d72') in 0.010965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Aura3.png
+  artifactKey: Guid(81d88dfb9ab714b44aa94f5b560ee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Aura3.png using Guid(81d88dfb9ab714b44aa94f5b560ee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f56d0ab3bbc6c879f67bd585124d3e0') in 0.016441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png
+  artifactKey: Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png using Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f0cd24873c7ada15b385beeceedd49') in 0.009882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc88bbdecf1f77ec14d26ad523698c') in 0.022286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Chain1b.png
+  artifactKey: Guid(45f689e5857be9640b01e40b7072b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Chain1b.png using Guid(45f689e5857be9640b01e40b7072b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57706be85af783a37dc01d79fb817bc0') in 0.009661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.186994 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Crater6.png
+  artifactKey: Guid(aa881f5cb8fc67548869e35567272b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Crater6.png using Guid(aa881f5cb8fc67548869e35567272b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d20f42c761b335a8730eb0cb453aef') in 0.019902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Crater43.png
+  artifactKey: Guid(8ad160076d93dd641b1fd083271702d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Crater43.png using Guid(8ad160076d93dd641b1fd083271702d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cebb0a1ffac52b81c311eb3fd2afd7') in 0.024740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.386034 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Electricity1be.mat
+  artifactKey: Guid(c82c529f088cef640b1944f91e09ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Electricity1be.mat using Guid(c82c529f088cef640b1944f91e09ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b7c76f799ab45839b584c9f62fc252') in 0.061866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Minetrack_Broken_02_Convex.asset
+  artifactKey: Guid(bc5baa87e60d6dd4e89cdb41788b15c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Minetrack_Broken_02_Convex.asset using Guid(bc5baa87e60d6dd4e89cdb41788b15c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b15be9d50f48a29b6784defcd49b0a6') in 0.177909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Minetrack_Turn_01.fbx
+  artifactKey: Guid(786660a5996027e4282045105365adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Minetrack_Turn_01.fbx using Guid(786660a5996027e4282045105365adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1453df47e7d315ce42a0ac085a9430') in 0.099758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_MineTunnel_Entrance_01_Convex.asset
+  artifactKey: Guid(2c9e264fd5e214543a5ff4c903d1f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_MineTunnel_Entrance_01_Convex.asset using Guid(2c9e264fd5e214543a5ff4c903d1f798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62315d91e722a96dab743814b48423bf') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Entrance_Crypt_03.prefab
+  artifactKey: Guid(d448d2981717e5a42ae3084d0fdce755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Entrance_Crypt_03.prefab using Guid(d448d2981717e5a42ae3084d0fdce755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2e76dc9d7a7bfcfc3fd1cac0a4b457') in 0.022160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Lightning strike.prefab
+  artifactKey: Guid(dfabbd05c7735314e97de47b3d7695c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Lightning strike.prefab using Guid(dfabbd05c7735314e97de47b3d7695c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b6c97df3705943b7391a79f5c85fdf') in 0.033645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Wood/SM_Env_Minetrack_Straight_01.prefab
+  artifactKey: Guid(f7dc92b7dff7d2c419e6070d90115e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Wood/SM_Env_Minetrack_Straight_01.prefab using Guid(f7dc92b7dff7d2c419e6070d90115e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f6ce4ff5e75762269f81e544b90c10') in 0.013356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Tree_Dandelion_01_Convex.asset
+  artifactKey: Guid(e855926b7c1816a42936d6ebc1a87ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Tree_Dandelion_01_Convex.asset using Guid(e855926b7c1816a42936d6ebc1a87ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637ac0dbced8e08dc7a6e90410ed8d3a') in 0.009491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_02.prefab
+  artifactKey: Guid(146879b9a407b4947a38bacaa6fc4dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_02.prefab using Guid(146879b9a407b4947a38bacaa6fc4dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864821ee3a11870cb7bff0fab99ccf73') in 0.017644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01B.fbx
+  artifactKey: Guid(038fabaf660d9f946a36c0156d0990ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01B.fbx using Guid(038fabaf660d9f946a36c0156d0990ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a9ce3f5ed175be4fc56eb9cf09f7c3') in 0.248509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C_LOD_1.fbx
+  artifactKey: Guid(dc19b49497eb59a40a98d2de84a855ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C_LOD_1.fbx using Guid(dc19b49497eb59a40a98d2de84a855ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cb081ba37d0f05a8434efc22a06161') in 0.018221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C.fbx
+  artifactKey: Guid(ae131d532914bd04697b217258352957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01C.fbx using Guid(ae131d532914bd04697b217258352957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb8de91a3bccd8d246b72466a27f49d') in 0.018413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx
+  artifactKey: Guid(13dc5ed5d6ea49042b7be0336b125c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx using Guid(13dc5ed5d6ea49042b7be0336b125c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0220011a23222677c72da5d2ad8e2b4') in 0.019680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Aspen_Tree_01D.prefab
+  artifactKey: Guid(af3cf114ff623a14b856ee8d9e4c82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Aspen_Tree_01D.prefab using Guid(af3cf114ff623a14b856ee8d9e4c82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b187c0cab7c9c44a63b3fe1e609ca0') in 0.017726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02B.fbx
+  artifactKey: Guid(2dc853277b700d64d83e451c033d2e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02B.fbx using Guid(2dc853277b700d64d83e451c033d2e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23df0a940c2e35042c47107a704bf2ed') in 0.020609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Tree_Twisted_01.fbx
+  artifactKey: Guid(77565a7fcb511bc4699bd35be757dc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Tree_Twisted_01.fbx using Guid(77565a7fcb511bc4699bd35be757dc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791b3e26f7dd9f431e11fafbe8563b08') in 0.014814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonDungeon/Prefabs/FX/FX_Trap_AcidHead_Acid.prefab
+  artifactKey: Guid(57d59975ae01cca4f871e5d6f42c6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/FX/FX_Trap_AcidHead_Acid.prefab using Guid(57d59975ae01cca4f871e5d6f42c6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f79d43e74128fc84f71cfd190705328') in 0.026841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.244271 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A_LOD_1.fbx
+  artifactKey: Guid(2288bfa3830b05343aec2bdf372ff06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A_LOD_1.fbx using Guid(2288bfa3830b05343aec2bdf372ff06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f262ec6dfddaff3eb2f2fd303c6afc2') in 0.043339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052689 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A.fbx
+  artifactKey: Guid(0ce31edef87e40d469349304a7adf799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A.fbx using Guid(0ce31edef87e40d469349304a7adf799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74115cc97612b42ea05d1c344204c3ae') in 0.019824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01B_LOD_1.fbx
+  artifactKey: Guid(2f0008fa544791a4c902dfef9ed32ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01B_LOD_1.fbx using Guid(2f0008fa544791a4c902dfef9ed32ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ada316138f39c858dad4985552fe75') in 0.014150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.819312 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A.fbx
+  artifactKey: Guid(d700ad11607eb9a449e35d35941a7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A.fbx using Guid(d700ad11607eb9a449e35d35941a7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bad50aaa8b4186a92453ec713dd934') in 0.024184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020031 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A.fbx
+  artifactKey: Guid(c3d1c050e3b42de43914128cf5bf6db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A.fbx using Guid(c3d1c050e3b42de43914128cf5bf6db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30922d3b796de88cba6639ac84ba4e7c') in 0.031253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Decals/TFF_Board_Aspen_Tree_02A.prefab
+  artifactKey: Guid(d01c5ee066e724849b1cbfbe205cac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Decals/TFF_Board_Aspen_Tree_02A.prefab using Guid(d01c5ee066e724849b1cbfbe205cac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c0e99a93943d7d83179816dea01bfd') in 0.128800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Oak_Tree_01A.fbx
+  artifactKey: Guid(badee926d1efa4b46bed05a6cf2a0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Oak_Tree_01A.fbx using Guid(badee926d1efa4b46bed05a6cf2a0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e778d3b72f14078cbcdea7530ba56bc9') in 0.019416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Decals/TFF_Board_Pine_Tree_02A.prefab
+  artifactKey: Guid(cde0f4b9aac0d1849af48b906fa3b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Decals/TFF_Board_Pine_Tree_02A.prefab using Guid(cde0f4b9aac0d1849af48b906fa3b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a636adafeaab8ae796c2b9a7762f6b') in 0.016856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Decals/TFF_Board_Birch_Tree_03A.prefab
+  artifactKey: Guid(701a75381dc68fd4fbd531518d2932e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Decals/TFF_Board_Birch_Tree_03A.prefab using Guid(701a75381dc68fd4fbd531518d2932e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c1b4c7a828e59efe4cfdb328d3b1f7') in 0.012306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Board_Pine_Tree_01A.fbx
+  artifactKey: Guid(b81a51089d83e784dabf525dfb34c99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Board_Pine_Tree_01A.fbx using Guid(b81a51089d83e784dabf525dfb34c99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad206b32099cb867bf1e3d0dcdd10a1') in 0.026458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060223 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01B_LOD_1.fbx
+  artifactKey: Guid(48666625079abe244885aa66eb04eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01B_LOD_1.fbx using Guid(48666625079abe244885aa66eb04eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f0102a4867c8c0d86d2009d73bb1d1') in 0.031852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_01C_LOD_1.fbx
+  artifactKey: Guid(8c630ef18dc3c394782d16af6196cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_01C_LOD_1.fbx using Guid(8c630ef18dc3c394782d16af6196cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0b33b293febfed09692a56e9578915') in 0.018501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040082 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Pine_Tree_02B.prefab
+  artifactKey: Guid(7f98bd6e451b28e4eb8e1655e1e0aa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Pine_Tree_02B.prefab using Guid(7f98bd6e451b28e4eb8e1655e1e0aa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6377a44bc634bb78d2c3006181a031a2') in 0.019503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03A_LOD_1.fbx
+  artifactKey: Guid(7f9f58d0a9b2ede43812ae89fe00530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03A_LOD_1.fbx using Guid(7f9f58d0a9b2ede43812ae89fe00530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ca1570adf5e7f66864856a6f40baa') in 0.013055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.343933 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03B.fbx
+  artifactKey: Guid(7c1dd57d2975eb447b75e22edda93435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_03B.fbx using Guid(7c1dd57d2975eb447b75e22edda93435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21965f3d4e79e0ab720e8e9d6ceb665f') in 0.024807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04B_LOD_1.fbx
+  artifactKey: Guid(94844f8ba11150047b28165c084984f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_04B_LOD_1.fbx using Guid(94844f8ba11150047b28165c084984f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f18aa84046681e5b50ae86ef901a17') in 0.020275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_05A_LOD_1.fbx
+  artifactKey: Guid(76472f8f80e355c418227d62fbec9140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Pine_Tree_05A_LOD_1.fbx using Guid(76472f8f80e355c418227d62fbec9140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b85f93531598ee20084283d5d69b8ec') in 0.020636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_02A.fbx
+  artifactKey: Guid(68ba1a02ecad2014e9d2be615058a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_02A.fbx using Guid(68ba1a02ecad2014e9d2be615058a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad5e0acd052fd06c076b9f8e1dddf7e') in 0.014756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Pine_Tree_05C.prefab
+  artifactKey: Guid(718e63829b75f2b4097b88b96b8f40bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Pine_Tree_05C.prefab using Guid(718e63829b75f2b4097b88b96b8f40bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc88b19797b0eb3d4bfb3f4faa18e6c') in 0.015585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250996 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_02B.fbx
+  artifactKey: Guid(220ecc14a24ada64aa9768ba5c333296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_02B.fbx using Guid(220ecc14a24ada64aa9768ba5c333296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b815d0cbe335275dd1c1919fc698966f') in 0.016539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016364 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Tree_Trunk_01B.prefab
+  artifactKey: Guid(69d6be538befb064491140ebe6d1d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Tree_Trunk_01B.prefab using Guid(69d6be538befb064491140ebe6d1d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82c18d3ab220b52d426a5b6a5f493ca') in 0.013035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_03B.fbx
+  artifactKey: Guid(d88fbc9d7bab4194a85f72407fe7e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_03B.fbx using Guid(d88fbc9d7bab4194a85f72407fe7e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8319cc84b86776686f4d3989d0b475') in 0.011528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.653469 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Toture_StretchTable_01.fbx
+  artifactKey: Guid(98f89839b3e0cb3418d41a096360c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Toture_StretchTable_01.fbx using Guid(98f89839b3e0cb3418d41a096360c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c9b5d304d3eaed1477cd7058a12704') in 0.015008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.559056 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Branch_Fallen_01B.prefab
+  artifactKey: Guid(b535e5d2941237647927bf87a9644da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Trees/TFF_Branch_Fallen_01B.prefab using Guid(b535e5d2941237647927bf87a9644da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74af23bf8519741b72b12de18a51af29') in 0.013164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.013879 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Bush_01B.prefab
+  artifactKey: Guid(595f5eca079c9334e9c248680a3348cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Bush_01B.prefab using Guid(595f5eca079c9334e9c248680a3348cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355b50c34578f7cda8320eeeb1ced188') in 0.047452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Grass_Patch_02D.prefab
+  artifactKey: Guid(a76c164e44ec9a641878ebe204a8e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Grass_Patch_02D.prefab using Guid(a76c164e44ec9a641878ebe204a8e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f276826d782f2fe2116a2020d6ba47da') in 0.136314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Grass_Patch_02B.prefab
+  artifactKey: Guid(faa1aa9a8a83b2341a63bd0c1532fd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Grass_Patch_02B.prefab using Guid(faa1aa9a8a83b2341a63bd0c1532fd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e635225970fb648b1866d1092a4874') in 0.010669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Plant_02A.prefab
+  artifactKey: Guid(c851112c49b39db429bed8e2134b8ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Plant_02A.prefab using Guid(c851112c49b39db429bed8e2134b8ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b6cdf58552f23ee3ac10c92907862') in 0.014043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Grass_Patch_01B.prefab
+  artifactKey: Guid(171cfe3d347322148815a5dffb913f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Plants/TFF_Grass_Patch_01B.prefab using Guid(171cfe3d347322148815a5dffb913f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ec5df995be2c45109907c178e50755') in 0.010363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.687068 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Mushrooms/TFF_Glowing_Mushroom_01B.prefab
+  artifactKey: Guid(6cca87717650dbd4c8dfab7cad9dbca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Mushrooms/TFF_Glowing_Mushroom_01B.prefab using Guid(6cca87717650dbd4c8dfab7cad9dbca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2492efd610047bd85bccea50d192bda2') in 0.088130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.633254 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Glowing_Lilly_01B.prefab
+  artifactKey: Guid(3663cb24883fdb947bef5dad0ea73506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Glowing_Lilly_01B.prefab using Guid(3663cb24883fdb947bef5dad0ea73506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12593a6756b6d5d3573a3107a058d593') in 0.014431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Lotus_Flower_02B.prefab
+  artifactKey: Guid(374edc411b60dcf49857c354028075dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Lotus_Flower_02B.prefab using Guid(374edc411b60dcf49857c354028075dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c2041068fd36198905dd2227067763') in 0.011143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Lotus_Leaf_01A.prefab
+  artifactKey: Guid(93cb5c5f77f630044867f3de33f0f138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Lotus_Leaf_01A.prefab using Guid(93cb5c5f77f630044867f3de33f0f138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6aaf5ea818cac2cf59d611be72ace7') in 0.012462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Lotus_Flower_02C.prefab
+  artifactKey: Guid(41168d2ee518912449bdf7e16276bb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Vegetation/Water Plants/TFF_Lotus_Flower_02C.prefab using Guid(41168d2ee518912449bdf7e16276bb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ece35ee25461aacaa8b5e631967d954') in 0.010733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.543747 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Circle18.png
+  artifactKey: Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Circle18.png using Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e58860d976be36a5e8c88a17f4138c9') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015845 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Circle80.png
+  artifactKey: Guid(0f5bd1ace369d024ea0def662164299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Circle80.png using Guid(0f5bd1ace369d024ea0def662164299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787c8fba42f252d10c10caf9672b2c05') in 0.011518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark.png
+  artifactKey: Guid(432426364f0e2474b9817a7e5b9dd1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark.png using Guid(432426364f0e2474b9817a7e5b9dd1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f8baa8c0e325df081cc3cc17dff6e8') in 0.007655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016376 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png
+  artifactKey: Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png using Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0104f5edf0a353a8edb7dc866ca84df') in 0.008548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232648 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png
+  artifactKey: Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png using Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca75547b097572426950405c9fd3ffef') in 0.009547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light.png
+  artifactKey: Guid(b08f8cbc53d0bfb45bd2fd1f676d3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light.png using Guid(b08f8cbc53d0bfb45bd2fd1f676d3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccd413ba54a0d92d3bd672eb68968ab') in 0.009494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016540 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-light.png
+  artifactKey: Guid(4466539767d9ee241abcc43eebb52ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-light.png using Guid(4466539767d9ee241abcc43eebb52ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fabb8f24e79a0b92117dde30bd2a594') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011283 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-dark.png
+  artifactKey: Guid(60706f973daf4764e81c846ce1a8e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-dark.png using Guid(60706f973daf4764e81c846ce1a8e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b6c2dd4e120e0a831156ddaffc5da') in 0.010021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305047 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-light.png
+  artifactKey: Guid(1e80543db0ef9494a9c1777f01e1a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-light.png using Guid(1e80543db0ef9494a9c1777f01e1a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eee05beaeb4204ce37b3cc42b3c4dd') in 0.014257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078618 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark.png
+  artifactKey: Guid(16b10562fce5a0f4794872a75d897cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark.png using Guid(16b10562fce5a0f4794872a75d897cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080d960859fda975a804cbcaa8c6616') in 0.010139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282450 seconds.
+  path: Assets/Hovl Studio/Resources/Textures/Crack6.png
+  artifactKey: Guid(9f87d9b8bfd92c840b3f4966d39a4c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Textures/Crack6.png using Guid(9f87d9b8bfd92c840b3f4966d39a4c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af6fcde173e6ae3d1a1a0bbf00f8d3') in 0.010313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019417 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png
+  artifactKey: Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png using Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240c5ad99a9ed214bdba6377fa547014') in 0.018789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png
+  artifactKey: Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png using Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdeba6a3414328cbfbff202e949e4b7') in 0.019899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188682 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png
+  artifactKey: Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png using Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e5956ae767ce4c4a0f1c3153353995') in 0.016926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009640 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png
+  artifactKey: Guid(7fd3cda14282bb7429b8eeb6c121e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png using Guid(7fd3cda14282bb7429b8eeb6c121e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2703b73553776ce676b6abee6052a2') in 0.020545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted@2x.png
+  artifactKey: Guid(65f0e363b74cf5845ab8c3fbc14f39ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted@2x.png using Guid(65f0e363b74cf5845ab8c3fbc14f39ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a436686af9a9d12dd7736c01d748a99') in 0.018219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay.png
+  artifactKey: Guid(a892bcc7ae1871447926b3c44d158763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay.png using Guid(a892bcc7ae1871447926b3c44d158763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04707d15cb50a13d82b9fbef6b5d3fc') in 0.010485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193595 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png
+  artifactKey: Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png using Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce89e541a38f5a62af50fed112a042e') in 0.013931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015731 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png
+  artifactKey: Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png using Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a52ed8f0f02a35973cc7b6edea09365') in 0.010263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticviewnotify.png
+  artifactKey: Guid(df7dbac99fae5444f92b497c52f0ecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticviewnotify.png using Guid(df7dbac99fae5444f92b497c52f0ecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a9160d74b35e32098e5db55f1c942f') in 0.009060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008646 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png
+  artifactKey: Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png using Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb86b8813db9544751740b1faa2689f') in 0.017836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180040 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading.png
+  artifactKey: Guid(d58e94bfb1bac774dbb8ca9c2597ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading.png using Guid(d58e94bfb1bac774dbb8ca9c2597ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1988a9f069f49adc5efe43e7710791') in 0.015039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007148 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png
+  artifactKey: Guid(9aa4348290784b2468144a97eb15d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png using Guid(9aa4348290784b2468144a97eb15d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bcfa0f93f4cfb512b0a2694b57d129') in 0.014743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshechristmas.png
+  artifactKey: Guid(f008857e434b98b4eaabda1fd6af3059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshechristmas.png using Guid(f008857e434b98b4eaabda1fd6af3059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcdf24327ed16aaa2a1be647801a889') in 0.014075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png
+  artifactKey: Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png using Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dad826a289762398889572f3dd3c3f') in 0.015139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled.png
+  artifactKey: Guid(c207dcd389fb689489f5266468cd4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled.png using Guid(c207dcd389fb689489f5266468cd4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a8c92d95bb2e9aa1fd001f59e25e1c') in 0.008859 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
