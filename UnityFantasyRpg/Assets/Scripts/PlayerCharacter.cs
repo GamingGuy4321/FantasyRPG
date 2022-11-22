@@ -8,9 +8,9 @@ public class PlayerCharacter : MonoBehaviour
     public CharacterController _controller;
     public Animator m_animator;
     Rigidbody m_rigidbody;
-    public float _speed = 10;
-    public float _runSpeed = 20;
-    public float _rotationSpeed = 180;
+    public float _speed = 4;
+    public float _runSpeed = 9;
+    public float _rotationSpeed = 90;
      public bool m_isMoving = false;
 
  
@@ -29,22 +29,48 @@ public class PlayerCharacter : MonoBehaviour
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
 
+        if (Input.GetMouseButtonDown(0)){
+            Debug.Log("LightAttack.");
+            m_animator.SetBool("isLightAttack", true);
+        }else{
+            m_animator.SetBool("isHeavyAttack", true);
+        }
+
+        if (Input.GetMouseButtonDown(1)){
+            Debug.Log("HeavyAttack.");
+            m_animator.SetBool("isHeavyAttack", true);
+        }else{
+            m_animator.SetBool("isHeavyAttack", false);
+        }
+
+
         if(Input.GetAxisRaw("Vertical")!= 0){
             m_animator.SetBool("isWalking", true);
             m_isMoving = true;
-        }else{
-            m_animator.SetBool("isIdle", true);
+        }else if (Input.GetAxisRaw("Vertical")== 0){
             m_isMoving = false;
+            m_animator.SetBool("isWalking", false);
         }
 
+        if(Input.GetAxisRaw("Horizontal") < 0){
+            m_animator.SetBool("isTurningLeft", true);
+        }
+        else if (Input.GetAxisRaw("Horizontal") > 0){
+            m_animator.SetBool("isTurningRight", true);
+        }
+        else if (Input.GetAxisRaw("Horizontal") == 0){
+            m_animator.SetBool("isTurningRight", false);
+            m_animator.SetBool("isTurningLeft", false);
+        }
+        
         if (m_isMoving) {
                 // Left Shift input detected
                 if (Input.GetKey(KeyCode.LeftShift)) {
                     m_animator.SetBool("isRunning", true);
                     _speed = _runSpeed;
                 }else{
-                    _speed = _speed;
-                    m_animator.SetBool("isWalking", true);
+                    _speed = 4;
+                    m_animator.SetBool("isRunning", false);
                 }
         }
         

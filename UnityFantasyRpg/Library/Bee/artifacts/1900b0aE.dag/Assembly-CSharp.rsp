@@ -370,6 +370,7 @@
 "Assets/Hovl Studio/Resources/Scripts/ProjectileMover.cs"
 "Assets/Hovl Studio/Resources/Scripts/ProjectileMover2D.cs"
 "Assets/Hovl Studio/Resources/Scripts/Rotator.cs"
+"Assets/Scripts/CharacterPhysics.cs"
 "Assets/Scripts/PlayerCharacter.cs"
 -langversion:9.0
 
