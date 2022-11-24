@@ -32,3 +32,39 @@ public class CharacterPhysics : MonoBehaviour
          
      }
 }
+
+    //  private CharacterController _controller;
+    //  [SerializeField]
+    //  private float _speed = 5f;
+    //  [SerializeField]
+    //  private float _jumptHeight = 15f;
+    //  private float _yVelocity;
+    //  private float _gravity = 1f;
+
+    // void Start() {
+        
+    // }
+    
+    //  void Update (){
+
+    //     float horizontalInput = Input.GetAxis("Horizontal");
+    //     Vector3 direction = new Vector3(horizontalInput,0,0);
+    //     Vector3 velocity = direction *_speed;
+
+    //      //Check if character is grounded
+    //      if(_controller.isGrounded)
+    //      {
+    //         if(Input.GetKeyDown(KeyCode.Space)){
+    //              _yVelocity = _jumptHeight;
+    //         }
+    //      }
+    //      else
+    //      {
+    //         _yVelocity -= _gravity;
+    //      }
+
+    //      velocity.y = _yVelocity;
+ 
+    //      //Apply our move Vector , remeber to multiply by Time.delta
+    //      _controller.Move(velocity * Time.deltaTime);
+    //  }

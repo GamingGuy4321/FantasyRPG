@@ -7,40 +7,53 @@ public class PlayerCharacter : MonoBehaviour
 
     public CharacterController _controller;
     public Animator m_animator;
-    Rigidbody m_rigidbody;
     public float _speed = 4;
     public float _runSpeed = 9;
     public float _rotationSpeed = 90;
-     public bool m_isMoving = false;
-
+    public bool m_isMoving = false;
+    private bool isMouseLeftDown = false;
+    float timer;
  
     private Vector3 rotation;
  
     void Start(){
         m_animator = GetComponent<Animator>();
-        m_rigidbody = GetComponent<Rigidbody>();
     }
     public void Update()
     {
-        this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
-        this.transform.Rotate(this.rotation);
+        // this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
+        // this.transform.Rotate(this.rotation);
 
         Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
 
+
         if (Input.GetMouseButtonDown(0)){
-            Debug.Log("LightAttack.");
-            m_animator.SetBool("isLightAttack", true);
-        }else{
-            m_animator.SetBool("isHeavyAttack", true);
+            Debug.Log("MousebuttonDown");
+            if(!isMouseLeftDown ){
+                timer=Time.time;
+                isMouseLeftDown = true;
+            }
+        }
+
+        if (Input.GetMouseButtonUp(0)){
+            Debug.Log("MousebuttonUp");
+            isMouseLeftDown = false;
+            if(Time.time - timer < 0.25){
+                Debug.Log("LightAttack.");
+                m_animator.SetTrigger("isLightAttack");
+            }else if(Time.time - timer > 0.5){
+                Debug.Log("HeavyAttack.");
+                m_animator.SetTrigger("isHeavyAttack");   
+            }
         }
 
         if (Input.GetMouseButtonDown(1)){
-            Debug.Log("HeavyAttack.");
-            m_animator.SetBool("isHeavyAttack", true);
+            Debug.Log("Blocked");
+            m_animator.SetBool("isBlocking", true);  
         }else{
-            m_animator.SetBool("isHeavyAttack", false);
+            m_animator.SetBool("isBlocking", false);
         }
 
 
