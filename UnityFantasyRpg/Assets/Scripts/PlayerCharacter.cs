@@ -12,6 +12,8 @@ public class PlayerCharacter : MonoBehaviour
     public float _rotationSpeed = 90;
     public bool m_isMoving = false;
     private bool isMouseLeftDown = false;
+    public GameObject iceSlam;
+    public GameObject laser;
     float timer;
  
     private Vector3 rotation;
@@ -19,15 +21,15 @@ public class PlayerCharacter : MonoBehaviour
     void Start(){
         m_animator = GetComponent<Animator>();
     }
+
     public void Update()
     {
-        // this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
-        // this.transform.Rotate(this.rotation);
+        this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
+        this.transform.Rotate(this.rotation);
 
         Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
-
 
         if (Input.GetMouseButtonDown(0)){
             Debug.Log("MousebuttonDown");
@@ -54,6 +56,21 @@ public class PlayerCharacter : MonoBehaviour
             m_animator.SetBool("isBlocking", true);  
         }else{
             m_animator.SetBool("isBlocking", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1)){
+            iceSlam.SetActive(true);
+            m_animator.SetTrigger("isIceslam");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2)){
+            laser.SetActive(true);
+            m_animator.SetTrigger("isFiringmylaser");
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Space)){
+            m_animator.SetTrigger("isJumping");
         }
 
 
