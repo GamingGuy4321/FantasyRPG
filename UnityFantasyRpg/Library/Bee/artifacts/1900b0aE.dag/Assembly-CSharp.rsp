@@ -371,6 +371,8 @@
 "Assets/Hovl Studio/Resources/Scripts/ProjectileMover2D.cs"
 "Assets/Hovl Studio/Resources/Scripts/Rotator.cs"
 "Assets/Scripts/CharacterPhysics.cs"
+"Assets/Scripts/Healthbar.cs"
+"Assets/Scripts/Manabar.cs"
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/SpellDelay.cs"
 -langversion:9.0

@@ -12,14 +12,23 @@ public class PlayerCharacter : MonoBehaviour
     public float _rotationSpeed = 90;
     public bool m_isMoving = false;
     private bool isMouseLeftDown = false;
-    public GameObject iceSlam;
-    public GameObject laser;
-    float timer;
- 
     private Vector3 rotation;
+    float timer;
+    public GameObject iceSlam;
+    public GameObject knifeHail;
+    public GameObject projectilePrefab;
+    public Transform projectileFirePoint;
+    public int maxHealth = 100;
+    public int currentHealth;
+    public Healthbar healthbar;
+    public int maxMana = 250;
+    public int currentMana;
+    public Manabar manabar;
  
     void Start(){
         m_animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
     }
 
     public void Update()
@@ -59,13 +68,27 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1)){
-            iceSlam.SetActive(true);
-            m_animator.SetTrigger("isIceslam");
+            if (currentMana >= 20){
+            Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
+            m_animator.SetTrigger("isIceBolt");
+            takeMana(20);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2)){
-            laser.SetActive(true);
-            m_animator.SetTrigger("isFiringmylaser");
+            if (currentMana >= 50){
+            iceSlam.SetActive(true);
+            m_animator.SetTrigger("isIceslam");
+            takeMana(50);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3)){
+            if (currentMana >= 35){
+            knifeHail.SetActive(true);
+            m_animator.SetTrigger("isKnifeHail");
+            takeMana(35);
+            }
         }
 
 
@@ -102,6 +125,11 @@ public class PlayerCharacter : MonoBehaviour
                     _speed = 4;
                     m_animator.SetBool("isRunning", false);
                 }
+        }
+
+        void takeMana(int spellUse){
+            currentMana -= spellUse;
+            manabar.SetMana(currentMana);
         }
         
     }
