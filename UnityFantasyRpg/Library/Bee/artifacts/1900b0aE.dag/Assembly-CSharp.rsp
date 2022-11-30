@@ -372,6 +372,7 @@
 "Assets/Hovl Studio/Resources/Scripts/Rotator.cs"
 "Assets/Scripts/CharacterPhysics.cs"
 "Assets/Scripts/Healthbar.cs"
+"Assets/Scripts/HealthPotion.cs"
 "Assets/Scripts/Manabar.cs"
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/SpellDelay.cs"

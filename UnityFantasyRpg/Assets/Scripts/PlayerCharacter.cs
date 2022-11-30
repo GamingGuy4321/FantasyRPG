@@ -24,6 +24,10 @@ public class PlayerCharacter : MonoBehaviour
     public int maxMana = 250;
     public int currentMana;
     public Manabar manabar;
+    public int maxHealthPotion = 99;
+    public int currentHealthPotion;
+    public int maxManaPotion = 99;
+    public int currentManaPotion;
  
     void Start(){
         m_animator = GetComponent<Animator>();
@@ -66,8 +70,27 @@ public class PlayerCharacter : MonoBehaviour
         }else{
             m_animator.SetBool("isBlocking", false);
         }
-
+        
+        if (Input.GetKeyDown(KeyCode.Space)){
+            m_animator.SetTrigger("isJumping");
+            print("jumped");
+        }
+        
         if (Input.GetKeyDown(KeyCode.Alpha1)){
+            if(currentHealthPotion >= 1){
+                    currentHealth += 50;
+                    print("used health potion");
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2)){
+            if(currentManaPotion >= 1){
+                currentMana += 50;
+                print("used mana potion");
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3)){
             if (currentMana >= 20){
             Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
             m_animator.SetTrigger("isIceBolt");
@@ -75,7 +98,7 @@ public class PlayerCharacter : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2)){
+        if (Input.GetKeyDown(KeyCode.Alpha4)){
             if (currentMana >= 50){
             iceSlam.SetActive(true);
             m_animator.SetTrigger("isIceslam");
@@ -83,19 +106,13 @@ public class PlayerCharacter : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3)){
+        if (Input.GetKeyDown(KeyCode.Alpha5)){
             if (currentMana >= 35){
             knifeHail.SetActive(true);
             m_animator.SetTrigger("isKnifeHail");
             takeMana(35);
             }
         }
-
-
-        if (Input.GetKeyDown(KeyCode.Space)){
-            m_animator.SetTrigger("isJumping");
-        }
-
 
         if(Input.GetAxisRaw("Vertical")!= 0){
             m_animator.SetBool("isWalking", true);
