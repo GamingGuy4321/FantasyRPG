@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerCharacter : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class PlayerCharacter : MonoBehaviour
     public GameObject iceSlam;
     public GameObject knifeHail;
     public GameObject projectilePrefab;
+    public GameObject healAura;
     public Transform projectileFirePoint;
     public int maxHealth = 100;
     public int currentHealth;
@@ -28,6 +31,18 @@ public class PlayerCharacter : MonoBehaviour
     public int currentHealthPotion;
     public int maxManaPotion = 99;
     public int currentManaPotion;
+    public float healthpotioncoolDownTime;
+    public float manapotioncoolDownTime;
+    public float iceboltcoolDownTime;
+    public float iceslamcoolDownTime;
+    public float knifehailcoolDownTime;
+    private float nextFireTime;
+    public GameObject sheathedShield;
+    public GameObject equipedShield;
+    public GameObject healthPotion;
+    public GameObject manaPotion;
+    public double enableTimer;
+    private double internalTimer;
  
     void Start(){
         m_animator = GetComponent<Animator>();
@@ -43,6 +58,13 @@ public class PlayerCharacter : MonoBehaviour
         Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
+
+        if(internalTimer > 0){
+            internalTimer -= Time.deltaTime;
+            if(internalTimer < 0){
+                equipedShield.SetActive(true);
+            }
+        }
 
         if (Input.GetMouseButtonDown(0)){
             Debug.Log("MousebuttonDown");
@@ -77,40 +99,67 @@ public class PlayerCharacter : MonoBehaviour
         }
         
         if (Input.GetKeyDown(KeyCode.Alpha1)){
-            if(currentHealthPotion >= 1){
+            if (Time.time > nextFireTime){
+                if(currentHealthPotion >= 1){
+                    sheathedShield.SetActive(true);
+                    equipedShield.SetActive(false);
+                    healthPotion.SetActive(true);
+                    m_animator.SetTrigger("isDrinkingPotion");
+                    healAura.SetActive(true);
                     currentHealth += 50;
-                    print("used health potion");
+                    currentHealthPotion -= 1;
+                    nextFireTime = Time.time + healthpotioncoolDownTime;
+                    internalTimer = enableTimer;
+                    
+                 }
             }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2)){
-            if(currentManaPotion >= 1){
-                currentMana += 50;
-                print("used mana potion");
+            if (Time.time > nextFireTime){
+                if(currentManaPotion >= 1){
+                    sheathedShield.SetActive(true);
+                    equipedShield.SetActive(false);
+                    manaPotion.SetActive(true);
+                    m_animator.SetTrigger("isDrinkingPotion");
+                    currentMana += 50;
+                    currentManaPotion -= 1;
+                    nextFireTime = Time.time + manapotioncoolDownTime;
+                    internalTimer = enableTimer;
+                }
             }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3)){
-            if (currentMana >= 20){
-            Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
-            m_animator.SetTrigger("isIceBolt");
-            takeMana(20);
+            if (Time.time > nextFireTime){
+                if (currentMana >= 20){
+                    Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
+                    m_animator.SetTrigger("isIceBolt");
+                    takeMana(20);
+                    nextFireTime = Time.time + iceboltcoolDownTime;
+                }
             }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha4)){
-            if (currentMana >= 50){
-            iceSlam.SetActive(true);
-            m_animator.SetTrigger("isIceslam");
-            takeMana(50);
+            if (Time.time > nextFireTime){
+                if (currentMana >= 50){
+                    iceSlam.SetActive(true);
+                    m_animator.SetTrigger("isIceslam");
+                    takeMana(50);
+                    nextFireTime = Time.time + iceslamcoolDownTime;
+                }
             }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha5)){
-            if (currentMana >= 35){
-            knifeHail.SetActive(true);
-            m_animator.SetTrigger("isKnifeHail");
-            takeMana(35);
+            if (Time.time > nextFireTime){
+                if (currentMana >= 35){
+                    knifeHail.SetActive(true);
+                    m_animator.SetTrigger("isKnifeHail");
+                    takeMana(35);
+                    nextFireTime = Time.time + knifehailcoolDownTime;
+                }
             }
         }
 

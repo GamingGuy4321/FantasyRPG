@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Manabar : MonoBehaviour
-{
-public Slider slider;
+public class Manabar : MonoBehaviour{
+    
+    public Slider slider;
+    public PlayerCharacter player;
 
-        public void SetManaHealth(int health){
-            slider.maxValue = health;
-            slider.value = health;
+        public void SetManaHealth(int mana){
+            slider.maxValue = mana;
+            slider.value = mana;
         }
-        public void SetMana(int health){
-            slider.value = health;
+
+        public void SetMana(int mana){
+            slider.value = mana;
+        }
+
+        void Update() {
+            SetMana(player.currentMana);
         }
 }

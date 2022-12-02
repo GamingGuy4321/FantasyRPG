@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Healthbar : MonoBehaviour
-{
+public class Healthbar : MonoBehaviour{
 
-        public Slider slider;
+    public Slider slider;
+    public PlayerCharacter player;
 
         public void SetMaxHealth(int health){
             slider.maxValue = health;
@@ -14,5 +14,9 @@ public class Healthbar : MonoBehaviour
         }
         public void SetHealth(int health){
             slider.value = health;
+        }
+
+        void Update() {
+            SetHealth(player.currentMana);
         }
 }

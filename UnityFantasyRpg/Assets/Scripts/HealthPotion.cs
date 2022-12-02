@@ -13,7 +13,7 @@ public class HealthPotion : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("OnTriggerStay");
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKey(KeyCode.E))
             {
                 player.currentHealthPotion += 1;
                 Debug.Log("Picked up potion");
