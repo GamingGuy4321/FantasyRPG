@@ -7,14 +7,9 @@ using TMPro;
 public class PlayerCharacter : MonoBehaviour
 {
 
-    public CharacterController _controller;
     public Animator m_animator;
-    public float _speed = 4;
-    public float _runSpeed = 9;
-    public float _rotationSpeed = 90;
-    public bool m_isMoving = false;
     private bool isMouseLeftDown = false;
-    private Vector3 rotation;
+    
     float timer;
     public GameObject iceSlam;
     public GameObject knifeHail;
@@ -52,14 +47,41 @@ public class PlayerCharacter : MonoBehaviour
 
     public void Update()
     {
-        this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
-        this.transform.Rotate(this.rotation);
 
-        Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
-        move = this.transform.TransformDirection(move);
-        _controller.Move(move * _speed);
+        if (GetComponent<CharacterPhysics>().m_isMoving)
+        {
+            m_animator.SetBool("isWalking", true);
 
-        if(internalTimer > 0){
+            if((GetComponent<CharacterPhysics>().m_isMoving) && (Input.GetAxisRaw("Horizontal") < 0) ){
+            m_animator.SetBool("isWalking", false);
+            m_animator.SetBool("isTurningLeft", true);
+            }
+
+            if((GetComponent<CharacterPhysics>().m_isMoving) && (Input.GetAxisRaw("Horizontal") > 0) ){
+            m_animator.SetBool("isWalking", false);
+            m_animator.SetBool("isTurningRight", true);
+            }
+        }
+        else
+        {
+            m_animator.SetBool("isWalking", false);
+        }
+
+        if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            m_animator.SetBool("isTurningLeft", true);
+        }
+        else if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            m_animator.SetBool("isTurningRight", true);
+        }
+        else if (Input.GetAxisRaw("Horizontal") == 0)
+        {
+            m_animator.SetBool("isTurningRight", false);
+            m_animator.SetBool("isTurningLeft", false);
+        }
+
+        if (internalTimer > 0){
             internalTimer -= Time.deltaTime;
             if(internalTimer < 0){
                 equipedShield.SetActive(true);
@@ -110,7 +132,6 @@ public class PlayerCharacter : MonoBehaviour
                     currentHealthPotion -= 1;
                     nextFireTime = Time.time + healthpotioncoolDownTime;
                     internalTimer = enableTimer;
-                    
                  }
             }
         }
@@ -161,36 +182,6 @@ public class PlayerCharacter : MonoBehaviour
                     nextFireTime = Time.time + knifehailcoolDownTime;
                 }
             }
-        }
-
-        if(Input.GetAxisRaw("Vertical")!= 0){
-            m_animator.SetBool("isWalking", true);
-            m_isMoving = true;
-        }else if (Input.GetAxisRaw("Vertical")== 0){
-            m_isMoving = false;
-            m_animator.SetBool("isWalking", false);
-        }
-
-        if(Input.GetAxisRaw("Horizontal") < 0){
-            m_animator.SetBool("isTurningLeft", true);
-        }
-        else if (Input.GetAxisRaw("Horizontal") > 0){
-            m_animator.SetBool("isTurningRight", true);
-        }
-        else if (Input.GetAxisRaw("Horizontal") == 0){
-            m_animator.SetBool("isTurningRight", false);
-            m_animator.SetBool("isTurningLeft", false);
-        }
-        
-        if (m_isMoving) {
-                // Left Shift input detected
-                if (Input.GetKey(KeyCode.LeftShift)) {
-                    m_animator.SetBool("isRunning", true);
-                    _speed = _runSpeed;
-                }else{
-                    _speed = 4;
-                    m_animator.SetBool("isRunning", false);
-                }
         }
 
         void takeMana(int spellUse){

@@ -5,62 +5,71 @@ using UnityEngine;
  
 public class CharacterPhysics : MonoBehaviour
 {
+    public float walkSpeed = 4;
+    public float runSpeed = 9;
+    public float rotationSpeed = 90;
+    public float gravity = -20f;
+    public float jumpSpeed = 15;
+    public bool m_isMoving = false;
 
-     Vector3 moveVector;
-     CharacterController controller;
-    // Start is called before the first frame update
-    void Start()
+    Vector3 moveVelocity;
+    Vector3 rotation;
+
+    CharacterController controller;
+
+    void Awake()
     {
         controller = GetComponent<CharacterController>();
+        if (controller == null)
+        {
+            Debug.LogWarning("CharacterController is null. Please assign this.");
+        }
     }
      void Update () {
-         //REeset the MoveVector
-         moveVector = Vector3.zero;
-         //Check if cjharacter is grounded
-         if (controller.isGrounded == false)
-         {
-             //Add our gravity Vecotr
-             moveVector += Physics.gravity;
-         }
-         //Apply our move Vector , remeber to multiply by Time.delta
-         controller.Move(moveVector * Time.deltaTime);
-     }
+        var horizontalInput = Input.GetAxis("Horizontal");
+        var verticalInput = Input.GetAxis("Vertical");
+
+
+        //Debug.Log($"Character Controller isGrounded = {controller.isGrounded}");
+        if (controller.isGrounded)
+        {
+            //Pull this out of the Grounded check if you want walking animation to be able to play while in the air
+            if (Input.GetAxisRaw("Vertical") != 0)
+            {
+                m_isMoving = true;
+            }
+            else
+            {
+                m_isMoving = false;
+            }
+
+            moveVelocity = transform.forward * walkSpeed * verticalInput;
+            rotation = transform.up * rotationSpeed * horizontalInput;
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                moveVelocity.y = jumpSpeed;
+            }
+
+        }
+        moveVelocity.y += gravity * Time.deltaTime;
+        controller.Move(moveVelocity * Time.deltaTime);
+        transform.Rotate(rotation * Time.deltaTime);
+
+        if (m_isMoving)
+        {
+            // Left Shift input detected
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                GetComponent<Animator>().SetBool("isRunning", true);
+                walkSpeed = runSpeed;
+            }
+            else
+            {
+                walkSpeed = 4;
+                GetComponent<Animator>().SetBool("isRunning", false);
+            }
+        }
+    }
          
 }
-
-
-    //  private CharacterController _controller;
-    //  [SerializeField]
-    //  private float _speed = 5f;
-    //  [SerializeField]
-    //  private float _jumptHeight = 15f;
-    //  private float _yVelocity;
-    //  private float _gravity = 1f;
-
-    // void Start() {
-        
-    // }
-    
-    //  void Update (){
-
-    //     float horizontalInput = Input.GetAxis("Horizontal");
-    //     Vector3 direction = new Vector3(horizontalInput,0,0);
-    //     Vector3 velocity = direction *_speed;
-
-    //      //Check if character is grounded
-    //      if(_controller.isGrounded)
-    //      {
-    //         if(Input.GetKeyDown(KeyCode.Space)){
-    //              _yVelocity = _jumptHeight;
-    //         }
-    //      }
-    //      else
-    //      {
-    //         _yVelocity -= _gravity;
-    //      }
-
-    //      velocity.y = _yVelocity;
- 
-    //      //Apply our move Vector , remeber to multiply by Time.delta
-    //      _controller.Move(velocity * Time.deltaTime);
-    //  }
