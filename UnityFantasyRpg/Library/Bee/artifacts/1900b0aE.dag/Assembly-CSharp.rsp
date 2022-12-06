@@ -371,6 +371,7 @@
 "Assets/Hovl Studio/Resources/Scripts/ProjectileMover2D.cs"
 "Assets/Hovl Studio/Resources/Scripts/Rotator.cs"
 "Assets/Scripts/Abilities.cs"
+"Assets/Scripts/AIMovement.cs"
 "Assets/Scripts/CharacterPhysics.cs"
 "Assets/Scripts/EnableDelay.cs"
 "Assets/Scripts/Healthbar.cs"
