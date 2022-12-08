@@ -6,6 +6,11 @@ TagManager:
   tags:
   - HealthPotion
   - ManaPotion
+  - IceBolt
+  - IceSlam
+  - KnifeHail
+  - Melee
+  - Enemy
   layers:
   - Default
   - TransparentFX
