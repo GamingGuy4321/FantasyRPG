@@ -373,6 +373,7 @@
 "Assets/Scripts/EnableDelay.cs"
 "Assets/Scripts/Enemy Script/AiHitDetection.cs"
 "Assets/Scripts/Enemy Script/AIMovement.cs"
+"Assets/Scripts/Enemy Script/EnemyCoin.cs"
 "Assets/Scripts/Enemy Script/EnemyHealthBar.cs"
 "Assets/Scripts/Knockback.cs"
 "Assets/Scripts/Player Script/CharacterPhysics.cs"

@@ -9,6 +9,8 @@ public class AiHitDetection : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public Healthbar healthbar;
+    public Transform coinSpawn;
+    public GameObject coinPrefab;
 
 
     void OnTriggerEnter(Collider other) {
@@ -28,6 +30,8 @@ public class AiHitDetection : MonoBehaviour
         }
         if (currentHealth == 0){
             m_animator.SetTrigger("isDead");
+            Instantiate(coinPrefab, coinSpawn.position, coinSpawn.rotation);
+            Destroy(gameObject);
         }
     }
 
