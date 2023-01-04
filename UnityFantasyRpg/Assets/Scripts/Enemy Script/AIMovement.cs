@@ -12,6 +12,7 @@ public class AIMovement : MonoBehaviour
     private bool isRotatingLeft = false;
     private bool isRotatingRight = false;
     private bool isWalking = false;
+    Transform player;
 
     Rigidbody rb;
     // Start is called before the first frame update
@@ -19,11 +20,15 @@ public class AIMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        player = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
+        isFront();
+        isLineOfSight();
+        
         if(isWandering == false){
             StartCoroutine(Wander());
         }
@@ -36,6 +41,11 @@ public class AIMovement : MonoBehaviour
         if(isWalking == true){
             rb.AddForce(transform.forward * movementSpeed);
         }
+
+        if(isFront() && isLineOfSight()){
+            
+        }
+
     }
 
     IEnumerator Wander(){
@@ -71,5 +81,32 @@ public class AIMovement : MonoBehaviour
         }
 
         isWandering = false;
+
+    }
+
+    bool isFront(){
+            Vector3 directionOfPlayer = transform.position - player.position;
+            float angle = Vector3.Angle(transform.forward, directionOfPlayer);
+
+            if(Mathf.Abs(angle) > 90 && Mathf.Abs(angle) < 270){
+                Debug.DrawLine(transform.position, player.position, Color.red);
+                return true;
+            }
+
+            return false;
+        }
+
+    bool isLineOfSight(){
+        RaycastHit _hit;
+        Vector3 directionOfPlayer = player.position - transform.position;
+
+        if(Physics.Raycast(transform.position,directionOfPlayer, out _hit, 50000f)){
+            if(_hit.transform.name == "Player"){
+                Debug.DrawLine(transform.position, player.position, Color.green);
+                return true;
+            }
+        }
+
+        return false;
     }
 }
