@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class AIMovement : MonoBehaviour
     private bool isRotatingRight = false;
     private bool isWalking = false;
     Transform player;
+    public Transform Player;
+
+    NavMeshAgent nav;
 
     Rigidbody rb;
     // Start is called before the first frame update
@@ -21,6 +25,7 @@ public class AIMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         player = GameObject.Find("Player").transform;
+        nav = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -43,7 +48,14 @@ public class AIMovement : MonoBehaviour
         }
 
         if(isFront() && isLineOfSight()){
-            
+            float dist = Vector3.Distance(this.transform.position, Player.transform.position);
+            nav.SetDestination(Player.position);
+
+            if(dist < 5){
+                
+            }
+        }else{
+            Wander();
         }
 
     }
