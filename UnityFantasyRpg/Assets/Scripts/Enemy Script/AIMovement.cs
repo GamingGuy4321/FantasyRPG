@@ -5,20 +5,21 @@ using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
+    Rigidbody rb;
 
     public float movementSpeed = 20f;
     public float rotationSpeed = 100f;
 
-    private bool isWandering = false;
+    public bool isWandering = false;
     private bool isRotatingLeft = false;
     private bool isRotatingRight = false;
     private bool isWalking = false;
     Transform player;
     public Transform Player;
-
     NavMeshAgent nav;
+    
+    public GameObject rangeAttackScript;
 
-    Rigidbody rb;
     // Start is called before the first frame update
 
     void Start()
@@ -26,6 +27,7 @@ public class AIMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         player = GameObject.Find("Player").transform;
         nav = GetComponent<NavMeshAgent>();
+        rangeAttackScript.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,11 +53,13 @@ public class AIMovement : MonoBehaviour
             float dist = Vector3.Distance(this.transform.position, Player.transform.position);
             nav.SetDestination(Player.position);
 
-            if(dist < 5){
-                
+            if (dist < 5 && this.gameObject.tag == "RangeEnemy"){
+                rangeAttackScript.SetActive(true);
+            }else{
+                rangeAttackScript.SetActive(false);
             }
         }else{
-            Wander();
+            isWandering = false;
         }
 
     }

@@ -11,6 +11,8 @@ TagManager:
   - KnifeHail
   - Melee
   - Enemy
+  - RangeEnemy
+  - AttackScript
   layers:
   - Default
   - TransparentFX
