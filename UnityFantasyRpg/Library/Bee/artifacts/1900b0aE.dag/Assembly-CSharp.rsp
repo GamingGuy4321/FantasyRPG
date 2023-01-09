@@ -382,6 +382,7 @@
 "Assets/Scripts/Player Script/ManaPotion.cs"
 "Assets/Scripts/Player Script/PlayerCharacter.cs"
 "Assets/Scripts/SpellDelay.cs"
+"Assets/Scripts/SpellDestroy.cs"
 "Assets/Scripts/UI Script/Abilities.cs"
 "Assets/Scripts/UI Script/Healthbar.cs"
 "Assets/Scripts/UI Script/Manabar.cs"

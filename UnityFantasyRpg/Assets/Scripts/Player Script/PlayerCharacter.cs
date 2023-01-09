@@ -190,6 +190,15 @@ public class PlayerCharacter : MonoBehaviour
             currentMana -= spellUse;
             manabar.SetMana(currentMana);
         }
+
+        void OnTriggerEnter(Collider other) {
+
+            if (other.gameObject.tag == "LightningBolt"){
+                print("Player was hit by Lightning Bolt!");
+                currentHealth -= 50;
+            }
+
+         }
         
     }
 }

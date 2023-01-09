@@ -14,8 +14,11 @@ public class AIMovement : MonoBehaviour
     private bool isRotatingLeft = false;
     private bool isRotatingRight = false;
     private bool isWalking = false;
+
+    [SerializeField]
+    private bool isChasing = false;
+
     Transform player;
-    public Transform Player;
     NavMeshAgent nav;
     
     public GameObject rangeAttackScript;
@@ -33,10 +36,8 @@ public class AIMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isFront();
-        isLineOfSight();
         
-        if(isWandering == false){
+        if(isWandering == false && !isChasing){
             StartCoroutine(Wander());
         }
         if(isRotatingRight == true){
@@ -45,23 +46,34 @@ public class AIMovement : MonoBehaviour
         if(isRotatingLeft == true){
             transform.Rotate(transform.up * Time.deltaTime * -rotationSpeed);
         }
-        if(isWalking == true){
-            rb.AddForce(transform.forward * movementSpeed);
+
+        if(!isFront() || !isLineOfSight()){
+            isChasing = false;
+            rangeAttackScript.SetActive(false);
         }
-
+     
         if(isFront() && isLineOfSight()){
-            float dist = Vector3.Distance(this.transform.position, Player.transform.position);
-            nav.SetDestination(Player.position);
+            isChasing = true;
+            float dist = Vector3.Distance(this.transform.position, player.transform.position);
+            nav.SetDestination(player.position);
 
-            if (dist < 5 && this.gameObject.tag == "RangeEnemy"){
+            if (dist < 12 && this.gameObject.tag == "RangeEnemy"){
                 rangeAttackScript.SetActive(true);
             }else{
                 rangeAttackScript.SetActive(false);
             }
         }else{
-            isWandering = false;
+            isChasing = false;
         }
 
+    }
+
+    private void FixedUpdate()
+    {
+        if (isWalking == true)
+        {
+            rb.AddForce(transform.forward * movementSpeed * Time.deltaTime);
+        }
     }
 
     IEnumerator Wander(){
@@ -97,26 +109,25 @@ public class AIMovement : MonoBehaviour
         }
 
         isWandering = false;
-
     }
 
     bool isFront(){
-            Vector3 directionOfPlayer = transform.position - player.position;
-            float angle = Vector3.Angle(transform.forward, directionOfPlayer);
+        Vector3 directionOfPlayer = transform.position - player.position;
+        float angle = Vector3.Angle(transform.forward, directionOfPlayer);
 
-            if(Mathf.Abs(angle) > 90 && Mathf.Abs(angle) < 270){
-                Debug.DrawLine(transform.position, player.position, Color.red);
-                return true;
-            }
-
-            return false;
+        if(Mathf.Abs(angle) > 90 && Mathf.Abs(angle) < 270){
+            Debug.DrawLine(transform.position, player.position, Color.red);
+            return true;
         }
+
+        return false;
+    }
 
     bool isLineOfSight(){
         RaycastHit _hit;
         Vector3 directionOfPlayer = player.position - transform.position;
 
-        if(Physics.Raycast(transform.position,directionOfPlayer, out _hit, 50000f)){
+        if(Physics.Raycast(transform.position,directionOfPlayer, out _hit, 50000f)) {
             if(_hit.transform.name == "Player"){
                 Debug.DrawLine(transform.position, player.position, Color.green);
                 return true;
