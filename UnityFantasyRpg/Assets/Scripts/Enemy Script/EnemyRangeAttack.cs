@@ -8,18 +8,21 @@ public class EnemyRangeAttack : MonoBehaviour
     public GameObject aoePrefab;
     public GameObject projectilePrefab;
     public Transform projectileFirePoint;
-    private float nextFireTime;
-    public float lightningboltcoolDownTime;
-    public float lightningstrikecoolDownTime;
+    private float nextFireTimeSingleTarget;
+    private float nextFireTimeAOE;
+    public float singleTargetCoolDownTime;
+    public float AOEcoolDownTime;
     public Transform Player;
+    public GameObject rangeEnemy;
 
     CharacterController controller;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = Player.gameObject.GetComponent<CharacterController>();
-        RangeAttack();
+        animator = rangeEnemy.gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,15 +34,17 @@ public class EnemyRangeAttack : MonoBehaviour
     void RangeAttack(){
         int rand = Random.Range(1, 3);
 
-        if (rand == 1 && (Time.time > nextFireTime)){
+        if (rand == 1 && (Time.time > nextFireTimeSingleTarget)){
+            animator.SetTrigger("isSingleAttack");
             Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
-            nextFireTime = Time.time + lightningboltcoolDownTime;
+            nextFireTimeSingleTarget = Time.time + singleTargetCoolDownTime;
         }
 
-        if (rand == 2 && (controller.isGrounded) && (Time.time > nextFireTime)){
+        if (rand == 2 && (controller.isGrounded) && (Time.time > nextFireTimeAOE)){
+            animator.SetTrigger("isAOEAttack");
             Instantiate(aoeCirclePrefab, Player.position, Quaternion.Euler(-90f,0f,0f));
             Instantiate(aoePrefab, Player.position, Quaternion.Euler(0f,0f,0f));
-            nextFireTime = Time.time + lightningstrikecoolDownTime;
+            nextFireTimeAOE = Time.time + AOEcoolDownTime;
         }
     }
 }

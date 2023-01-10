@@ -56,6 +56,7 @@ public class AIMovement : MonoBehaviour
             isChasing = true;
             float dist = Vector3.Distance(this.transform.position, player.transform.position);
             nav.SetDestination(player.position);
+            transform.LookAt(player.transform);
 
             if (dist < 12 && this.gameObject.tag == "RangeEnemy"){
                 rangeAttackScript.SetActive(true);

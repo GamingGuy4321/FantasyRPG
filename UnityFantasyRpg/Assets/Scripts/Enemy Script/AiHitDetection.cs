@@ -18,17 +18,19 @@ public class AiHitDetection : MonoBehaviour
         if (other.gameObject.tag == "IceBolt"){
             print("Enemy was hit with Ice Bolt!");
             m_animator.SetTrigger("isHit");
-            currentHealth -= 50;
+            currentHealth -= 30;
         }
         if (other.gameObject.tag == "IceSlam"){
             print("Enemy was hit with Ice Slam!");
             m_animator.SetTrigger("isHit");
+            currentHealth -= 75;
         }
         if (other.gameObject.tag == "KnifeHail"){
             print("Enemy was hit with Knife Hail!");
             m_animator.SetTrigger("isHit");
+            currentHealth -= 2;
         }
-        if (currentHealth == 0){
+        if (currentHealth <= 0){
             m_animator.SetTrigger("isDead");
             Instantiate(coinPrefab, coinSpawn.position, coinSpawn.rotation);
             Destroy(gameObject);

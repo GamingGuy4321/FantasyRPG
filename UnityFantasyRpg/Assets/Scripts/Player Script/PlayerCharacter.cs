@@ -184,7 +184,8 @@ public class PlayerCharacter : MonoBehaviour
                     nextFireTime = Time.time + knifehailcoolDownTime;
                 }
             }
-        }
+        }       
+    }
 
         void takeMana(int spellUse){
             currentMana -= spellUse;
@@ -199,6 +200,4 @@ public class PlayerCharacter : MonoBehaviour
             }
 
          }
-        
-    }
 }
