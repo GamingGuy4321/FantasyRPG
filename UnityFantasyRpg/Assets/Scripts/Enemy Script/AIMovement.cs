@@ -21,7 +21,7 @@ public class AIMovement : MonoBehaviour
     Transform player;
     NavMeshAgent nav;
     
-    public GameObject rangeAttackScript;
+    public GameObject AttackScript;
 
     // Start is called before the first frame update
 
@@ -30,7 +30,7 @@ public class AIMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         player = GameObject.Find("Player").transform;
         nav = GetComponent<NavMeshAgent>();
-        rangeAttackScript.SetActive(false);
+        AttackScript.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,7 +49,7 @@ public class AIMovement : MonoBehaviour
 
         if(!isFront() || !isLineOfSight()){
             isChasing = false;
-            rangeAttackScript.SetActive(false);
+            AttackScript.SetActive(false);
         }
      
         if(isFront() && isLineOfSight()){
@@ -58,10 +58,16 @@ public class AIMovement : MonoBehaviour
             nav.SetDestination(player.position);
             transform.LookAt(player.transform);
 
-            if (dist < 12 && this.gameObject.tag == "RangeEnemy"){
-                rangeAttackScript.SetActive(true);
+            if (dist <= 12 && this.gameObject.tag == "RangeEnemy"){
+                AttackScript.SetActive(true);
             }else{
-                rangeAttackScript.SetActive(false);
+                AttackScript.SetActive(false);
+            }
+
+            if (dist <= 1 && this.gameObject.tag == "MeleeEnemy"){
+                AttackScript.SetActive(true);
+            }else{
+                AttackScript.SetActive(false);
             }
         }else{
             isChasing = false;
