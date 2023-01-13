@@ -52,7 +52,8 @@ public class AIMovement : MonoBehaviour
             AttackScript.SetActive(false);
         }
      
-        if(isFront() && isLineOfSight()){
+        if(isFront() && isLineOfSight())
+        {
             isChasing = true;
             float dist = Vector3.Distance(this.transform.position, player.transform.position);
             nav.SetDestination(player.position);
@@ -60,13 +61,12 @@ public class AIMovement : MonoBehaviour
 
             if (dist <= 12 && this.gameObject.tag == "RangeEnemy"){
                 AttackScript.SetActive(true);
-            }else{
-                AttackScript.SetActive(false);
-            }
-
-            if (dist <= 1 && this.gameObject.tag == "MeleeEnemy"){
+            } else if (dist <= 3 && this.gameObject.tag == "MeleeEnemy")
+            {
                 AttackScript.SetActive(true);
-            }else{
+            }
+            else
+            {
                 AttackScript.SetActive(false);
             }
         }else{

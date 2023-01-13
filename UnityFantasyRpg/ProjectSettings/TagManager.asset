@@ -15,6 +15,7 @@ TagManager:
   - AttackScript
   - LightningBolt
   - MeleeEnemy
+  - MeleeTwo
   layers:
   - Default
   - TransparentFX

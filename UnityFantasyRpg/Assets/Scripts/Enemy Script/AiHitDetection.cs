@@ -15,6 +15,18 @@ public class AiHitDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
 
+         if (other.gameObject.tag == "Melee"){
+            print("Enemy was hit with light attack!");
+            m_animator.SetTrigger("isHit");
+            currentHealth -= 10;
+        }
+
+        if (other.gameObject.tag == "MeleeTwo"){
+            print("Enemy was hit with light attack!");
+            m_animator.SetTrigger("isHit");
+            currentHealth -= 40;
+        }
+        
         if (other.gameObject.tag == "IceBolt"){
             print("Enemy was hit with Ice Bolt!");
             m_animator.SetTrigger("isHit");

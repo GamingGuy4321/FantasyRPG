@@ -39,11 +39,20 @@ public class PlayerCharacter : MonoBehaviour
     public GameObject manaPotion;
     public double enableTimer;
     private double internalTimer;
+    public Collider swordCollider;
+    public Collider swordCollider2;
+
+    public float melee1Timer;
+    public float melee2Timer;
  
     void Start(){
         m_animator = GetComponent<Animator>();
+        swordCollider = swordCollider.GetComponent<BoxCollider>();
+        swordCollider2 = swordCollider2.GetComponent<BoxCollider>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+        swordCollider.enabled = false;
+        swordCollider2.enabled = false;
     }
 
     public void Update()
@@ -101,9 +110,13 @@ public class PlayerCharacter : MonoBehaviour
             Debug.Log("MousebuttonUp");
             isMouseLeftDown = false;
             if(Time.time - timer < 0.25){
+                swordCollider.enabled = true;
+                melee1Timer = 2.5f;
                 Debug.Log("LightAttack.");
                 m_animator.SetTrigger("isLightAttack");
             }else if(Time.time - timer > 0.5){
+                swordCollider2.enabled = true;
+                melee2Timer = 2.5f;
                 Debug.Log("HeavyAttack.");
                 m_animator.SetTrigger("isHeavyAttack");   
             }
@@ -184,7 +197,22 @@ public class PlayerCharacter : MonoBehaviour
                     nextFireTime = Time.time + knifehailcoolDownTime;
                 }
             }
-        }       
+        }      
+
+        if(swordCollider.enabled){
+            melee1Timer -= Time.deltaTime;
+            if (melee1Timer <= 0){
+                swordCollider.enabled = false;
+            }
+        } 
+
+        if(swordCollider2.enabled){
+            melee2Timer -= Time.deltaTime;
+            if (melee2Timer <= 0){
+                swordCollider2.enabled = false;
+            }
+        }
+
     }
 
         void takeMana(int spellUse){

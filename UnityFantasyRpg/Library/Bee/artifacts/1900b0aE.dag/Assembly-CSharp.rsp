@@ -381,6 +381,7 @@
 "Assets/Scripts/Player Script/ManaPotion.cs"
 "Assets/Scripts/Player Script/PlayerCharacter.cs"
 "Assets/Scripts/SpellScripts/CollisionDelay.cs"
+"Assets/Scripts/SpellScripts/CollisionDelayDisable.cs"
 "Assets/Scripts/SpellScripts/EnableDelay.cs"
 "Assets/Scripts/SpellScripts/Knockback.cs"
 "Assets/Scripts/SpellScripts/SpellDelay.cs"
