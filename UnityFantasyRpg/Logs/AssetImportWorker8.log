@@ -1,0 +1,436 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 24461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+51714
+Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004372 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003076 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3610 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (185.5 KB). Loaded Objects now: 4093.
+Memory consumption went from 148.3 MB to 148.1 MB.
+Total: 3.410100 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.913700 ms  DeleteObjects: 0.164600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103965.106513 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a314a31241003cd0081e11b641f787b0') in 0.112401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.870755 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69db4b4de5fea0401426a388ed414609') in 0.036436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.561367 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e93dccda3bdbaf1d3253d85332b9e73') in 0.008124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.019423 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8038a1ac5d8c5ec26b40300cdf52b39e') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.036632 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac7da736226f722a983fef72b4f8064') in 0.008768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.021694 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a36685efe10527e1e32bb3e30f2c1f') in 0.007883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.822081 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e41de6533f3afaeb42067a2a368b0c') in 0.016943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.793613 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608cd94b166bbb722b22796e503a73b1') in 0.008251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.420849 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f5623268f58e0a54d8d10004ca2b20') in 0.014593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.393964 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22139ae1342855f933338b3ef5a19d08') in 0.022460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.981965 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4717e174ee63c4e959374731f1d0463c') in 0.012733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.231351 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0277253baf81fe94b381197e2ca963a5') in 0.015826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.793641 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab
+  artifactKey: Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Environments/Misc/SM_Env_Tree_Twisted_01.prefab using Guid(8ed44b12ca34ce34e9754ece5b325562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bee878f3b038974c51fe5cd07a59072') in 0.014311 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (152.7 KB). Loaded Objects now: 4116.
+Memory consumption went from 149.2 MB to 149.1 MB.
+Total: 3.079500 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.166100 ms MarkObjects: 2.526700 ms  DeleteObjects: 0.117600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.392380 seconds.
+  path: Assets/Toon Fantasy Nature/Particles/Textures
+  artifactKey: Guid(6cec0ca5546ba7744a92dae601319415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Particles/Textures using Guid(6cec0ca5546ba7744a92dae601319415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a601999fc5cb244d46de11c8f8bea760') in 0.011240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042547 seconds.
+  path: Assets/Toon Fantasy Nature/Particles/Textures/TFF_Ember_01A.psd
+  artifactKey: Guid(5d3f7343487f9c4458a6218ed448fdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Particles/Textures/TFF_Ember_01A.psd using Guid(5d3f7343487f9c4458a6218ed448fdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6ac13ca035a75abb424589cb8c8285') in 0.053871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Fantasy Nature/Particles/Textures/TFF_Sun_Shaft_01A_D.psd
+  artifactKey: Guid(3bcbac575aa9acc4199254e4388b37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Particles/Textures/TFF_Sun_Shaft_01A_D.psd using Guid(3bcbac575aa9acc4199254e4388b37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb46a7f7a940ab2cfaeffa2bf70c6b1') in 0.011558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Fantasy Nature/Particles/Textures/TFF_Smoke_01A.psd
+  artifactKey: Guid(7249e673f1ee4ea4d939ad102936e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Particles/Textures/TFF_Smoke_01A.psd using Guid(7249e673f1ee4ea4d939ad102936e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3261cf22d7e6a44ac35b74ac97799438') in 0.011041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.700137 seconds.
+  path: Assets/Toon Fantasy Nature/Prefabs/Props
+  artifactKey: Guid(024b9880c1347034f8e70526730c37a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Prefabs/Props using Guid(024b9880c1347034f8e70526730c37a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d415e701631bc6b60fb534970c5c6e') in 0.005005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 577.937917 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Characters/Character_Goblin_Male.prefab
+  artifactKey: Guid(2ef59bc5d753ebe4490b708befe65999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Characters/Character_Goblin_Male.prefab using Guid(2ef59bc5d753ebe4490b708befe65999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f307d84ca6ab4eee10f561c35861733e') in 0.108736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.310821 seconds.
+  path: Assets/PolygonDungeon/Prefabs/Props
+  artifactKey: Guid(a7ec6abc5181dd6488475eb9cf9e8ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Prefabs/Props using Guid(a7ec6abc5181dd6488475eb9cf9e8ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024da3db9b3fed5a3bb25ac5a1582f09') in 0.001581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.145471 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Additive.mat
+  artifactKey: Guid(8f7260ae490a6f64e97398d880b66e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Additive.mat using Guid(8f7260ae490a6f64e97398d880b66e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6af18c79bfc3b9c3b4cb8dfa1c7203') in 0.036498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010788 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Distortion.mat
+  artifactKey: Guid(630ddcbab420440459087f91bcd9f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Distortion.mat using Guid(630ddcbab420440459087f91bcd9f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb684b10073bf04f57852d1ffe1905ca') in 0.044714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fa878a616c510b94ad1db0f190011f') in 0.049187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7606cb2101dff4c7e8d96d847c5b33e') in 0.041501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.368786 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8302a02d18820d408847bdb1be7afa') in 0.040832 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003152 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (152.8 KB). Loaded Objects now: 4169.
+Memory consumption went from 162.1 MB to 162.0 MB.
+Total: 3.229700 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.221700 ms MarkObjects: 2.617700 ms  DeleteObjects: 0.130100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 237.799170 seconds.
+  path: Assets/Toon Fantasy Nature/Particles/Materials/TFF_Fireflies_01A.mat
+  artifactKey: Guid(5f2cb9a0c6fd7a04a9d618a58ad3fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Particles/Materials/TFF_Fireflies_01A.mat using Guid(5f2cb9a0c6fd7a04a9d618a58ad3fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9114af3baf222dbcf407e3b41f5c7432') in 0.069288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Fantasy Nature/Particles/Materials/TFF_Toon_Fire.mat
+  artifactKey: Guid(96a0b30b82ba10348b24d1d31c8c78ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Fantasy Nature/Particles/Materials/TFF_Toon_Fire.mat using Guid(96a0b30b82ba10348b24d1d31c8c78ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a76c678355d23eddbb1018652020263') in 0.032396 seconds 
