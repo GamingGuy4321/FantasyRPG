@@ -26,7 +26,6 @@ public class CharacterPhysics : MonoBehaviour
         }
     }
      void Update () {
-        var horizontalInput = Input.GetAxis("Horizontal");
         var verticalInput = Input.GetAxis("Vertical");
 
 
@@ -44,7 +43,6 @@ public class CharacterPhysics : MonoBehaviour
             }
 
             moveVelocity = transform.forward * walkSpeed * verticalInput;
-            rotation = transform.up * rotationSpeed * horizontalInput;
 
             if (Input.GetButtonDown("Jump"))
             {
@@ -54,7 +52,6 @@ public class CharacterPhysics : MonoBehaviour
         }
         moveVelocity.y += gravity * Time.deltaTime;
         controller.Move(moveVelocity * Time.deltaTime);
-        transform.Rotate(rotation * Time.deltaTime);
 
         if (m_isMoving)
         {

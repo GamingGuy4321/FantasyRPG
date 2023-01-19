@@ -378,6 +378,7 @@
 "Assets/Scripts/Enemy Script/EnemyHealthBar.cs"
 "Assets/Scripts/Enemy Script/EnemyMeleeAttack.cs"
 "Assets/Scripts/Enemy Script/EnemyRangeAttack.cs"
+"Assets/Scripts/MoveCamera.cs"
 "Assets/Scripts/Player Script/CharacterPhysics.cs"
 "Assets/Scripts/Player Script/HealthPotion.cs"
 "Assets/Scripts/Player Script/ManaPotion.cs"

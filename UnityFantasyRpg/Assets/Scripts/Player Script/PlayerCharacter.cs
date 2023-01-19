@@ -61,35 +61,12 @@ public class PlayerCharacter : MonoBehaviour
         if (GetComponent<CharacterPhysics>().m_isMoving)
         {
             m_animator.SetBool("isWalking", true);
-
-            if((GetComponent<CharacterPhysics>().m_isMoving) && (Input.GetAxisRaw("Horizontal") < 0) ){
-            m_animator.SetBool("isWalking", false);
-            m_animator.SetBool("isTurningLeft", true);
-            }
-
-            if((GetComponent<CharacterPhysics>().m_isMoving) && (Input.GetAxisRaw("Horizontal") > 0) ){
-            m_animator.SetBool("isWalking", false);
-            m_animator.SetBool("isTurningRight", true);
-            }
         }
         else
         {
             m_animator.SetBool("isWalking", false);
         }
 
-        if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            m_animator.SetBool("isTurningLeft", true);
-        }
-        else if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            m_animator.SetBool("isTurningRight", true);
-        }
-        else if (Input.GetAxisRaw("Horizontal") == 0)
-        {
-            m_animator.SetBool("isTurningRight", false);
-            m_animator.SetBool("isTurningLeft", false);
-        }
 
         if (internalTimer > 0){
             internalTimer -= Time.deltaTime;
@@ -133,6 +110,13 @@ public class PlayerCharacter : MonoBehaviour
             m_animator.SetTrigger("isJumping");
             print("jumped");
         }
+
+        // Left Shift input detected
+            if (Input.GetKey(KeyCode.A))
+            {
+                m_animator.SetTrigger("isDodgingLeft");
+            }
+        
         
         if (Input.GetKeyDown(KeyCode.Alpha1)){
             if (Time.time > nextFireTime){
