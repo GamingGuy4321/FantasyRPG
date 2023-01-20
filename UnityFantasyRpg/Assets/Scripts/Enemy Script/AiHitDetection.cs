@@ -8,7 +8,7 @@ public class AiHitDetection : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
-    public Healthbar healthbar;
+    private Healthbar healthbar;
     public Transform coinSpawn;
     public GameObject coinPrefab;
 

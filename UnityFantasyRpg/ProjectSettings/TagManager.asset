@@ -17,6 +17,7 @@ TagManager:
   - MeleeEnemy
   - MeleeTwo
   - Shield
+  - Pickup
   layers:
   - Default
   - TransparentFX

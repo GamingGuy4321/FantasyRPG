@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 64173581108920664}
   - component: {fileID: -8472471547418979247}
   - component: {fileID: 394318097125194711}
-  - component: {fileID: 2628022623743068628}
   m_Layer: 0
   m_Name: SM_Item_Potion_03
   m_TagString: HealthPotion
@@ -130,16 +129,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2628022623743068628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b51bbd09bb6c4ca45bf0a4f35a81f7c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 112697690209088674, guid: 9f0af94b84c8caf47b0c45768b84dd5f, type: 3}

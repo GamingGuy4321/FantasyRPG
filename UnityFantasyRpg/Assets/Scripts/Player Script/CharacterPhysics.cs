@@ -7,6 +7,9 @@ public class CharacterPhysics : MonoBehaviour
 {
     public float walkSpeed = 4;
     public float runSpeed = 9;
+
+    public float noSpeed = 0;
+    
     public float gravity = -20f;
     public float jumpSpeed = 15;
     public bool m_isMoving = false;

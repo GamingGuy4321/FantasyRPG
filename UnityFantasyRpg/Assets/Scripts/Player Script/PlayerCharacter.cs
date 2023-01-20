@@ -55,6 +55,7 @@ public class PlayerCharacter : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
         swordCollider.enabled = false;
         swordCollider2.enabled = false;
+
     }
 
     public void Update()
@@ -156,6 +157,7 @@ public class PlayerCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)){
             if (Time.time > nextFireTime){
                 if (currentMana >= 20){
+                    
                     Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
                     m_animator.SetTrigger("isIceBolt");
                     takeMana(20);
