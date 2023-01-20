@@ -41,9 +41,11 @@ public class PlayerCharacter : MonoBehaviour
     private double internalTimer;
     public Collider swordCollider;
     public Collider swordCollider2;
-
     public float melee1Timer;
     public float melee2Timer;
+    public Collider shieldCollider;
+    public float shieldTimer;
+   
  
     void Start(){
         m_animator = GetComponent<Animator>();
@@ -88,7 +90,7 @@ public class PlayerCharacter : MonoBehaviour
             isMouseLeftDown = false;
             if(Time.time - timer < 0.25){
                 swordCollider.enabled = true;
-                melee1Timer = 2.5f;
+                melee1Timer = 0.5f;
                 Debug.Log("LightAttack.");
                 m_animator.SetTrigger("isLightAttack");
             }else if(Time.time - timer > 0.5){
@@ -101,7 +103,9 @@ public class PlayerCharacter : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1)){
             Debug.Log("Blocked");
-            m_animator.SetBool("isBlocking", true);  
+            m_animator.SetBool("isBlocking", true);
+            shieldCollider.enabled = true;  
+            shieldTimer = 5.0f;
         }else{
             m_animator.SetBool("isBlocking", false);
         }
@@ -197,6 +201,13 @@ public class PlayerCharacter : MonoBehaviour
             }
         }
 
+        if(shieldCollider.enabled){
+            shieldTimer -= Time.deltaTime;
+            if (shieldTimer <= 0){
+                shieldCollider.enabled = false;
+            }
+        }
+
     }
 
         void takeMana(int spellUse){
@@ -206,10 +217,11 @@ public class PlayerCharacter : MonoBehaviour
 
         void OnTriggerEnter(Collider other) {
 
-            if (other.gameObject.tag == "LightningBolt"){
+            if (other.gameObject.tag == "LightningBolt" && other.gameObject.tag != "Shield"){
                 print("Player was hit by Lightning Bolt!");
                 currentHealth -= 50;
             }
-
          }
+
+         
 }

@@ -16,6 +16,7 @@ TagManager:
   - LightningBolt
   - MeleeEnemy
   - MeleeTwo
+  - Shield
   layers:
   - Default
   - TransparentFX

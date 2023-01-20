@@ -7,13 +7,11 @@ public class CharacterPhysics : MonoBehaviour
 {
     public float walkSpeed = 4;
     public float runSpeed = 9;
-    public float rotationSpeed = 90;
     public float gravity = -20f;
     public float jumpSpeed = 15;
     public bool m_isMoving = false;
 
     Vector3 moveVelocity;
-    Vector3 rotation;
 
     CharacterController controller;
 

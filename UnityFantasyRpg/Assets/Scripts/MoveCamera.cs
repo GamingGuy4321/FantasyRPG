@@ -19,10 +19,10 @@ public class MoveCamera : MonoBehaviour
     void Update()
     {
         turn.x += Input.GetAxis("Mouse X") * sensitivity;
-        //turn.y += Input.GetAxis("Mouse Y") * sensitivity;
+        turn.y += Input.GetAxis("Mouse Y") * sensitivity;
         transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 0);
 
-        deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical")*speed * Time.deltaTime);
+        deltaMove = new Vector3(0,0,Input.GetAxisRaw("Vertical")*speed * Time.deltaTime);
         transform.Translate(deltaMove);
     }
 }
