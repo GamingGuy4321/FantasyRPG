@@ -1,0 +1,374 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 24461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+64441
+Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 73.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003759 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (452ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (328ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003021 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (130.7 KB). Loaded Objects now: 4107.
+Memory consumption went from 148.7 MB to 148.6 MB.
+Total: 2.753600 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.357600 ms  DeleteObjects: 0.090600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 499736.283311 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 3.prefab
+  artifactKey: Guid(911d39b31e356794d971139c547d1e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 3.prefab using Guid(911d39b31e356794d971139c547d1e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d90eb592200224de170687608a6db7') in 0.966194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Debuff 1.prefab
+  artifactKey: Guid(13a7c7a8d1bb29943ae2fda15a8f1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Debuff 1.prefab using Guid(13a7c7a8d1bb29943ae2fda15a8f1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8717170bf012f6ddbbde89226e5d352') in 0.457842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Flower slash.prefab
+  artifactKey: Guid(bd76aad308d231743b8d95dd2c02d6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Flower slash.prefab using Guid(bd76aad308d231743b8d95dd2c02d6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6ef097fe31d14a7b6e6cf34a276404') in 1.140719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Gold dot.prefab
+  artifactKey: Guid(51f58a7ac453dab48a238fee31899d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Gold dot.prefab using Guid(51f58a7ac453dab48a238fee31899d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f7619ace270da8993f4f9b37ff2d45') in 0.444404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Meteor 2.prefab
+  artifactKey: Guid(45ae8ce3527dfcf46933282f370e9275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Meteor 2.prefab using Guid(45ae8ce3527dfcf46933282f370e9275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1e70adafcd0aeec6e41c44d420e680') in 0.612683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Meteor shower.prefab
+  artifactKey: Guid(801830a34b3285842a8be1b874330251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Meteor shower.prefab using Guid(801830a34b3285842a8be1b874330251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eb7e94a73f75aefb6a65fc1e041a1d') in 0.184240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003136 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Soft blue buff.prefab
+  artifactKey: Guid(38e2ad2405a73b94ca4acff97076788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Soft blue buff.prefab using Guid(38e2ad2405a73b94ca4acff97076788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10385f2eaee8c06e9ab494e62e248b2') in 0.696698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Dragon punch.prefab
+  artifactKey: Guid(fb2df51e77abde1429eb83c0317784af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Dragon punch.prefab using Guid(fb2df51e77abde1429eb83c0317784af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd178a3ded8726450f59f472a650359f4') in 1.104723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.234578 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 10.prefab
+  artifactKey: Guid(d0014edc3649e5147976734cef091506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 10.prefab using Guid(d0014edc3649e5147976734cef091506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aee3e76a4654aea995e28b74b5a70aa') in 0.244926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282332 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic shield 4.prefab
+  artifactKey: Guid(8d9acef849f7240468daa95c1c7f14c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic shield 4.prefab using Guid(8d9acef849f7240468daa95c1c7f14c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9a2b1141e805aedd38e921dc1fe7cb') in 0.587240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.692773 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 4 loop.prefab
+  artifactKey: Guid(99a1f7013ba6432489bff550463f3d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 4 loop.prefab using Guid(99a1f7013ba6432489bff550463f3d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51dca089b4460942f9bd9adf1683b8d') in 0.064754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.911640 seconds.
+  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/Lightmap-0_comp_light.exr
+  artifactKey: Guid(9960b70afbb00c1468c54c31462b736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/Lightmap-0_comp_light.exr using Guid(9960b70afbb00c1468c54c31462b736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e1fe4c569f84ec84d96710f64699b8') in 0.155311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.712521 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 3.prefab
+  artifactKey: Guid(f82a1a892a042c1438f8f4704a37e11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 3.prefab using Guid(f82a1a892a042c1438f8f4704a37e11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aeb6ae551e593aa460eedbfa5d529b') in 0.058845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055989 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 6.prefab
+  artifactKey: Guid(adca1c5f787b050449984aedac0cbdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 6.prefab using Guid(adca1c5f787b050449984aedac0cbdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e546f3c51ff427000f10fde6d839bf44') in 0.082521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017396 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 9.prefab
+  artifactKey: Guid(40f5e004d2504a04db181f5453658776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 9.prefab using Guid(40f5e004d2504a04db181f5453658776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7883c20c6c3eed9d85039b6122fe1') in 0.053481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060904 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 13.prefab
+  artifactKey: Guid(284aa8115675f03488377d544e50cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 13.prefab using Guid(284aa8115675f03488377d544e50cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f3084b167d3db4c9db11e781e83b5e') in 0.070124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.207232 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 24.prefab
+  artifactKey: Guid(918bed4b1a6905d4aaa25af94c2caa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Flash 24.prefab using Guid(918bed4b1a6905d4aaa25af94c2caa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674b0e9f05a4a9a380190611d8c8fa1b') in 0.088539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113977 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 1.prefab
+  artifactKey: Guid(21710859533a00746ad2bdd323061a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 1.prefab using Guid(21710859533a00746ad2bdd323061a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e84506253dba105456f5063b2d732dc') in 0.053991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029954 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 4.prefab
+  artifactKey: Guid(f1aeeba2f9003904da5c0a24ba150198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 4.prefab using Guid(f1aeeba2f9003904da5c0a24ba150198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26284b8db4ea5170fc3301d9dae8fa6c') in 0.247272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.509277 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 4.prefab
+  artifactKey: Guid(90b685dd555e0c848806f1fb6209e1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 4.prefab using Guid(90b685dd555e0c848806f1fb6209e1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025064e5ddef18c1e852edf9ba2ec02') in 0.170380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022344 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 9.prefab
+  artifactKey: Guid(1c48df1cb0f3d824c8041c90c684038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 9.prefab using Guid(1c48df1cb0f3d824c8041c90c684038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bde62e6127ad98a4cadfcc1757c2b2') in 0.204844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 13.prefab
+  artifactKey: Guid(7d01073e4f2f6184bb4515ded3368307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 13.prefab using Guid(7d01073e4f2f6184bb4515ded3368307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc6a62dac1a22f40b3ede4590b0e2db') in 0.138480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 15.prefab
+  artifactKey: Guid(f6851774d5c4f874a8898919daf26f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 15.prefab using Guid(f6851774d5c4f874a8898919daf26f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214be23c6465f7b7a6e61aff1cc0708c') in 0.352926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 18.prefab
+  artifactKey: Guid(663161ea4a2607e43aaaf82d0af01055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 18.prefab using Guid(663161ea4a2607e43aaaf82d0af01055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184649a07d9005a7f3a05e4ea4a95afc') in 0.259252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004206 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 21.prefab
+  artifactKey: Guid(5c860473f6aec0742861a2be958fbc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 21.prefab using Guid(5c860473f6aec0742861a2be958fbc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2823b445534d6366d663da8b8a0ff998') in 0.273656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 23.prefab
+  artifactKey: Guid(df7af1a2f7d29504aaa8286f9ddf60dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 23.prefab using Guid(df7af1a2f7d29504aaa8286f9ddf60dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8868ca0311d57f777a2fa38c987d2c1') in 0.170551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 26.prefab
+  artifactKey: Guid(93554ed234c6755409dc2338cd008cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(Particle collision)/Projectile 26.prefab using Guid(93554ed234c6755409dc2338cd008cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aee567d828a3a3414016f6d92739e74') in 0.257818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.933509 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Lightmap-0_comp_dir.png
+  artifactKey: Guid(e620f791dd3aad0468c5433f169817c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Lightmap-0_comp_dir.png using Guid(e620f791dd3aad0468c5433f169817c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7dfb40fd136e9d08848809fbc5e2de') in 0.121922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Lightmap-2_comp_light.exr
+  artifactKey: Guid(35c320ad9e9dc0d40bfa81b6cd7e2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Lightmap-2_comp_light.exr using Guid(35c320ad9e9dc0d40bfa81b6cd7e2e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917cbe270a9a6c823d739960e943c240') in 0.091158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Lightmap-1_comp_dir.png
+  artifactKey: Guid(fa6be30dfbe92314c8d176a8eec4257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Lightmap-1_comp_dir.png using Guid(fa6be30dfbe92314c8d176a8eec4257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19708750aaf98d0fd4a4c79e0754cdab') in 0.125587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.785744 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 13.prefab
+  artifactKey: Guid(cfe0c511fa8d1cf4abf31f2f48dfe4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 13.prefab using Guid(cfe0c511fa8d1cf4abf31f2f48dfe4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e23edbb3850bef27b1c8ffe1b609dad') in 0.012424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 19.prefab
+  artifactKey: Guid(bb82163de313d09469f964543a10922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 19.prefab using Guid(bb82163de313d09469f964543a10922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6cc9de68ddc66b61737303ee479084') in 0.011691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009670 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 25.prefab
+  artifactKey: Guid(2e33bbd89680b744a8f2b0727a31b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 25.prefab using Guid(2e33bbd89680b744a8f2b0727a31b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9679a05d2b469e6dc96f7679118ead98') in 0.018281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 17.prefab
+  artifactKey: Guid(d7d554880214e644bbbbfc89aa884b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 17.prefab using Guid(d7d554880214e644bbbbfc89aa884b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330f877a5d540fe2c34bd41c0b1f44b3') in 0.015409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 21.prefab
+  artifactKey: Guid(2036e77062e38794c8337908e546c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Hit 21.prefab using Guid(2036e77062e38794c8337908e546c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1300262ea0035dd1e44a2923213f90') in 0.014508 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

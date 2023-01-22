@@ -61,8 +61,7 @@ public class AIMovement : MonoBehaviour
 
             if (dist <= 12 && this.gameObject.tag == "RangeEnemy"){
                 AttackScript.SetActive(true);
-            } else if (dist <= 3 && this.gameObject.tag == "MeleeEnemy")
-            {
+            } else if ((dist <= 3 && this.gameObject.tag == "MeleeEnemy") || (dist <= 3 && this.gameObject.tag == "Golem")){
                 AttackScript.SetActive(true);
             }
             else
@@ -134,8 +133,8 @@ public class AIMovement : MonoBehaviour
         RaycastHit _hit;
         Vector3 directionOfPlayer = player.position - transform.position;
 
-        if(Physics.Raycast(transform.position,directionOfPlayer, out _hit, 80f)) {
-            //Debug.Log("Hit Raycast " + _hit.transform.gameObject.tag);
+        if(Physics.Raycast(transform.position,directionOfPlayer, out _hit, 40f)) {
+            Debug.Log("Hit Raycast " + _hit.transform.gameObject.tag);
             if(_hit.transform.gameObject.tag == "Player"){
                 Debug.DrawLine(transform.position, player.position, Color.green);
                 return true;

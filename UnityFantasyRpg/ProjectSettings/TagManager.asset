@@ -18,6 +18,8 @@ TagManager:
   - MeleeTwo
   - Shield
   - Pickup
+  - Golem
+  - GolemSlam
   layers:
   - Default
   - TransparentFX

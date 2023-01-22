@@ -221,7 +221,12 @@ public class PlayerCharacter : MonoBehaviour
 
             if (other.gameObject.tag == "LightningBolt" && other.gameObject.tag != "Shield"){
                 print("Player was hit by Lightning Bolt!");
-                currentHealth -= 50;
+                currentHealth -= 30;
+            }
+
+            if (other.gameObject.tag == "GolemSlam" ){
+                print("That Looked like it hurt!");
+                currentHealth -= 250;
             }
          }
 
