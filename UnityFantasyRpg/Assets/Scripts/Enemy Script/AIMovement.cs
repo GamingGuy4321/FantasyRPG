@@ -134,7 +134,7 @@ public class AIMovement : MonoBehaviour
         Vector3 directionOfPlayer = player.position - transform.position;
 
         if(Physics.Raycast(transform.position,directionOfPlayer, out _hit, 40f)) {
-            Debug.Log("Hit Raycast " + _hit.transform.gameObject.tag);
+            //Debug.Log("Hit Raycast " + _hit.transform.gameObject.tag);
             if(_hit.transform.gameObject.tag == "Player"){
                 Debug.DrawLine(transform.position, player.position, Color.green);
                 return true;

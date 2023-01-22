@@ -15,7 +15,7 @@ G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56289
+56706
 Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 74.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003873 seconds.
+Registered in 0.003797 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.464 seconds
+- Completed reload, in  0.471 seconds
 Domain Reload Profiling:
-	ReloadAssembly (464ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (334ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (345ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (66ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (213ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (82ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadAttributes (101ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,36 +101,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002976 seconds.
+Registered in 0.002982 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (733ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (197ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (198ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -140,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3622 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (130.7 KB). Loaded Objects now: 4108.
-Memory consumption went from 148.7 MB to 148.6 MB.
-Total: 3.240400 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.152000 ms MarkObjects: 2.705600 ms  DeleteObjects: 0.106100 ms)
+Unloading 3624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (130.7 KB). Loaded Objects now: 4110.
+Memory consumption went from 148.8 MB to 148.7 MB.
+Total: 2.880100 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.384000 ms  DeleteObjects: 0.089300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,162 +161,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002720 seconds.
+Registered in 0.003445 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.725 seconds
 Domain Reload Profiling:
-	ReloadAssembly (730ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (551ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (262ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4123.
-Memory consumption went from 145.0 MB to 145.0 MB.
-Total: 2.960000 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.523700 ms  DeleteObjects: 0.046700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003296 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
-Domain Reload Profiling:
-	ReloadAssembly (725ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (555ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (177ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (258ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4138.
-Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 3.855700 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.176900 ms MarkObjects: 3.361300 ms  DeleteObjects: 0.038800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003250 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
-Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (530ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (247ms)
+			SetupLoadedEditorAssemblies (250ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4153.
-Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 3.007300 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.563800 ms  DeleteObjects: 0.035700 ms)
+Unloading 3602 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4142.
+Memory consumption went from 145.5 MB to 145.4 MB.
+Total: 2.433000 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.101600 ms  DeleteObjects: 0.030400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -332,64 +218,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003329 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
-Domain Reload Profiling:
-	ReloadAssembly (729ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (549ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (259ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4168.
-Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 2.857900 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.453300 ms  DeleteObjects: 0.037500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003171 seconds.
+Registered in 0.002774 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -397,154 +226,40 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  0.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (731ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (552ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (250ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4183.
-Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 2.810200 ms (FindLiveObjects: 0.258700 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.442200 ms  DeleteObjects: 0.035700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003059 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
-Domain Reload Profiling:
-	ReloadAssembly (718ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (546ms)
-			LoadAssemblies (58ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4198.
-Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 3.905500 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.078600 ms MarkObjects: 3.499500 ms  DeleteObjects: 0.036800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003376 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.716 seconds
-Domain Reload Profiling:
-	ReloadAssembly (717ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (534ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (258ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (177ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (168ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4213.
-Memory consumption went from 145.2 MB to 145.1 MB.
-Total: 3.160500 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.153200 ms MarkObjects: 2.670100 ms  DeleteObjects: 0.037700 ms)
+Unloading 3602 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.5 KB). Loaded Objects now: 4157.
+Memory consumption went from 145.6 MB to 145.5 MB.
+Total: 2.566000 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.071600 ms MarkObjects: 2.235600 ms  DeleteObjects: 0.033200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -559,184 +274,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 507657.286553 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Axe_Nature_01.prefab
-  artifactKey: Guid(984357422a249c34e96a5e3550b4420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Axe_Nature_01.prefab using Guid(984357422a249c34e96a5e3550b4420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0631ad686575a3b4f24da842a32642e1') in 0.199088 seconds 
+  Time since last request: 583981.928409 seconds.
+  path: Assets/Images/fog.png
+  artifactKey: Guid(d50da90e8e4d227479f7b2c3082c1eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fog.png using Guid(d50da90e8e4d227479f7b2c3082c1eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f9743038082ff91c6ee48e431214a5') in 0.126713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Banner_03.prefab
-  artifactKey: Guid(88d488d0436b1f2419d0649eb60e0e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Banner_03.prefab using Guid(88d488d0436b1f2419d0649eb60e0e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a0f242baf8d13b46eaecf0c489ddc5') in 0.090693 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/square.png
+  artifactKey: Guid(b2100db87baf3c64894cfb96e02f74af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/square.png using Guid(b2100db87baf3c64894cfb96e02f74af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c4f730390e1de1d251896d1849152f') in 0.019379 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_BrokenSword_01.prefab
-  artifactKey: Guid(4b12cbf8230d02b4890f46dba29baeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_BrokenSword_01.prefab using Guid(4b12cbf8230d02b4890f46dba29baeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c39c5bc78796dc00085bba3d0089994') in 0.095817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000987 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Banner_02.prefab
-  artifactKey: Guid(b5c2c0e653e241e4db3b01145a9263a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Banner_02.prefab using Guid(b5c2c0e653e241e4db3b01145a9263a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b146d12282796a30aa8dd892874e3ad') in 0.070936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Club_01.prefab
-  artifactKey: Guid(cf3a5c2462d00ed4c9ee956b9a48e0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Club_01.prefab using Guid(cf3a5c2462d00ed4c9ee956b9a48e0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f62027da90fe1106055684673c92226') in 0.066053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Machete_01.prefab
-  artifactKey: Guid(34576738923b14941a286d5fc7d3c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Machete_01.prefab using Guid(34576738923b14941a286d5fc7d3c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae2bc2aa0f09097da6a50bb89a6e893') in 0.057479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Shiv_Stone_01.prefab
-  artifactKey: Guid(d6675a7e4e281ed4a8d05189c67a52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Shiv_Stone_01.prefab using Guid(d6675a7e4e281ed4a8d05189c67a52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827f5b8f3cdbbc986ed8440161249237') in 0.022318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Spear_01.prefab
-  artifactKey: Guid(843cd7f8f2fb4d1488ab944cd5e973d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Spear_01.prefab using Guid(843cd7f8f2fb4d1488ab944cd5e973d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cd8353c4763d328e673b2af5fd64af') in 0.033110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Greatsword_Curved_01.prefab
-  artifactKey: Guid(e6138525164fc714a9e749b7608ec9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Greatsword_Curved_01.prefab using Guid(e6138525164fc714a9e749b7608ec9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035bb291bf3d52f6e9232473fa75c281') in 0.044986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Machete_Spikes_01.prefab
-  artifactKey: Guid(3d9fbbf00316ffc4485e2dc40e59aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Machete_Spikes_01.prefab using Guid(3d9fbbf00316ffc4485e2dc40e59aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9696fe4d252418575320254776b69455') in 0.062161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Axe_Rune_01.prefab
-  artifactKey: Guid(333115a38baafb145a712bf764f1284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Axe_Rune_01.prefab using Guid(333115a38baafb145a712bf764f1284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df4af12fbb02e6b58f329e9df0346e2') in 0.065084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Axe_Large_01.prefab
-  artifactKey: Guid(5840d6af3b225554a806309ac5f08f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Axe_Large_01.prefab using Guid(5840d6af3b225554a806309ac5f08f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c603fde29ee0bd83b96866a26cf7a') in 0.054874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Crystal_Axe_Large_01.prefab
-  artifactKey: Guid(82ce4bcb79be5944dbf01c15d37b74b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Crystal_Axe_Large_01.prefab using Guid(82ce4bcb79be5944dbf01c15d37b74b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ccd0caabe864db1d40ec5afe4cd6fa') in 0.046606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Large_Metal_01.prefab
-  artifactKey: Guid(d6869b11ec4023a4b9853c8b8ee24688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Large_Metal_01.prefab using Guid(d6869b11ec4023a4b9853c8b8ee24688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7895b49659b073717344d0d8ecc4af') in 0.029618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Mace_01.prefab
-  artifactKey: Guid(6c4eb298fc2aefa409bcb69e83f42108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Mace_01.prefab using Guid(6c4eb298fc2aefa409bcb69e83f42108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39923b4f8e58958e90081c448dd8afed') in 0.063290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Staff_01.prefab
-  artifactKey: Guid(3e567880dba875d4fbc7834ca7f5b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Goblin_Staff_01.prefab using Guid(3e567880dba875d4fbc7834ca7f5b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a2604ec4e0b8cfd5daf7ad484b0dda') in 0.047452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Halberd_06.prefab
-  artifactKey: Guid(c8941989c1aad7f43b8e7fe9931c6ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Halberd_06.prefab using Guid(c8941989c1aad7f43b8e7fe9931c6ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554a2362436640272e223774ab80a21') in 0.038221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Cutlass_01.prefab
-  artifactKey: Guid(9695911e504498140aa7aeea19670d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Cutlass_01.prefab using Guid(9695911e504498140aa7aeea19670d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8576f9fb4012f4e5ca341f6dad30c36') in 0.025474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Banner_05.prefab
-  artifactKey: Guid(1c757b8a6a985284aa7fd4a80e427dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Banner_05.prefab using Guid(1c757b8a6a985284aa7fd4a80e427dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ee44e0a25bdc7e30655d08ec2fcc7b') in 0.038254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.560075 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Large_Stone_01.prefab
-  artifactKey: Guid(8edd6899813e120498636971e9e50fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Large_Stone_01.prefab using Guid(8edd6899813e120498636971e9e50fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd1e7d2b9749125dd0d8db9c4697bb0') in 0.101547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Mace_Stone_01.prefab
-  artifactKey: Guid(2105d87117cec60459395ab06ab7794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Mace_Stone_01.prefab using Guid(2105d87117cec60459395ab06ab7794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b2e6c1819aad4d56405e4ce2f352f4') in 0.071532 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/sword-array.png
+  artifactKey: Guid(71ef6b7d23edb8c41a39b8b6ba078f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/sword-array.png using Guid(71ef6b7d23edb8c41a39b8b6ba078f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8764a9c78f80363d4ceae59513673c') in 0.017124 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Handle_Metal_01.prefab
-  artifactKey: Guid(9ddd62d62e3c44842b38f8f7fe197350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Handle_Metal_01.prefab using Guid(9ddd62d62e3c44842b38f8f7fe197350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346735772bb7de3eda76e1b85260d828') in 0.033151 seconds 
+  path: Assets/Images/round-potion.png
+  artifactKey: Guid(3d02978d19c3dfb4ab44696077a38cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/round-potion.png using Guid(3d02978d19c3dfb4ab44696077a38cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f6f197f0be48c3e76c74ce3092d51f') in 0.015365 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Mace_Blades_01.prefab
-  artifactKey: Guid(8e0ba5a27e6e44846a80b38bd2d8dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Mace_Blades_01.prefab using Guid(8e0ba5a27e6e44846a80b38bd2d8dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b031e12bdeaa65ac4a853621269c61b') in 0.072939 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/snowflake-1.png
+  artifactKey: Guid(2a1e4d13a678f5d408a9f19e3a92a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/snowflake-1.png using Guid(2a1e4d13a678f5d408a9f19e3a92a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a371127491ffcd12bccbd7c3330fe12') in 0.017212 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Ornate_Spear_01.prefab
-  artifactKey: Guid(a0e8e2ba9cb9e5b498192bf4610b8206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Ornate_Spear_01.prefab using Guid(a0e8e2ba9cb9e5b498192bf4610b8206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f731e1319b22a1cc23a017858f927e') in 0.069770 seconds 
+  path: Assets/Images/ice-spear.png
+  artifactKey: Guid(70640aee9d3c9234787930bd838d48e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ice-spear.png using Guid(70640aee9d3c9234787930bd838d48e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd8b9e7549d2d16d6cf2ea081edd99a') in 0.016613 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Ornate_Spikes_Long_01.prefab
-  artifactKey: Guid(e424689f401e2c3489f80be092782c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Ornate_Spikes_Long_01.prefab using Guid(e424689f401e2c3489f80be092782c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd80e65a01d01f10273ba14b0e14d37') in 0.039833 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/round-potion (1).png
+  artifactKey: Guid(39857c9f6a86cf94b8522c213a28f86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/round-potion (1).png using Guid(39857c9f6a86cf94b8522c213a28f86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d1291910c6f532e53399488a1e815f') in 0.016570 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Small_01.prefab
-  artifactKey: Guid(e5b3aeecd5587dd4c97be8dc299437ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Small_01.prefab using Guid(e5b3aeecd5587dd4c97be8dc299437ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7daa8a36e8d250ca2287684eb35df6c') in 0.040926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Ornate_GreatAxe_01.prefab
-  artifactKey: Guid(28ee7d66c5b18a64b93436da8089e0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Ornate_GreatAxe_01.prefab using Guid(28ee7d66c5b18a64b93436da8089e0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efbdaa2cfe8e67f34bfe11a7b6c3c21') in 0.047688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Mace_Sphere_01.prefab
-  artifactKey: Guid(38784a6cdafced443a1aa774a2ae30eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Hammer_Mace_Sphere_01.prefab using Guid(38784a6cdafced443a1aa774a2ae30eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246382480908ee347282383c4f2a47c1') in 0.040608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.426383 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Shield_Chitin_01.prefab
-  artifactKey: Guid(35230b9677512fb4a80d28a9f766e8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Shield_Chitin_01.prefab using Guid(35230b9677512fb4a80d28a9f766e8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f3616f8bb0a9a949f1922f0aef32c9') in 0.151053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.393025 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Shield_Spike_01.prefab
-  artifactKey: Guid(fe0d37e888ff9374084a7354bdb8ddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons/SM_Wep_Shield_Spike_01.prefab using Guid(fe0d37e888ff9374084a7354bdb8ddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98c7be6484bd1ceb1d0d17204cefe9b') in 0.110627 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/Space-0.jpg
+  artifactKey: Guid(48cac4fce27b08b48b2643911f2f7438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Space-0.jpg using Guid(48cac4fce27b08b48b2643911f2f7438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3c840e8a7f0677b16a2fb81fae2fd9') in 0.065861 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

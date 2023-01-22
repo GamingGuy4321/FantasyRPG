@@ -1,0 +1,322 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 24461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+56706
+Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 75.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004053 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (486ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (68ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3641 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (130.6 KB). Loaded Objects now: 4127.
+Memory consumption went from 149.1 MB to 149.0 MB.
+Total: 3.907600 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.088200 ms MarkObjects: 3.350800 ms  DeleteObjects: 0.125400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 585007.883294 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(transform)/Projectile 17.prefab
+  artifactKey: Guid(9b2879539c049394488bd7a2b3514b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(transform)/Projectile 17.prefab using Guid(9b2879539c049394488bd7a2b3514b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62764eef991c146a5fc8789f6a142b69') in 0.442532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(transform)/Projectile 12.prefab
+  artifactKey: Guid(6b29274ac2e79904986a87aaee461137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Projectiles(transform)/Projectile 12.prefab using Guid(6b29274ac2e79904986a87aaee461137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b821a05f0861fe54bab7de44c496f') in 0.730541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.100450 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab
+  artifactKey: Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab using Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500b43ba5b6e143af80de4ff37801e0') in 0.025264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.794486 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab
+  artifactKey: Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab using Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c251f65d6dcc6720b6bfe97677fc1c53') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.629385 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab
+  artifactKey: Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab using Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b8176fa78103f82216778d3d965bfe') in 0.012511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.901963 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b24447f863bd24145f95b69156e7be') in 0.131348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.219940 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Laser1.mat
+  artifactKey: Guid(37722aff84829324e9a9d5ba87ac13d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Laser1.mat using Guid(37722aff84829324e9a9d5ba87ac13d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feba51fcfe93e936e391022ae618e64a') in 0.020816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Laser6.mat
+  artifactKey: Guid(d2f80ea13476e65469213a0ac0960e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Laser6.mat using Guid(d2f80ea13476e65469213a0ac0960e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838d63de0c3a762b146cbcc44ad31f46') in 0.012569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Laser4.mat
+  artifactKey: Guid(0d3e242c629574a4c995a95736b6e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Laser4.mat using Guid(0d3e242c629574a4c995a95736b6e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d66c4fe35879effece444286d1aa70') in 0.013764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Resources/Materials/Laser3.mat
+  artifactKey: Guid(9989147526a84334c932ae785491cd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Materials/Laser3.mat using Guid(9989147526a84334c932ae785491cd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dc918f5a6f316c52900b5333bd283f') in 0.022061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.255344 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack
+  artifactKey: Guid(bf142a722ea48a944860e19f4f962cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack using Guid(bf142a722ea48a944860e19f4f962cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80929a1dd194fcced048d8cb950ea79f') in 0.008916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.507927 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Demo scene lasers
+  artifactKey: Guid(0679aa7abc8789d46a2cad714d8a3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Demo scene lasers using Guid(0679aa7abc8789d46a2cad714d8a3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3658a5cf84735271a95b7f49e36f2a01') in 0.004125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036434 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Demo scene lasers/LightingData.asset
+  artifactKey: Guid(28acae2636cff6247816d1d8594b01bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Demo scene lasers/LightingData.asset using Guid(28acae2636cff6247816d1d8594b01bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18513cbb9e3cdc074a00a93b82af4bd7') in 0.049422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Demo scene lasers/ReflectionProbe-0.exr
+  artifactKey: Guid(bfac3d98caa04c74f9937e9a413a2104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Demo scene lasers/ReflectionProbe-0.exr using Guid(bfac3d98caa04c74f9937e9a413a2104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee91e1a5f082536be0cad37c79cf9739') in 0.071737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.900389 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab
+  artifactKey: Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 2.prefab using Guid(9d5dbdf2d3c3c6b4eadc51123699d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34016f3e05ba385500b14854b20f03fa') in 0.013486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.031021 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 3.prefab
+  artifactKey: Guid(280b8b1393d77f148a8cbcfc7f36e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 3.prefab using Guid(280b8b1393d77f148a8cbcfc7f36e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342bb172586e557fc563a097c869261a') in 0.025626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.589709 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 4.prefab
+  artifactKey: Guid(6028b5b4fbbf45e45a362de709aa2e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 4.prefab using Guid(6028b5b4fbbf45e45a362de709aa2e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94349aa48d31d802e387e6cefc6fcdc') in 0.031302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.377043 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 5.prefab
+  artifactKey: Guid(5ef207190f0475843a714c18f0be30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 5.prefab using Guid(5ef207190f0475843a714c18f0be30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4335fe2b79a099b9e171794d9361157e') in 0.019295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.369307 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 6.prefab
+  artifactKey: Guid(b67042affc59bdf469a26afcc712c2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 6.prefab using Guid(b67042affc59bdf469a26afcc712c2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1b6f557e4b193116b714d9f656bdc0') in 0.014459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.200828 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 7.prefab
+  artifactKey: Guid(30f45a15e0a47a943912fda204502b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 7.prefab using Guid(30f45a15e0a47a943912fda204502b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494557d8e7df9632253228460aa1937f') in 0.010417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.441135 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 8.prefab
+  artifactKey: Guid(d8823133cab18b84587a4f0365df9cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 8.prefab using Guid(d8823133cab18b84587a4f0365df9cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68c6fc98e55ae74122df83b403bb742') in 0.014834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805197 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 9.prefab
+  artifactKey: Guid(7ebc3741ac6927149872ca7c601b09d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 9.prefab using Guid(7ebc3741ac6927149872ca7c601b09d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0051bbd4aeff114026724c4935356dda') in 0.033062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.169361 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 1.prefab
+  artifactKey: Guid(b478a3c4c8ae3bb42a5785ab95bcf6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 1.prefab using Guid(b478a3c4c8ae3bb42a5785ab95bcf6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7b2bab8397d31488dd9ebaec62d1d2') in 0.018877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.989050 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 10.prefab
+  artifactKey: Guid(e0159d7c05382534e92cb4361d3e94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam 10.prefab using Guid(e0159d7c05382534e92cb4361d3e94d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ef41a0736b400bfd4956806741eb55') in 0.017181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.383923 seconds.
+  path: Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam demo interactions.prefab
+  artifactKey: Guid(096a45d9c5ba8614fb4dba7780ab1b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/3D Lasers Pack/Prefabs/Laser beam demo interactions.prefab using Guid(096a45d9c5ba8614fb4dba7780ab1b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a47ea46b50299ae375b62839c03dc70') in 0.014897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.046725 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs
+  artifactKey: Guid(58c21e79a135d304d868043c4f1b8d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs using Guid(58c21e79a135d304d868043c4f1b8d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ae4424bf99bc65d377a758f471d8a3') in 0.004897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.318638 seconds.
+  path: Assets/Hovl Studio/Resources/Models/QuadToCircle.fbx
+  artifactKey: Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Models/QuadToCircle.fbx using Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7d04b974e4c5608c4973cba69308ae') in 0.026439 seconds 
