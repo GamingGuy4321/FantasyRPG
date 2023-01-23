@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyGolem : MonoBehaviour
 {
+    public Rigidbody rigid;
+
+
     private float nextFireTimeSwipe;
     private float nextFireTimeSlam;
     public float swipeCoolDownTime;
@@ -36,6 +39,7 @@ public class EnemyGolem : MonoBehaviour
         }
 
         if (Time.time > nextFireTimeSlam){
+            rigid.AddForce(0, 20,0);
             animator.SetTrigger("isSlamAttack");
             nextFireTimeSlam = Time.time + slamCoolDownTime;
         }
