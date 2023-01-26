@@ -116,7 +116,7 @@ public class PlayerCharacter : MonoBehaviour
             print("jumped");
         }
 
-        // Left Shift input detected
+        //Left Shift input detected
             if (Input.GetKey(KeyCode.A))
             {
                 m_animator.SetTrigger("isDodgingLeft");

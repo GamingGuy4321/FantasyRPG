@@ -6,7 +6,7 @@ public class AiHitDetection : MonoBehaviour
 {
     public Animator m_animator;
 
-    public int maxHealth = 100;
+    public int maxHealth;
     public int currentHealth;
     private Healthbar healthbar;
     public Transform coinSpawn;

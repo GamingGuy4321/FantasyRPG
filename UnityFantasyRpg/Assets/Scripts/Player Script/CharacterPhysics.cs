@@ -16,6 +16,10 @@ public class CharacterPhysics : MonoBehaviour
 
     Vector3 moveVelocity;
 
+    public float dodgeMove = 0.1f;
+
+    Vector3 dodge;
+
     CharacterController controller;
 
     void Awake()
@@ -68,6 +72,14 @@ public class CharacterPhysics : MonoBehaviour
                 GetComponent<Animator>().SetBool("isRunning", false);
             }
         }
+
+        if (Input.GetKey(KeyCode.A))
+            {
+                controller.Move(new Vector3(-dodgeMove, 0, 0));
+            }
+
+            
+
     }
          
 }

@@ -22,6 +22,11 @@ public class Playerfootsteps : MonoBehaviour
     [SerializeField]
     private AudioClip[] runningstoneClips;
 
+    [SerializeField]
+    private AudioClip[] swordWooshClips;
+
+
+
     private AudioSource audioSource;
     private TerrainDetector terrainDetector;
 
@@ -95,4 +100,14 @@ public class Playerfootsteps : MonoBehaviour
                 return runningstoneClips[UnityEngine.Random.Range(0, runningstoneClips.Length)];
         }
     }
+
+     private void swordWoosh (){
+        AudioClip clip = GetRandomClipSwordWoosh();
+        audioSource.PlayOneShot(clip);
+    }
+
+    private AudioClip GetRandomClipSwordWoosh(){
+        return swordWooshClips[UnityEngine.Random.Range(0, swordWooshClips.Length)];
+    }
+
 }

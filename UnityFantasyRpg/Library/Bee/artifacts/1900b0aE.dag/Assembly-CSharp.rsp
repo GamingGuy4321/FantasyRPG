@@ -375,6 +375,7 @@
 "Assets/Scripts/Enemy Script/AiHitDetection.cs"
 "Assets/Scripts/Enemy Script/AIMovement.cs"
 "Assets/Scripts/Enemy Script/EnemyCoin.cs"
+"Assets/Scripts/Enemy Script/EnemyFootsteps.cs"
 "Assets/Scripts/Enemy Script/EnemyGolem.cs"
 "Assets/Scripts/Enemy Script/EnemyHealthBar.cs"
 "Assets/Scripts/Enemy Script/EnemyMeleeAttack.cs"

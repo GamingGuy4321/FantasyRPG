@@ -11,12 +11,15 @@ public class EnemyGolem : MonoBehaviour
     private float nextFireTimeSlam;
     public float swipeCoolDownTime;
     public float slamCoolDownTime;
+
+    
     public Transform Player;
     public GameObject Golem;
 
     CharacterController controller;
     Animator animator;
 
+    
     // Start is called before the first frame update
     void Start()
     {
