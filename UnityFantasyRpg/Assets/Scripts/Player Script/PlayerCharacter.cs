@@ -45,10 +45,13 @@ public class PlayerCharacter : MonoBehaviour
     public float melee2Timer;
     public Collider shieldCollider;
     public float shieldTimer;
+
+    public CharacterPhysics characterPhysics;
    
  
     void Start(){
         m_animator = GetComponent<Animator>();
+        characterPhysics = GetComponent<CharacterPhysics>();
         swordCollider = swordCollider.GetComponent<BoxCollider>();
         swordCollider2 = swordCollider2.GetComponent<BoxCollider>();
         currentHealth = maxHealth;
@@ -115,12 +118,6 @@ public class PlayerCharacter : MonoBehaviour
             m_animator.SetTrigger("isJumping");
             print("jumped");
         }
-
-        //Left Shift input detected
-            if (Input.GetKey(KeyCode.A))
-            {
-                m_animator.SetTrigger("isDodgingLeft");
-            }
         
         
         if (Input.GetKeyDown(KeyCode.Alpha1)){
@@ -219,7 +216,7 @@ public class PlayerCharacter : MonoBehaviour
 
         void OnTriggerEnter(Collider other) {
 
-            if (other.gameObject.tag == "LightningBolt" && other.gameObject.tag != "Shield"){
+            if (other.gameObject.tag == "LightningBolt" && other.gameObject.tag != "Shield" && (!characterPhysics.isDodgingLeft || !characterPhysics.isDodgingRight)){
                 print("Player was hit by Lightning Bolt!");
                 currentHealth -= 30;
             }

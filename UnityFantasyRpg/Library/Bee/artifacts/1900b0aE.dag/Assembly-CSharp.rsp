@@ -380,6 +380,7 @@
 "Assets/Scripts/Enemy Script/EnemyHealthBar.cs"
 "Assets/Scripts/Enemy Script/EnemyMeleeAttack.cs"
 "Assets/Scripts/Enemy Script/EnemyRangeAttack.cs"
+"Assets/Scripts/Enemy Script/EnemySpawner.cs"
 "Assets/Scripts/Menu/ChangeScenes.cs"
 "Assets/Scripts/Menu/ExitGameScript.cs"
 "Assets/Scripts/Menu/GameManager.cs"

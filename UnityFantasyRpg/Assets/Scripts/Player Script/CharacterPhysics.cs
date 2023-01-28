@@ -16,7 +16,13 @@ public class CharacterPhysics : MonoBehaviour
 
     Vector3 moveVelocity;
 
-    public float dodgeMove = 0.1f;
+    public float dodgeMove = 1f;
+    private float dodgeSpeed = 5f;
+
+    public bool isDodgingLeft;
+    public bool isDodgingRight;
+
+    private float dodgeTimer = 2.0f;
 
     Vector3 dodge;
 
@@ -30,7 +36,8 @@ public class CharacterPhysics : MonoBehaviour
             Debug.LogWarning("CharacterController is null. Please assign this.");
         }
     }
-     void Update () {
+     void Update () 
+     {
         var verticalInput = Input.GetAxis("Vertical");
 
 
@@ -73,13 +80,48 @@ public class CharacterPhysics : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
             {
-                controller.Move(new Vector3(-dodgeMove, 0, 0));
+                GetComponent<Animator>().SetTrigger("isDodgingLeft");
+                
             }
 
-            
+        if (isDodgingLeft){
+            dodgeTimer -= Time.deltaTime;
+
+            if (dodgeTimer<= 0){
+                isDodgingLeft = false;
+                dodgeTimer = 2.0f;
+            }
+
+            controller.Move(new Vector3(-dodgeMove, 0, 0)*Time.deltaTime*dodgeSpeed);
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+            {
+                GetComponent<Animator>().SetTrigger("isDodgingRight");
+            }
+
+        if (isDodgingRight){
+            dodgeTimer -= Time.deltaTime;
+
+            if (dodgeTimer<= 0){
+                isDodgingRight = false;
+                dodgeTimer = 2.0f;
+            }
+
+            controller.Move(new Vector3(dodgeMove, 0, 0)*Time.deltaTime*dodgeSpeed);
+        }
 
     }
+
          
+
+         void DodgeEvent(){
+            isDodgingLeft = true;
+         }
+
+          void DodgeEventRight(){
+            isDodgingRight = true;
+          }
 }
