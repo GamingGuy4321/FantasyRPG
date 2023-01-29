@@ -17,26 +17,35 @@ public class PlayerCharacter : MonoBehaviour
     public GameObject projectilePrefab;
     public GameObject healAura;
     public Transform projectileFirePoint;
+
     public int maxHealth = 100;
     public int currentHealth;
     public Healthbar healthbar;
     public int maxMana = 250;
     public int currentMana;
     public Manabar manabar;
+
+    public GameObject healthPotion;
     public int maxHealthPotion = 99;
     public int currentHealthPotion;
+    public float healthpotioncoolDownTime;
+
+    public GameObject manaPotion;
     public int maxManaPotion = 99;
     public int currentManaPotion;
-    public float healthpotioncoolDownTime;
     public float manapotioncoolDownTime;
+
+    public float maxCoins = 99;
+    public float currentCoins;
+
     public float iceboltcoolDownTime;
     public float iceslamcoolDownTime;
     public float knifehailcoolDownTime;
+
     private float nextFireTime;
     public GameObject sheathedShield;
     public GameObject equipedShield;
-    public GameObject healthPotion;
-    public GameObject manaPotion;
+    
     public double enableTimer;
     private double internalTimer;
     public Collider swordCollider;

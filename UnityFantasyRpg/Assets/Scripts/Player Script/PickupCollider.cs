@@ -24,5 +24,13 @@ public class PickupCollider : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+
+        if (other.gameObject.tag == "Coin" && (Input.GetKey(KeyCode.E))){
+            {
+                player.currentCoins += 1;
+                Debug.Log("Picked up coin");
+                Destroy(other.gameObject);
+            }
+        }
     }
 }

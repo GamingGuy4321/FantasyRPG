@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Abilities : MonoBehaviour
 {
@@ -36,6 +37,10 @@ public class Abilities : MonoBehaviour
     bool isCooldown5 = false;
     public KeyCode ability5;
 
+    [Header("Coin")]
+    public PlayerCharacter playerCharacter;
+    public TMP_Text coinText;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +50,7 @@ public class Abilities : MonoBehaviour
        abilityImage3.fillAmount = 0; 
        abilityImage4.fillAmount = 0; 
        abilityImage5.fillAmount = 0; 
+       playerCharacter = GetComponent<PlayerCharacter>();
     }
 
     // Update is called once per frame
@@ -55,6 +61,7 @@ public class Abilities : MonoBehaviour
         Ability3();
         Ability4();
         Ability5();
+        Countcount();
     }
 
     void Ability1()
@@ -160,5 +167,10 @@ public class Abilities : MonoBehaviour
                 isCooldown5 = false;
             }
         }
+    }
+
+    void Countcount(){
+
+        coinText.SetText((playerCharacter.currentCoins).ToString());
     }
 }
