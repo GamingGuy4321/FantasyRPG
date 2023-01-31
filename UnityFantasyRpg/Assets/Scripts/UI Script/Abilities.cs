@@ -171,6 +171,6 @@ public class Abilities : MonoBehaviour
 
     void Countcount(){
 
-        coinText.SetText((playerCharacter.currentCoins).ToString());
+        //coinText.SetText((playerCharacter.currentCoins).ToString());
     }
 }

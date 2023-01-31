@@ -21,6 +21,8 @@ TagManager:
   - Golem
   - GolemSlam
   - Coin
+  - GolemSlash
+  - TormentedDoor
   layers:
   - Default
   - TransparentFX

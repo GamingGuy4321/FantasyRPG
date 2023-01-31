@@ -7,6 +7,8 @@ public class PickupCollider : MonoBehaviour
 
    public PlayerCharacter player; 
 
+   public Animator Door;
+
    void OnTriggerStay(Collider other){
             
         if (other.gameObject.tag == "HealthPotion" && (Input.GetKey(KeyCode.E))){
@@ -32,5 +34,16 @@ public class PickupCollider : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+
+        if (other.gameObject.tag == "TormentedDoor" && (Input.GetKey(KeyCode.E))){
+            {
+                if (player.currentCoins >= 1){
+                    Door.SetTrigger("DoorOpen");
+                }
+               
+            }
+        }
     }
+
+    
 }
