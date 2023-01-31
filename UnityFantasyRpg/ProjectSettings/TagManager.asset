@@ -23,6 +23,7 @@ TagManager:
   - Coin
   - GolemSlash
   - TormentedDoor
+  - LightningStrike
   layers:
   - Default
   - TransparentFX

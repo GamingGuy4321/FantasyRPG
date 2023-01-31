@@ -225,14 +225,28 @@ public class PlayerCharacter : MonoBehaviour
 
         void OnTriggerEnter(Collider other) {
 
-            if (other.gameObject.tag == "LightningBolt" && other.gameObject.tag != "Shield" && (!characterPhysics.isDodgingLeft || !characterPhysics.isDodgingRight)){
+            if (other.gameObject.tag == "LightningBolt" && (!characterPhysics.isDodgingLeft && !characterPhysics.isDodgingRight)){
                 print("Player was hit by Lightning Bolt!");
                 currentHealth -= 30;
             }
 
-            if (other.gameObject.tag == "GolemSlam" ){
+            if (other.gameObject.tag == "LightningStrike"){
+                print("Player was hit by Lightning Bolt!");
+                currentHealth -= 30;
+            }
+
+
+            if (other.gameObject.tag == "GolemSlash" ){
                 print("That Looked like it hurt!");
                 currentHealth -= 250;
+            }
+         }
+
+         void OnTriggerStay(Collider other) {
+            
+            if (other.gameObject.tag == "LightningStrike"){
+                print("Player was hit by Lightning Bolt!");
+                currentHealth --;
             }
          }
 

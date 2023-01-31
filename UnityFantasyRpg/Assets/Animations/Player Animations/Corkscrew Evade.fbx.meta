@@ -64,8 +64,8 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.26933333
-        functionName: DodgeEventRight
+      - time: 0.08
+        functionName: DodgeEvent
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

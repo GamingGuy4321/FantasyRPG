@@ -50,7 +50,7 @@ public class Abilities : MonoBehaviour
        abilityImage3.fillAmount = 0; 
        abilityImage4.fillAmount = 0; 
        abilityImage5.fillAmount = 0; 
-       playerCharacter = GetComponent<PlayerCharacter>();
+       playerCharacter = (PlayerCharacter)FindObjectOfType(typeof(PlayerCharacter));
     }
 
     // Update is called once per frame
@@ -61,7 +61,7 @@ public class Abilities : MonoBehaviour
         Ability3();
         Ability4();
         Ability5();
-        Countcount();
+        Coincount();
     }
 
     void Ability1()
@@ -169,8 +169,8 @@ public class Abilities : MonoBehaviour
         }
     }
 
-    void Countcount(){
+    void Coincount(){
 
-        //coinText.SetText((playerCharacter.currentCoins).ToString());
+        coinText.text = (playerCharacter.currentCoins.ToString());
     }
 }

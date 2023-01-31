@@ -132,7 +132,7 @@ public class AIMovement : MonoBehaviour
     bool isLineOfSight(){
         RaycastHit[] _hit;
         Vector3 directionOfPlayer = player.position - transform.position;
-        _hit = Physics.RaycastAll(transform.position,directionOfPlayer, 1000f);
+        _hit = Physics.RaycastAll(transform.position,directionOfPlayer, 10f);
 
         foreach(RaycastHit hit in _hit){
             if(hit.transform.gameObject.tag == "Player"){

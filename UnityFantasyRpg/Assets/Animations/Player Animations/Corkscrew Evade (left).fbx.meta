@@ -57,7 +57,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.26329786
+      - time: 0.08
         functionName: DodgeEvent
         data: 
         objectReferenceParameter: {instanceID: 0}

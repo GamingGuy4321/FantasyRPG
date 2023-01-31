@@ -5,19 +5,23 @@ using UnityEngine;
 public class EnemyGolem : MonoBehaviour
 {
     public Rigidbody rigid;
-
-
-    private float nextFireTimeSwipe;
-    private float nextFireTimeSlam;
-    public float swipeCoolDownTime;
-    public float slamCoolDownTime;
-
-    
     public Transform Player;
     public GameObject Golem;
 
     CharacterController controller;
     Animator animator;
+
+   
+    private float nextFireTimeSlam;
+    public float slamCoolDownTime;
+    public GameObject slamEnd;
+    public float slamTimer;
+
+    private float nextFireTimeSwipe;
+    public float swipeCoolDownTime;
+    public Collider swipeCollider;
+    public float swipeTimer;
+
 
     
     // Start is called before the first frame update
@@ -31,6 +35,11 @@ public class EnemyGolem : MonoBehaviour
     void Update()
     {
         MeleeAttack();
+
+        if (swipeTimer <= 0){
+                swipeCollider.enabled = false; 
+                swipeTimer = 0.6f;
+        }
     }
 
     void MeleeAttack(){
@@ -47,4 +56,9 @@ public class EnemyGolem : MonoBehaviour
             nextFireTimeSlam = Time.time + slamCoolDownTime;
         }
     }
+
+    void Swipe(){
+            swipeCollider.enabled = true; 
+            swipeTimer = 2.0f;
+         }
 }
