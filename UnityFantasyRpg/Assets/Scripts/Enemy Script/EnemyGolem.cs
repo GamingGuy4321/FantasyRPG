@@ -21,44 +21,53 @@ public class EnemyGolem : MonoBehaviour
     public float swipeCoolDownTime;
     public Collider swipeCollider;
     public float swipeTimer;
+    public bool isSwiping;
 
-
-    
     // Start is called before the first frame update
     void Start()
     {
         controller = Player.gameObject.GetComponent<CharacterController>();
         animator = Golem.gameObject.GetComponent<Animator>();
+        swipeCollider.enabled = false; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        MeleeAttack();
-
-        if (swipeTimer <= 0){
-                swipeCollider.enabled = false; 
-                swipeTimer = 0.6f;
+        if(swipeCollider.enabled){
+            swipeTimer -= Time.deltaTime;
+            if (swipeTimer <= 0){
+            swipeCollider.enabled = false; 
+            swipeTimer = 1.0f;
+            isSwiping = false;
+           }
         }
+
+        MeleeAttack();
     }
 
     void MeleeAttack(){
         int rand = Random.Range(1, 3);
 
-        if (rand == 1 && (Time.time > nextFireTimeSwipe)){
+        if ((rand == 1) && (Time.time > nextFireTimeSwipe)){
             animator.SetTrigger("isSwipeAttack");
+            if(isSwiping){
+                swipeCollider.enabled = true; 
+            }
             nextFireTimeSwipe = Time.time + swipeCoolDownTime;
         }
 
-        if (Time.time > nextFireTimeSlam){
-            rigid.AddForce(0, 20,0);
+        if ((rand == 2) && (Time.time > nextFireTimeSlam)){
             animator.SetTrigger("isSlamAttack");
             nextFireTimeSlam = Time.time + slamCoolDownTime;
         }
     }
 
-    void Swipe(){
-            swipeCollider.enabled = true; 
-            swipeTimer = 2.0f;
-         }
+    void SwipeEvent(){
+
+    }
+
+    void SlamLand(){
+
+    }
 }

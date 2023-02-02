@@ -8,6 +8,9 @@ public class PickupCollider : MonoBehaviour
    public PlayerCharacter player; 
 
    public Animator Door;
+   public Animator Door2;
+   public Animator Door3;
+   public Animator Door4;
 
    void OnTriggerStay(Collider other){
             
@@ -38,7 +41,37 @@ public class PickupCollider : MonoBehaviour
         if (other.gameObject.tag == "TormentedDoor" && (Input.GetKey(KeyCode.E))){
             {
                 if (player.currentCoins >= 1){
+                    Debug.Log("Released Tormented Soul");
                     Door.SetTrigger("DoorOpen");
+                }
+               
+            }
+        }
+
+        if (other.gameObject.tag == "GoblinWarchiefDoor" && (Input.GetKey(KeyCode.E))){
+            {
+                if (player.currentCoins >= 10){
+                    Debug.Log("Released Warchief");
+                    Door2.SetTrigger("Door2Open");
+                }
+               
+            }
+        }
+
+        if (other.gameObject.tag == "GolemDoorLeft" && (Input.GetKey(KeyCode.E))){
+            {
+                if (player.currentCoins >= 20){
+                    Door3.SetTrigger("Door3Open");
+                }
+               
+            }
+        }
+
+        if (other.gameObject.tag == "GolemDoorRight" && (Input.GetKey(KeyCode.E))){
+            {
+                if (player.currentCoins >= 40){
+                    Debug.Log("Released Golem");
+                    Door4.SetTrigger("Door4Open");
                 }
                
             }

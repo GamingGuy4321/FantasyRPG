@@ -202,7 +202,7 @@ MonoBehaviour:
   projectileFirePoint: {fileID: 1139926018}
   singleTargetCoolDownTime: 2.5
   AOEcoolDownTime: 8
-  Player: {fileID: 112697689727029464, guid: 9f0af94b84c8caf47b0c45768b84dd5f, type: 3}
+  Player: {fileID: 5721301038746296766, guid: 517d3be42195ed849b1bf7443f85683b, type: 3}
   rangeEnemy: {fileID: 1423417334750076}
 --- !u!1 &1139926017
 GameObject:

@@ -235,6 +235,23 @@ public class PlayerCharacter : MonoBehaviour
                 currentHealth -= 30;
             }
 
+            if (other.gameObject.tag == "GoblinLeftLight"){
+                print("Goblin shivs ya from the left!");
+                currentHealth -= 30;
+            }
+
+            if (other.gameObject.tag == "GoblinLeftRight"){
+                print("Goblin shivs ya from the right!");
+                currentHealth -= 30;
+            }
+
+            if (other.gameObject.tag == "GoblinHeavy"){
+                print("Goblin shivs ya but worse!");
+                currentHealth -= 50;
+            }
+
+
+
 
             if (other.gameObject.tag == "GolemSlash" ){
                 print("That Looked like it hurt!");

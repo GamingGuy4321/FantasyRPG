@@ -32,7 +32,6 @@ public class EnemyMeleeAttack : MonoBehaviour
 
         if (rand == 1 && (Time.time > nextFireTimeLightAttack)){
             animator.SetTrigger("isLightAttack");
-            animator.SetTrigger("isLightAttack2");
             nextFireTimeLightAttack = Time.time + lightAttackCoolDownTime;
         }
 

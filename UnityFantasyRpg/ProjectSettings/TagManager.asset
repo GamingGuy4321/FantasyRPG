@@ -24,6 +24,15 @@ TagManager:
   - GolemSlash
   - TormentedDoor
   - LightningStrike
+  - GoblinHeavy
+  - GoblinLeftLight
+  - GoblinRightLight
+  - Goblin
+  - SkeletonLight
+  - SkeletonHeavy
+  - GoblinWarchiefDoor
+  - GolemDoorLeft
+  - GolemDoorRight
   layers:
   - Default
   - TransparentFX

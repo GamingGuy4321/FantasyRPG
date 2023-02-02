@@ -1998,7 +1998,7 @@ MonoBehaviour:
   m_animator: {fileID: 2104501267919988948}
   maxHealth: 300
   currentHealth: 0
-  coinSpawn: {fileID: 0}
+  coinSpawn: {fileID: 2104501266982385730}
   coinPrefab: {fileID: 140112, guid: 20b7b23b86efa8e46a703fab1a8a1058, type: 3}
 --- !u!1 &2104501267910557378
 GameObject:

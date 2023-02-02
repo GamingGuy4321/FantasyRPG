@@ -115,13 +115,11 @@ public class CharacterPhysics : MonoBehaviour
 
     }
 
-         
+    void DodgeEvent(){
+        isDodgingLeft = true;
+    }
 
-         void DodgeEvent(){
-            isDodgingLeft = true;
-         }
-
-          void DodgeEventRight(){
-            isDodgingRight = true;
-          }
+    void DodgeEventRight(){
+        isDodgingRight = true;
+    }
 }
