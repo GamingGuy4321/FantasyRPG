@@ -388,6 +388,7 @@
 "Assets/Scripts/Menu/GameManager.cs"
 "Assets/Scripts/Menu/LoseMenu.cs"
 "Assets/Scripts/Menu/MenuScript.cs"
+"Assets/Scripts/Menu/PauseMenu.cs"
 "Assets/Scripts/Menu/SettingsManager.cs"
 "Assets/Scripts/Player Script/CharacterPhysics.cs"
 "Assets/Scripts/Player Script/MoveCamera.cs"

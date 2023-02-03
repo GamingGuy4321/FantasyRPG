@@ -6,7 +6,7 @@ using TMPro;
 
 public class PlayerCharacter : MonoBehaviour
 {
-
+    public GameManager m_gameManager;
     public Animator m_animator;
     private bool isMouseLeftDown = false;
     
@@ -72,6 +72,17 @@ public class PlayerCharacter : MonoBehaviour
 
     public void Update()
     {
+        if (!m_gameManager.m_isPaused) {
+            // Look for the Esc keypress and pause the game if Esc is pressed.
+            if(Input.GetKeyDown(KeyCode.Escape)) {
+                m_gameManager.PauseGame();
+            }
+         }else {
+            // If the game is paused and the Esc key is pressed, unpause the game.
+            if(Input.GetKeyDown(KeyCode.Escape)) {
+                m_gameManager.UnpauseGame();
+            }
+        }
 
         if (GetComponent<CharacterPhysics>().m_isMoving)
         {

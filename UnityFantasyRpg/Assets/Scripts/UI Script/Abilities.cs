@@ -12,12 +12,16 @@ public class Abilities : MonoBehaviour
     bool isCooldown = false;
     public KeyCode ability1;
     public PlayerCharacter player;
+    public TMP_Text healthPotionText;
+    
 
     [Header("Ability 2")]
     public Image abilityImage2;
     public float cooldown2 = 5;
     bool isCooldown2 = false;
     public KeyCode ability2;
+    public TMP_Text ManaPotionText;
+
 
     [Header("Ability 3")]
     public Image abilityImage3;
@@ -25,11 +29,13 @@ public class Abilities : MonoBehaviour
     bool isCooldown3 = false;
     public KeyCode ability3;
 
+
     [Header("Ability 4")]
     public Image abilityImage4;
     public float cooldown4 = 5;
     bool isCooldown4 = false;
     public KeyCode ability4;
+
 
     [Header("Ability 5")]
     public Image abilityImage5;
@@ -37,9 +43,11 @@ public class Abilities : MonoBehaviour
     bool isCooldown5 = false;
     public KeyCode ability5;
 
+
     [Header("Coin")]
     public PlayerCharacter playerCharacter;
     public TMP_Text coinText;
+
 
 
     // Start is called before the first frame update
@@ -83,6 +91,8 @@ public class Abilities : MonoBehaviour
                 isCooldown = false;
             }
         }
+
+        healthPotionText.text = (playerCharacter.currentHealthPotion.ToString());
     }
 
     void Ability2()
@@ -104,6 +114,8 @@ public class Abilities : MonoBehaviour
                 isCooldown2 = false;
             }
         }
+
+        ManaPotionText.text = (playerCharacter.currentManaPotion.ToString());
     }
 
     void Ability3()
