@@ -17,7 +17,7 @@ public class CharacterPhysics : MonoBehaviour
     Vector3 moveVelocity;
 
     public float dodgeMove = 1f;
-    private float dodgeSpeed = 5f;
+    private float dodgeSpeed = 10f;
 
     public bool isDodgingLeft;
     public bool isDodgingRight;
@@ -94,7 +94,9 @@ public class CharacterPhysics : MonoBehaviour
                 dodgeTimer = 2.0f;
             }
 
-            controller.Move(new Vector3(-dodgeMove, 0, 0)*Time.deltaTime*dodgeSpeed);
+            Vector3 dodgeDirection = transform.TransformDirection(Vector3.left);
+
+            controller.Move(dodgeDirection * Time.deltaTime*dodgeSpeed);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
@@ -110,7 +112,9 @@ public class CharacterPhysics : MonoBehaviour
                 dodgeTimer = 2.0f;
             }
 
-            controller.Move(new Vector3(dodgeMove, 0, 0)*Time.deltaTime*dodgeSpeed);
+            Vector3 dodgeDirection = transform.TransformDirection(Vector3.right);
+
+            controller.Move(dodgeDirection * Time.deltaTime*dodgeSpeed);
         }
 
     }

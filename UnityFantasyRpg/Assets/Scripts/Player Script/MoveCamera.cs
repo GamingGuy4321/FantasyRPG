@@ -11,30 +11,39 @@ public class MoveCamera : MonoBehaviour
     public float value;
     public bool turnY = true;
     public bool turnX = true;
+
+    public GameManager gameManager;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
     void Update()
     {
-        turn.x += Input.GetAxis("Mouse X") * sensitivity;
-        turn.y += Input.GetAxis("Mouse Y") * sensitivity;
-        if (turnX && turnY)
+        if(gameManager.m_isPaused == false)
         {
-            transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 0);
-        } else if (turnX && !turnY)
-        {
-            transform.localRotation = Quaternion.Euler(0, turn.x, 0);
-        } else if (!turnX && turnY)
-        {
-            transform.localRotation = Quaternion.Euler(-turn.y, 0, 0);
+            Cursor.lockState = CursorLockMode.Locked;
+            
+            turn.x += Input.GetAxis("Mouse X") * sensitivity;
+            turn.y += Input.GetAxis("Mouse Y") * sensitivity;
+
+        
+            if (turnX && turnY)
+            {
+                transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 0);
+            } else if (turnX && !turnY)
+            {
+                transform.localRotation = Quaternion.Euler(0, turn.x, 0);
+            } else if (!turnX && turnY)
+            {
+                transform.localRotation = Quaternion.Euler(-turn.y, 0, 0);
+            }
+            else if (!turnX && !turnY)
+            {
+                transform.localRotation = Quaternion.Euler(0, 0, 0);
+            }
         }
-        else if (!turnX && !turnY)
-        {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-        }
-        //deltaMove = new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0,Input.GetAxisRaw("Vertical")*speed * Time.deltaTime);
-        //transform.Translate(deltaMove);
     }
 }
 

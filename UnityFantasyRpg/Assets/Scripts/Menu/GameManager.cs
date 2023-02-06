@@ -22,15 +22,24 @@ public class GameManager : MonoBehaviour
     }
 
     void Start(){
+        Time.timeScale = 1;
+        m_pauseMenu = GameObject.Find("PauseMenuCanvas");
+        m_LoseMenu = GameObject.Find("LoseCanvas");
+        m_WinMenu = GameObject.Find("WinCanvas");
         m_pauseMenu.SetActive(false);
+        m_LoseMenu.SetActive(false);
+        m_WinMenu.SetActive(false);
     }
+
+
+
     void SetInstance(){
         if (Instance == null) {
             Instance = this;
         } else if (Instance != this) {
             Destroy(gameObject);
         }
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     // Function to pause the game and activate the PauseMenu object
@@ -43,6 +52,8 @@ public class GameManager : MonoBehaviour
             m_isPaused = true;
             // Turn on the PauseMenu gameobject
             m_pauseMenu.SetActive(true);
+
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
@@ -56,6 +67,7 @@ public class GameManager : MonoBehaviour
             m_isPaused = false;
             // Turn off the PauseMenu gameobject
             m_pauseMenu.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 

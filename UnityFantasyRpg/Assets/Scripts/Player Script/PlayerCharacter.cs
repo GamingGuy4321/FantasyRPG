@@ -227,6 +227,10 @@ public class PlayerCharacter : MonoBehaviour
             }
         }
 
+        if(currentHealth <= 0){
+            m_gameManager.LoseGame();
+        }
+
     }
 
         void takeMana(int spellUse){
