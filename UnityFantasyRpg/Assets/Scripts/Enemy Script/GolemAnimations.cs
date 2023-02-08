@@ -24,6 +24,10 @@ public class GolemAnimations : MonoBehaviour
     }
 
     void SlamLand(){
+        enemyGolem.isSlaming = true;
+    }
 
+    void Jump(){
+        enemyGolem.isJumping = true;
     }
 }

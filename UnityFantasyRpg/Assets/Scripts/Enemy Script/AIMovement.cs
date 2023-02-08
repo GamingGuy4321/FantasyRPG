@@ -61,7 +61,7 @@ public class AIMovement : MonoBehaviour
 
             if (dist <= 12 && this.gameObject.tag == "RangeEnemy"){
                 AttackScript.SetActive(true);
-            } else if ((dist <= 3 && this.gameObject.tag == "MeleeEnemy")||(dist <= 3 && this.gameObject.tag == "Goblin") || (dist <= 3 && this.gameObject.tag == "Golem")){
+            } else if ((dist <= 3 && this.gameObject.tag == "MeleeEnemy")||(dist <= 3 && this.gameObject.tag == "Goblin") || (dist <= 5 && this.gameObject.tag == "Golem")){
                 AttackScript.SetActive(true);
             }
             else

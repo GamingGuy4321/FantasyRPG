@@ -6,7 +6,7 @@ public class AiHitDetection : MonoBehaviour
 {
     public Animator m_animator;
 
-    public int maxHealth;
+    public int maxHealth = 100;
     public int currentHealth;
     private Healthbar healthbar;
     public Transform coinSpawn;
@@ -53,7 +53,9 @@ public class AiHitDetection : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthbar.SetMaxHealth(maxHealth);
+        if(healthbar != null){
+            healthbar.SetMaxHealth(maxHealth);
+        }
         m_animator = GetComponent<Animator>();
     }
 

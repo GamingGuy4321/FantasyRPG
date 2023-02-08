@@ -15315,12 +15315,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2052998372}
     - target: {fileID: 5721301039212086724, guid: 517d3be42195ed849b1bf7443f85683b, type: 3}
+      propertyPath: maxHealth
+      value: 650
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721301039212086724, guid: 517d3be42195ed849b1bf7443f85683b, type: 3}
       propertyPath: currentCoins
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5721301039212086724, guid: 517d3be42195ed849b1bf7443f85683b, type: 3}
       propertyPath: currentHealth
-      value: 400
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 5721301039212086724, guid: 517d3be42195ed849b1bf7443f85683b, type: 3}
       propertyPath: m_gameManager
@@ -16259,6 +16263,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8490310003966880276, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: knockbackStrength
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8490310004122088051, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -16276,12 +16284,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1145079838}
     - target: {fileID: 8490310004208148445, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: navMesh
+      value: 
+      objectReference: {fileID: 1892344432}
+    - target: {fileID: 8490310004208148445, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: slamEnd
       value: 
       objectReference: {fileID: 504526006}
     - target: {fileID: 8490310004208148445, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: jumpSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490310004208148445, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: jumpTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490310004208148445, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: swipeTimer
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8490310004208148445, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: slamCollider
@@ -16347,6 +16367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8490310004763537718, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8490310004763856886, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: m_Name
       value: Character_Rock_Golem
@@ -16354,6 +16378,22 @@ PrefabInstance:
     - target: {fileID: 8490310004763871254, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: m_TagString
       value: GolemSlash
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490310005286426195, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: m_Drag
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490310005286426195, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490310005286426195, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: m_AngularDrag
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490310005286426195, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8490746701739621652, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
       propertyPath: m_IsActive
@@ -21039,7 +21079,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 50, y: 50, z: 25}
+  m_Size: {x: 50, y: 20, z: 25}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1757470222
 Rigidbody:
@@ -22468,6 +22508,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyGolem: {fileID: 1017231081}
+--- !u!195 &1892344432 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 8490310005286426199, guid: 4f1cf08998c7b7e47a90748dd33272c4, type: 3}
+  m_PrefabInstance: {fileID: 1312049093}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1895241059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24288,9 +24333,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 650
   m_WholeNumbers: 1
-  m_Value: 100
+  m_Value: 650
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

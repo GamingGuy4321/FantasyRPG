@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyGolem : MonoBehaviour
 {
     public Rigidbody rigid;
+    public NavMeshAgent navMesh;
+
     public Transform Player;
     public GameObject Golem;
 
@@ -23,6 +26,16 @@ public class EnemyGolem : MonoBehaviour
     public float swipeTimer;
     public bool isSwiping;
 
+    public bool isSlaming;
+    public bool isJumping;
+    public bool hasSavePosition = false;
+
+    public float jumpSpeed = 15;
+
+    public float jumpTimer;
+    public float slamEndTimer;
+    Vector3 tempPosition;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,12 +46,19 @@ public class EnemyGolem : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   if(isSwiping){
+            swipeCollider.enabled = true; 
+        }
+
+        if(isSlaming){
+            slamEnd.SetActive(true);
+        }
+
         if(swipeCollider.enabled){
             swipeTimer -= Time.deltaTime;
             if (swipeTimer <= 0){
             swipeCollider.enabled = false; 
-            swipeTimer = 1.0f;
+            swipeTimer = 1.5f;
             isSwiping = false;
            }
         }
@@ -46,16 +66,41 @@ public class EnemyGolem : MonoBehaviour
         MeleeAttack();
     }
 
+    void FixedUpdate() {
+        if(isJumping){
+            if(hasSavePosition == false){
+                tempPosition = transform.position;
+                hasSavePosition = true;
+            }
+            
+            navMesh.enabled = false;
+            jumpTimer -= Time.deltaTime;
+
+            if(jumpTimer <=0){
+                isJumping = false;
+                jumpTimer = 1.0f;
+                if (!navMesh.isOnNavMesh){
+                    Vector3 warpPosition = tempPosition; //Set to position you want to warp to
+                    navMesh.transform.position = warpPosition;
+                    navMesh.enabled = false;
+                    navMesh.enabled = true;
+                }else{
+                    navMesh.enabled = true;
+                }
+            }
+            Debug.Log("Jumping");
+            rigid.AddForce(0, jumpSpeed,0,ForceMode.Impulse);
+        }
+
+    }
+
     void MeleeAttack(){
         int rand = Random.Range(1, 3);
 
-        if ((rand == 1) && (Time.time > nextFireTimeSwipe)){
-            animator.SetTrigger("isSwipeAttack");
-            if(isSwiping){
-                swipeCollider.enabled = true; 
-            }
-            nextFireTimeSwipe = Time.time + swipeCoolDownTime;
-        }
+        // if ((rand == 1) && (Time.time > nextFireTimeSwipe)){
+        //     animator.SetTrigger("isSwipeAttack");
+        //     nextFireTimeSwipe = Time.time + swipeCoolDownTime;
+        // }
 
         if ((rand == 2) && (Time.time > nextFireTimeSlam)){
             animator.SetTrigger("isSlamAttack");
@@ -69,5 +114,9 @@ public class EnemyGolem : MonoBehaviour
 
     void SlamLand(){
 
+    }
+
+    void Jump(){
+        isJumping = true;
     }
 }
