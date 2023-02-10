@@ -4604,7 +4604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &407947211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5852,7 +5852,7 @@ Transform:
   - {fileID: 771950026}
   - {fileID: 954387551}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &498971837 stripped
 Transform:
@@ -7129,7 +7129,7 @@ RectTransform:
   - {fileID: 666223107}
   - {fileID: 1210458270}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -13987,7 +13987,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1210458269
 GameObject:
@@ -15869,7 +15869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3919221101465944722, guid: c6a83b9272ad24b47a09c8e040837b41, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3919221101465944722, guid: c6a83b9272ad24b47a09c8e040837b41, type: 3}
       propertyPath: m_AnchorMax.x
@@ -18195,7 +18195,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472074464
 GameObject:
@@ -23290,7 +23290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1966173641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25571,7 +25571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 881272160800098539, guid: 3bff0849d296f1e41b1f12204a65a7df, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 881272160800098539, guid: 3bff0849d296f1e41b1f12204a65a7df, type: 3}
       propertyPath: m_LocalPosition.x

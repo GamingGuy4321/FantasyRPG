@@ -329,8 +329,6 @@
 -r:"G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/sc.vegetationspawner.editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/sc.vegetationspawner.runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -437,6 +435,14 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/VegetationSpawner/Runtime/Cell.cs"
+"Assets/VegetationSpawner/Runtime/PoissonDisc.cs"
+"Assets/VegetationSpawner/Runtime/SpawnerBase.cs"
+"Assets/VegetationSpawner/Runtime/TerrainSampler.cs"
+"Assets/VegetationSpawner/Runtime/VegetationSpawner.Collision.cs"
+"Assets/VegetationSpawner/Runtime/VegetationSpawner.cs"
+"Assets/VegetationSpawner/Runtime/VegetationSpawner.Grass.cs"
+"Assets/VegetationSpawner/Runtime/VegetationSpawner.Trees.cs"
 -langversion:9.0
 
 /deterministic
