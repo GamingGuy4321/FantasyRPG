@@ -109,6 +109,7 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.4
+    - 2.9.5
     - 3.0.0-pre.3
     compatible:
     - 2.8.9
@@ -117,6 +118,7 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.4
+    - 2.9.5
     verified: 2.8.9
   dependencies:
   - name: com.unity.test-framework
@@ -3125,7 +3127,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -3148,8 +3150,10 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.0
     - 1.1.1
+    - 1.2.2
     compatible:
     - 1.1.1
+    - 1.2.2
     verified: 1.1.1
   dependencies: []
   resolvedDependencies: []
@@ -3162,7 +3166,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637705021060000000
   documentationUrl: 
@@ -3325,9 +3329,11 @@ m_ResolvedPackages:
     - 1.5.2
     - 1.6.0
     - 1.7.0
+    - 1.7.1
     compatible:
     - 1.6.0
     - 1.7.0
+    - 1.7.1
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest

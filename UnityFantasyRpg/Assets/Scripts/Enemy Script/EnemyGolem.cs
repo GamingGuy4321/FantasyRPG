@@ -117,6 +117,5 @@ public class EnemyGolem : MonoBehaviour
     }
 
     void Jump(){
-        isJumping = true;
     }
 }

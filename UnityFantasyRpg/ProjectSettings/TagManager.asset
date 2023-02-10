@@ -33,6 +33,8 @@ TagManager:
   - GoblinWarchiefDoor
   - GolemDoorLeft
   - GolemDoorRight
+  - TormentedLaser
+  - ShamanLaser
   layers:
   - Default
   - TransparentFX

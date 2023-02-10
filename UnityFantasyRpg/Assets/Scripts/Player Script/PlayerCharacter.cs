@@ -102,7 +102,7 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         if (Input.GetMouseButtonDown(0)){
-            Debug.Log("MousebuttonDown");
+            //Debug.Log("MousebuttonDown");
             if(!isMouseLeftDown ){
                 timer=Time.time;
                 isMouseLeftDown = true;
@@ -110,23 +110,23 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         if (Input.GetMouseButtonUp(0)){
-            Debug.Log("MousebuttonUp");
+            //Debug.Log("MousebuttonUp");
             isMouseLeftDown = false;
             if(Time.time - timer < 0.25){
                 swordCollider.enabled = true;
                 melee1Timer = 0.5f;
-                Debug.Log("LightAttack.");
+                //Debug.Log("LightAttack.");
                 m_animator.SetTrigger("isLightAttack");
             }else if(Time.time - timer > 0.5){
                 swordCollider2.enabled = true;
                 melee2Timer = 2.5f;
-                Debug.Log("HeavyAttack.");
+                //Debug.Log("HeavyAttack.");
                 m_animator.SetTrigger("isHeavyAttack");   
             }
         }
 
         if (Input.GetMouseButtonDown(1)){
-            Debug.Log("Blocked");
+            //Debug.Log("Blocked");
             m_animator.SetBool("isBlocking", true);
             shieldCollider.enabled = true;  
             shieldTimer = 5.0f;
@@ -255,7 +255,7 @@ public class PlayerCharacter : MonoBehaviour
                 currentHealth -= 30;
             }
 
-            if (other.gameObject.tag == "GoblinLeftRight"){
+            if (other.gameObject.tag == "GoblinRightLight"){
                 print("Goblin shivs ya from the right!");
                 currentHealth -= 30;
             }
@@ -265,19 +265,31 @@ public class PlayerCharacter : MonoBehaviour
                 currentHealth -= 50;
             }
 
-
-
-
             if (other.gameObject.tag == "GolemSlash" ){
                 print("That Looked like it hurt!");
                 currentHealth -= 250;
             }
+
+            if (other.gameObject.tag == "GolemSlam" ){
+                print("Ahhhhh!");
+                currentHealth -= 400;
+            }
+
+
          }
 
          void OnTriggerStay(Collider other) {
             
             if (other.gameObject.tag == "LightningStrike"){
                 print("Player was hit by Lightning Bolt!");
+                currentHealth --;
+            }
+            if (other.gameObject.tag == "ShamanLaser"){
+                print("Player was lasered");
+                currentHealth --;
+            }
+            if (other.gameObject.tag == "TormentedLaser"){
+                print("Player was lasered");
                 currentHealth --;
             }
          }
