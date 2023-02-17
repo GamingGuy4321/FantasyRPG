@@ -56,7 +56,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -4956,7 +4956,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -9856,7 +9856,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -14738,7 +14738,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -19728,7 +19728,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -24628,7 +24628,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -29528,7 +29528,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -34437,7 +34437,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -39319,7 +39319,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -44201,7 +44201,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -49083,7 +49083,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -54073,7 +54073,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -58955,7 +58955,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -63837,7 +63837,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -68719,7 +68719,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -73709,7 +73709,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -78546,9 +78546,12 @@ GameObject:
   - component: {fileID: 4234658926980550}
   - component: {fileID: 198670201032893892}
   - component: {fileID: 199093452515176668}
+  - component: {fileID: 7460453779326109618}
+  - component: {fileID: 2221032351999254477}
+  - component: {fileID: 7399087074638544953}
   m_Layer: 0
   m_Name: Debuff 2
-  m_TagString: Untagged
+  m_TagString: TormentedChains
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78611,7 +78614,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -83437,6 +83440,47 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!65 &7460453779326109618
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775157058538326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 2, z: 3.5}
+  m_Center: {x: 0, y: 0.62, z: 0}
+--- !u!114 &2221032351999254477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775157058538326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c5795088e34ac4f98f6de467ae399e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 7460453779326109618}
+  Timer: 4
+--- !u!114 &7399087074638544953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775157058538326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8191c8a53a99224aaffd25e05664d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Timer: 6
+  internalTimer: 0
 --- !u!1 &1851497973564516
 GameObject:
   m_ObjectHideFlags: 0
@@ -83493,7 +83537,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -88375,7 +88419,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -93257,7 +93301,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -98158,7 +98202,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 4
     minScalar: 0
     maxCurve:
       serializedVersion: 2

@@ -12,7 +12,7 @@ public class EnemyRangeAttack : MonoBehaviour
     private float nextFireTimeAOE;
     public float singleTargetCoolDownTime;
     public float AOEcoolDownTime;
-    public Transform Player;
+    Transform player;
     public GameObject rangeEnemy;
 
     CharacterController controller;
@@ -21,8 +21,10 @@ public class EnemyRangeAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        controller = Player.gameObject.GetComponent<CharacterController>();
+        player = GameObject.Find("Player").transform;
+        controller = player.gameObject.GetComponent<CharacterController>();
         animator = rangeEnemy.gameObject.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -42,8 +44,8 @@ public class EnemyRangeAttack : MonoBehaviour
 
         if (rand == 2 && (controller.isGrounded) && (Time.time > nextFireTimeAOE)){
             animator.SetTrigger("isAOEAttack");
-            Instantiate(aoeCirclePrefab, Player.position, Quaternion.Euler(-90f,0f,0f));
-            Instantiate(aoePrefab, Player.position, Quaternion.Euler(0f,0f,0f));
+            Instantiate(aoeCirclePrefab, player.position, Quaternion.Euler(-90f,0f,0f));   
+            Instantiate(aoePrefab, player.position, Quaternion.Euler(0f,0f,0f));
             nextFireTimeAOE = Time.time + AOEcoolDownTime;
         }
     }

@@ -15,6 +15,7 @@ public class CollisionDelay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        collider.enabled = false;
         collider = GetComponent<BoxCollider>();
     }
 

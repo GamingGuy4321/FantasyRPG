@@ -275,6 +275,10 @@ public class PlayerCharacter : MonoBehaviour
                 currentHealth -= 400;
             }
 
+            if (other.gameObject.tag == "TormentedChains"){
+                print("Player was Ouched");
+                currentHealth -= 200;
+            }
 
          }
 
@@ -288,6 +292,11 @@ public class PlayerCharacter : MonoBehaviour
                 print("Player was lasered");
                 currentHealth --;
             }
+            if (other.gameObject.tag == "ShamanDeathOrb"){
+                print("Player was drained");
+                currentHealth --;
+            }
+
             if (other.gameObject.tag == "TormentedLaser"){
                 print("Player was lasered");
                 currentHealth --;

@@ -29500,6 +29500,7 @@ GameObject:
   - component: {fileID: 114635776230039818}
   - component: {fileID: 4623843311390421200}
   - component: {fileID: 5515801833224508591}
+  - component: {fileID: 4386865446275591026}
   m_Layer: 0
   m_Name: Lightning strike
   m_TagString: LightningStrike
@@ -34738,6 +34739,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.52, y: 6.2014503, z: 7.34}
   m_Center: {x: -0.06232351, y: 1.58, z: -0.4799714}
+--- !u!114 &4386865446275591026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604970523841052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c5795088e34ac4f98f6de467ae399e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 5515801833224508591}
+  Timer: 2
 --- !u!1 &1782509883496884
 GameObject:
   m_ObjectHideFlags: 0

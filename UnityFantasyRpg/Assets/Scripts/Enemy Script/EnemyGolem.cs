@@ -52,6 +52,12 @@ public class EnemyGolem : MonoBehaviour
 
         if(isSlaming){
             slamEnd.SetActive(true);
+            slamEndTimer -= Time.deltaTime;
+            if (slamEndTimer <= 0){
+                slamEnd.SetActive(false);
+                slamEndTimer = 1.0f;
+                isSlaming = false;
+            }
         }
 
         if(swipeCollider.enabled){
@@ -79,6 +85,7 @@ public class EnemyGolem : MonoBehaviour
             if(jumpTimer <=0){
                 isJumping = false;
                 jumpTimer = 1.0f;
+                hasSavePosition = false;
                 if (!navMesh.isOnNavMesh){
                     Vector3 warpPosition = tempPosition; //Set to position you want to warp to
                     navMesh.transform.position = warpPosition;

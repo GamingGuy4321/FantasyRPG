@@ -35,6 +35,8 @@ TagManager:
   - GolemDoorRight
   - TormentedLaser
   - ShamanLaser
+  - ShamanDeathOrb
+  - TormentedChains
   layers:
   - Default
   - TransparentFX

@@ -20,7 +20,10 @@ public class AIMovement : MonoBehaviour
 
     Transform player;
     NavMeshAgent nav;
-    
+
+    //Creating EnemyGolem Script Variable
+    EnemyGolem enemyGolemScript;
+
     public GameObject AttackScript;
 
     // Start is called before the first frame update
@@ -30,6 +33,11 @@ public class AIMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         player = GameObject.Find("Player").transform;
         nav = GetComponent<NavMeshAgent>();
+
+        //Using TryGetComponent here to prevent null reference errors on your enemies that are NOT a Golem
+        //If any other enemies have a jump, you will need to do this for each. This is where I would suggest a refactor because this goes against the norm of how Unity is meant to function
+        AttackScript.TryGetComponent<EnemyGolem>(out enemyGolemScript);
+
         AttackScript.SetActive(false);
     }
 
@@ -48,6 +56,12 @@ public class AIMovement : MonoBehaviour
         }
 
         if(!isFront() || !isLineOfSight()){
+            //Grabbing the isJumping variable and just returning (leaving the statement) if it is true
+            if(enemyGolemScript != null){
+                if (enemyGolemScript.isJumping) return;
+            }
+                
+
             isChasing = false;
             AttackScript.SetActive(false);
         }
@@ -66,6 +80,11 @@ public class AIMovement : MonoBehaviour
             }
             else
             {
+                //Grabbing the isJumping variable and just returning (leaving the statement) if it is true
+                if(enemyGolemScript != null){
+                    if (enemyGolemScript.isJumping) return;
+                }
+                
                 AttackScript.SetActive(false);
             }
         }else{
