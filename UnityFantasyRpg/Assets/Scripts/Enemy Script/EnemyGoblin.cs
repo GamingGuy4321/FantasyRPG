@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EnemyGoblin : MonoBehaviour
 {
-    public Transform Player;
-    public GameObject Goblin;
     CharacterController controller;
     Animator animator;
+    Transform player;
+    public GameObject Goblin;
 
     private float nextFireTimeLightAttack;
     private float nextFireTimeLightAttack2;
@@ -15,14 +15,13 @@ public class EnemyGoblin : MonoBehaviour
     public float lightAttackCoolDownTime;
     public float lightAttack2CoolDownTime;
     public float heavyAttackCoolDownTime;
+    public float lightAttackTimer;
+    public float lightAttack2Timer;
+    public float heavyAttackTimer;
 
     public bool isLightAttack;
     public bool isLightAttack2;
     public bool isHeavyAttack;
-
-    public float lightAttackTimer;
-    public float lightAttack2Timer;
-    public float heavyAttackTimer;
 
     public Collider leftLightDaggerCollider;
     public Collider rightLightDaggerCollider;
@@ -31,7 +30,8 @@ public class EnemyGoblin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        controller = Player.gameObject.GetComponent<CharacterController>();
+        player = GameObject.Find("Player").transform;
+        controller = player.gameObject.GetComponent<CharacterController>();
         animator = Goblin.gameObject.GetComponent<Animator>();
         heavyDaggerCollider.enabled = false;
         leftLightDaggerCollider.enabled = false;
@@ -86,17 +86,17 @@ public class EnemyGoblin : MonoBehaviour
     void MeleeAttack(){
         int rand = Random.Range(1, 4);
 
-        if (rand == 1 && (Time.time > nextFireTimeLightAttack)){
+        if (rand == 1 && (controller.isGrounded) && (Time.time > nextFireTimeLightAttack)){
             animator.SetTrigger("isLightAttack");
             nextFireTimeLightAttack = Time.time + lightAttackCoolDownTime;
         }
 
-        if (rand == 2 && (Time.time > nextFireTimeLightAttack2)){
+        if (rand == 2 && (controller.isGrounded) && (Time.time > nextFireTimeLightAttack2)){
             animator.SetTrigger("isLightAttack2");
             nextFireTimeLightAttack2 = Time.time + lightAttack2CoolDownTime;
         }
 
-        if (rand == 3 && (Time.time > nextFireTimeHeavyAttack)){
+        if (rand == 3 && (controller.isGrounded) && (Time.time > nextFireTimeHeavyAttack)){
             animator.SetTrigger("isHeavyAttack");
             nextFireTimeHeavyAttack = Time.time + heavyAttackCoolDownTime;
         }

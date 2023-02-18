@@ -378,6 +378,7 @@
 "Assets/Scripts/Enemy Script/EnemySpawner.cs"
 "Assets/Scripts/Enemy Script/GoblinAnimations.cs"
 "Assets/Scripts/Enemy Script/GolemAnimations.cs"
+"Assets/Scripts/Enemy Script/MeleeAnimations.cs"
 "Assets/Scripts/Menu/ChangeScenes.cs"
 "Assets/Scripts/Menu/ExitGameScript.cs"
 "Assets/Scripts/Menu/GameManager.cs"

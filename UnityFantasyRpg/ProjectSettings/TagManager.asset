@@ -37,6 +37,8 @@ TagManager:
   - ShamanLaser
   - ShamanDeathOrb
   - TormentedChains
+  - ChiefLight
+  - ChiefHeavy
   layers:
   - Default
   - TransparentFX

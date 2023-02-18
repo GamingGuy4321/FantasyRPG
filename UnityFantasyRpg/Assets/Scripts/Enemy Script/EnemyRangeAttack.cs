@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class EnemyRangeAttack : MonoBehaviour
 {
+    CharacterController controller;
+    Animator animator;
+    Transform player;
+    public GameObject rangeEnemy;
+
     public GameObject aoeCirclePrefab;
     public GameObject aoePrefab;
     public GameObject projectilePrefab;
     public Transform projectileFirePoint;
+    
     private float nextFireTimeSingleTarget;
     private float nextFireTimeAOE;
     public float singleTargetCoolDownTime;
     public float AOEcoolDownTime;
-    Transform player;
-    public GameObject rangeEnemy;
-
-    CharacterController controller;
-    Animator animator;
 
     // Start is called before the first frame update
     void Start()

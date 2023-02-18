@@ -241,42 +241,42 @@ public class PlayerCharacter : MonoBehaviour
         void OnTriggerEnter(Collider other) {
 
             if (other.gameObject.tag == "LightningBolt" && (!characterPhysics.isDodgingLeft && !characterPhysics.isDodgingRight)){
-                print("Player was hit by Lightning Bolt!");
                 currentHealth -= 30;
             }
 
             if (other.gameObject.tag == "LightningStrike"){
-                print("Player was hit by Lightning Bolt!");
                 currentHealth -= 30;
             }
 
             if (other.gameObject.tag == "GoblinLeftLight"){
-                print("Goblin shivs ya from the left!");
                 currentHealth -= 30;
             }
 
             if (other.gameObject.tag == "GoblinRightLight"){
-                print("Goblin shivs ya from the right!");
                 currentHealth -= 30;
             }
 
             if (other.gameObject.tag == "GoblinHeavy"){
-                print("Goblin shivs ya but worse!");
                 currentHealth -= 50;
             }
 
+            if (other.gameObject.tag == "SkeletonLight"){
+                currentHealth -= 45;
+            }
+
+            if (other.gameObject.tag == "SkeletonHeavy"){
+                currentHealth -= 70;
+            }
+
             if (other.gameObject.tag == "GolemSlash" ){
-                print("That Looked like it hurt!");
                 currentHealth -= 250;
             }
 
             if (other.gameObject.tag == "GolemSlam" ){
-                print("Ahhhhh!");
                 currentHealth -= 400;
             }
 
             if (other.gameObject.tag == "TormentedChains"){
-                print("Player was Ouched");
                 currentHealth -= 200;
             }
 

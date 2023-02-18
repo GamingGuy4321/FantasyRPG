@@ -9,7 +9,7 @@ public class EnemyFootsteps : MonoBehaviour
     private AudioClip[] stepClips;
 
     [SerializeField]
-    private AudioClip[] daggerClips;
+    private AudioClip[] lightClips;
 
     private AudioSource audioSource;
 
@@ -28,13 +28,13 @@ public class EnemyFootsteps : MonoBehaviour
         return stepClips[UnityEngine.Random.Range(0, stepClips.Length)];
     }
 
-    private void Dagger (){
-       AudioClip clip = GetRandomClipdagger();
+    private void Light (){
+       AudioClip clip = GetRandomClipLight();
        audioSource.PlayOneShot(clip);
     }
     
 
-    private AudioClip GetRandomClipdagger(){
-        return daggerClips[UnityEngine.Random.Range(0, daggerClips.Length)];
+    private AudioClip GetRandomClipLight(){
+        return lightClips[UnityEngine.Random.Range(0, lightClips.Length)];
     }
 }
