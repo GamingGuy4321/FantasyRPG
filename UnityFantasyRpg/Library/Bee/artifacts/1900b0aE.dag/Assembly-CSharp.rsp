@@ -387,6 +387,7 @@
 "Assets/Scripts/Menu/PauseMenu.cs"
 "Assets/Scripts/Menu/SettingsManager.cs"
 "Assets/Scripts/Player Script/CharacterPhysics.cs"
+"Assets/Scripts/Player Script/HitSoundClips.cs"
 "Assets/Scripts/Player Script/MoveCamera.cs"
 "Assets/Scripts/Player Script/PickupCollider.cs"
 "Assets/Scripts/Player Script/PlayerCharacter.cs"

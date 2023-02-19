@@ -9,6 +9,8 @@ public class PlayerCharacter : MonoBehaviour
     public GameManager m_gameManager;
     public Animator m_animator;
     private bool isMouseLeftDown = false;
+
+    public HitSoundClips hitSoundClips;
     
     float timer;
     public GameObject iceSlam;
@@ -67,7 +69,6 @@ public class PlayerCharacter : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
         swordCollider.enabled = false;
         swordCollider2.enabled = false;
-
     }
 
     public void Update()
@@ -113,11 +114,13 @@ public class PlayerCharacter : MonoBehaviour
             //Debug.Log("MousebuttonUp");
             isMouseLeftDown = false;
             if(Time.time - timer < 0.25){
+                shieldCollider.enabled = false; 
                 swordCollider.enabled = true;
                 melee1Timer = 0.5f;
                 //Debug.Log("LightAttack.");
                 m_animator.SetTrigger("isLightAttack");
             }else if(Time.time - timer > 0.5){
+                shieldCollider.enabled = false; 
                 swordCollider2.enabled = true;
                 melee2Timer = 2.5f;
                 //Debug.Log("HeavyAttack.");
@@ -129,13 +132,14 @@ public class PlayerCharacter : MonoBehaviour
             //Debug.Log("Blocked");
             m_animator.SetBool("isBlocking", true);
             shieldCollider.enabled = true;  
-            shieldTimer = 5.0f;
+            shieldTimer = 2.5f;
         }else{
             m_animator.SetBool("isBlocking", false);
         }
         
         if (Input.GetKeyDown(KeyCode.Space)){
             m_animator.SetTrigger("isJumping");
+            shieldCollider.enabled = false;
             print("jumped");
         }
         
@@ -145,6 +149,7 @@ public class PlayerCharacter : MonoBehaviour
                 if(currentHealthPotion >= 1){
                     sheathedShield.SetActive(true);
                     equipedShield.SetActive(false);
+                    shieldCollider.enabled = false;
                     healthPotion.SetActive(true);
                     m_animator.SetTrigger("isDrinkingPotion");
                     healAura.SetActive(true);
@@ -161,6 +166,7 @@ public class PlayerCharacter : MonoBehaviour
                 if(currentManaPotion >= 1){
                     sheathedShield.SetActive(true);
                     equipedShield.SetActive(false);
+                    shieldCollider.enabled = false;
                     manaPotion.SetActive(true);
                     m_animator.SetTrigger("isDrinkingPotion");
                     currentMana += 50;
@@ -174,7 +180,7 @@ public class PlayerCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)){
             if (Time.time > nextFireTime){
                 if (currentMana >= 20){
-                    
+                    shieldCollider.enabled = false;
                     Instantiate(projectilePrefab, projectileFirePoint.position, projectileFirePoint.rotation);
                     m_animator.SetTrigger("isIceBolt");
                     takeMana(20);
@@ -186,6 +192,7 @@ public class PlayerCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha4)){
             if (Time.time > nextFireTime){
                 if (currentMana >= 50){
+                    shieldCollider.enabled = false;
                     iceSlam.SetActive(true);
                     m_animator.SetTrigger("isIceslam");
                     takeMana(50);
@@ -198,6 +205,7 @@ public class PlayerCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha5)){
             if (Time.time > nextFireTime){
                 if (currentMana >= 35){
+                    shieldCollider.enabled = false;
                     knifeHail.SetActive(true);
                     m_animator.SetTrigger("isKnifeHail");
                     takeMana(35);
@@ -240,7 +248,7 @@ public class PlayerCharacter : MonoBehaviour
 
         void OnTriggerEnter(Collider other) {
 
-            if (other.gameObject.tag == "LightningBolt" && (!characterPhysics.isDodgingLeft && !characterPhysics.isDodgingRight)){
+            if (other.gameObject.tag == "LightningBolt") {
                 currentHealth -= 30;
             }
 
@@ -248,28 +256,71 @@ public class PlayerCharacter : MonoBehaviour
                 currentHealth -= 30;
             }
 
-            if (other.gameObject.tag == "GoblinLeftLight"){
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "GoblinLeftLight")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            } else if (other.gameObject.tag == "GoblinLeftLight"){
                 currentHealth -= 30;
+                hitSoundClips.daggerHit();
             }
 
-            if (other.gameObject.tag == "GoblinRightLight"){
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "GoblinRightLight")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "GoblinRightLight"){
                 currentHealth -= 30;
+                hitSoundClips.daggerHit();
             }
 
-            if (other.gameObject.tag == "GoblinHeavy"){
+            if ((shieldCollider.enabled == true) && (other.gameObject.tag == "GoblinHeavy")){
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "GoblinHeavy"){
                 currentHealth -= 50;
+                hitSoundClips.daggerHit();
             }
 
-            if (other.gameObject.tag == "SkeletonLight"){
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "SkeletonLight")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            } else if (other.gameObject.tag == "SkeletonLight"){
                 currentHealth -= 45;
+                hitSoundClips.swordHit();
+                
             }
 
-            if (other.gameObject.tag == "SkeletonHeavy"){
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "SkeletonHeavy")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "SkeletonHeavy"){
                 currentHealth -= 70;
+                hitSoundClips.swordHit();
+                
             }
 
-            if (other.gameObject.tag == "GolemSlash" ){
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "ChiefLight")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            } else if (other.gameObject.tag == "ChiefLight"){
+                currentHealth -= 55;
+                hitSoundClips.hammerHit();
+                
+            }
+
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "CheifHeavy")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "CheifHeavy"){
+                currentHealth -= 80;
+                hitSoundClips.hammerHit();
+                
+            }
+
+            if ((shieldCollider.enabled == true) && (other.gameObject.tag == "GolemSlash")){
+                currentHealth -= 150;
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "GolemSlash"){
                 currentHealth -= 250;
+                hitSoundClips.golemHit();
             }
 
             if (other.gameObject.tag == "GolemSlam" ){
@@ -301,6 +352,8 @@ public class PlayerCharacter : MonoBehaviour
                 print("Player was lasered");
                 currentHealth --;
             }
+
+
          }
 
          

@@ -15,7 +15,7 @@ G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 -logFile
 Logs/AssetImportWorker19.log
 -srvPort
-49829
+52310
 Successfully changed project path to: G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ G:/Transfer Stuff/GameDev/Unity/FantasyRPG/UnityFantasyRpg
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 58.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003739 seconds.
+Registered in 0.006693 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.437 seconds
+- Completed reload, in  0.503 seconds
 Domain Reload Profiling:
-	ReloadAssembly (437ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (503ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (314ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (353ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003008 seconds.
+Registered in 0.003330 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
+- Completed reload, in  0.899 seconds
 Domain Reload Profiling:
-	ReloadAssembly (704ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (544ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (212ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (262ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (129.7 KB). Loaded Objects now: 4113.
-Memory consumption went from 146.1 MB to 146.0 MB.
-Total: 2.842400 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.415000 ms  DeleteObjects: 0.085400 ms)
+Unloading 3628 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (129.7 KB). Loaded Objects now: 4114.
+Memory consumption went from 146.2 MB to 146.1 MB.
+Total: 6.498200 ms (FindLiveObjects: 0.759900 ms CreateObjectMapping: 0.282900 ms MarkObjects: 5.290800 ms  DeleteObjects: 0.163500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,591 +158,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 22541.517841 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a3136a3b9a4b71bd6e7859937ec63a') in 0.043252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.113902 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Dying.fbx
-  artifactKey: Guid(c8d5e9a7eca6bff4592c89984c071e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Dying.fbx using Guid(c8d5e9a7eca6bff4592c89984c071e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a841729fc9c7cd5a8cb340c0a377ce') in 0.329634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 125.066517 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx
-  artifactKey: Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx using Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3ec1cfcdf3d694f2df49d1ae4ecaf5') in 0.035090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.322071 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx
-  artifactKey: Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx using Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a31fd7dfc8b397d52a333ac3940297') in 0.032396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.252909 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx using Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13460c5924cf980b399b8599df996cae') in 0.068838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.324519 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx using Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55d777205f441085103e94d224fd58a') in 0.022335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.136605 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b643848c33e03a2c1bcb943174c332e3') in 0.008932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.421441 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1a610bee023508b67ebef257cedaff') in 0.003308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.961910 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659b1d04c2e2de28c30377e99f16f37b') in 0.004417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.498346 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a65791b053015c7df9a5f92156feeb') in 0.004265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.734311 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bad96dac042e481ced03f4ef8bb55a') in 0.004358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.152850 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b660756d8dcb5d357fa51a4677ff39') in 0.004284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.424674 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller
-  artifactKey: Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/GoblinWarChief.controller using Guid(69b561f2335a72540baedea695b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef0ae3e5143aba443717b8af7dd57b2') in 0.004382 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003113 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Domain Reload Profiling:
-	ReloadAssembly (744ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (58ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (95.4 KB). Loaded Objects now: 4173.
-Memory consumption went from 160.5 MB to 160.5 MB.
-Total: 3.176900 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.755800 ms  DeleteObjects: 0.047800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003415 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Domain Reload Profiling:
-	ReloadAssembly (732ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (254ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4188.
-Memory consumption went from 160.6 MB to 160.5 MB.
-Total: 2.984600 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.073400 ms MarkObjects: 2.598400 ms  DeleteObjects: 0.030600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 157.562305 seconds.
-  path: Assets/Prefabs/Character_Goblin_WarChief.prefab
-  artifactKey: Guid(a27f01cecc3372c4bb81e0217ac16f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Character_Goblin_WarChief.prefab using Guid(a27f01cecc3372c4bb81e0217ac16f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5f813b1e83c56845954f4953be3d1a') in 0.085926 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002854 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
-Domain Reload Profiling:
-	ReloadAssembly (747ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (573ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (255ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4203.
-Memory consumption went from 160.6 MB to 160.5 MB.
-Total: 2.715300 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.325500 ms  DeleteObjects: 0.034400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 62.917296 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx
-  artifactKey: Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx using Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03b1221955519c89b229d1b3da0777f') in 0.122914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.730428 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx
-  artifactKey: Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx using Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdc6774701cfc5e33fe795623d7ff1d') in 0.058573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.101616 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx using Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f04e5d7d25240d9aa5dddcefa97be5') in 0.095502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.149048 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Standing Melee Attack 360 Low.fbx using Guid(aa50ec1ddc445d6419d39f10e9c0630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037078b72bfc10ecc04b36698f0ccb19') in 0.040583 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002882 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
-Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (562ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4218.
-Memory consumption went from 160.7 MB to 160.6 MB.
-Total: 3.421200 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.996600 ms  DeleteObjects: 0.034100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 26.256615 seconds.
-  path: Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx
-  artifactKey: Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/GoblinWarChief Animation/Heavy Weapon Swing.fbx using Guid(5b63f9e3e0e4a124c80d4935500cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e21e2ba17264e9a32178ba14be81203') in 0.106780 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003213 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
-Domain Reload Profiling:
-	ReloadAssembly (717ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4233.
-Memory consumption went from 160.7 MB to 160.6 MB.
-Total: 2.895400 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.483900 ms  DeleteObjects: 0.055200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 101.975740 seconds.
-  path: Assets/Prefabs/Character_Goblin_WarChief.prefab
-  artifactKey: Guid(a27f01cecc3372c4bb81e0217ac16f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Character_Goblin_WarChief.prefab using Guid(a27f01cecc3372c4bb81e0217ac16f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234eab2f182f226e354b33c1ef92db26') in 0.074534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.998561 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(d7a7a922a8cdf284490ce683185ee519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(d7a7a922a8cdf284490ce683185ee519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2963c696cb55cfc2303964fbc34cade0') in 0.004848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.380022 seconds.
-  path: Assets/Prefabs/Enemies
-  artifactKey: Guid(e802b50e0adefff47aea829b309e08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies using Guid(e802b50e0adefff47aea829b309e08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15551ddd71dac16ef88daf78c4e1477') in 0.004332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.967402 seconds.
-  path: Assets/Prefabs/Enemies/Character_Ghost_02.prefab
-  artifactKey: Guid(e7379ef5f84d5384b804c7bff3077c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Ghost_02.prefab using Guid(e7379ef5f84d5384b804c7bff3077c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260cd75cc124bcb871fb7e7ced4cc696') in 0.046090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Enemies/Character_Skeleton_Soldier_01.prefab
-  artifactKey: Guid(8541ec11ca42fb14197aee460a1cd828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Skeleton_Soldier_01.prefab using Guid(8541ec11ca42fb14197aee460a1cd828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e270adc656cafb42a734a377c67d76') in 0.019593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_Shaman 1.prefab
-  artifactKey: Guid(7641e3a780143e2409b64e73da698020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_Shaman 1.prefab using Guid(7641e3a780143e2409b64e73da698020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7aff214f5199029e395c99f9bdaa44') in 0.042966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab
-  artifactKey: Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab using Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74117dcbcdca24495dcc1ba848607531') in 0.024768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.365985 seconds.
-  path: Assets/Prefabs/Enemies/Character_Ghost_02.prefab
-  artifactKey: Guid(e7379ef5f84d5384b804c7bff3077c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Ghost_02.prefab using Guid(e7379ef5f84d5384b804c7bff3077c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac158073d9979af8b02a9f2631e42ce7') in 0.054547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Prefabs/Enemies/Character_Skeleton_Soldier_01.prefab
-  artifactKey: Guid(8541ec11ca42fb14197aee460a1cd828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Skeleton_Soldier_01.prefab using Guid(8541ec11ca42fb14197aee460a1cd828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36654bd0eb249cb2d8072d809356c4d') in 0.043043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab
-  artifactKey: Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab using Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc5398d9410e107049d835f2d77dc0f') in 0.020460 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003212 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\Transfer Stuff\GameDev\Unity\FantasyRPG\UnityFantasyRpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
-Domain Reload Profiling:
-	ReloadAssembly (752ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (573ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (270ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (96.2 KB). Loaded Objects now: 4249.
-Memory consumption went from 160.9 MB to 160.8 MB.
-Total: 2.928500 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.474100 ms  DeleteObjects: 0.082600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 96.255625 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_Male 1.prefab
-  artifactKey: Guid(766f82b9d67028e49bfea4d2da7cc879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_Male 1.prefab using Guid(766f82b9d67028e49bfea4d2da7cc879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6be68494344a53887bf092a44531106') in 0.082626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.310796 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_Male 1.prefab
-  artifactKey: Guid(766f82b9d67028e49bfea4d2da7cc879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_Male 1.prefab using Guid(766f82b9d67028e49bfea4d2da7cc879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0bbd40763df62f7c1f1b9e947d2138') in 0.024459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.865655 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_Shaman 1.prefab
-  artifactKey: Guid(7641e3a780143e2409b64e73da698020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_Shaman 1.prefab using Guid(7641e3a780143e2409b64e73da698020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec678a4666bdd38f5ff5ef055b546894') in 0.042293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.017453 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab
-  artifactKey: Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab using Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0369ced2293e9b59bdf4cacfd77269f') in 0.023951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.049724 seconds.
-  path: Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab
-  artifactKey: Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Goblin_WarChief.prefab using Guid(b5003997d15dab240b0f58ec4fb78cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49227f508cdbfc3b057152bb04f39945') in 0.048325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.470666 seconds.
-  path: Assets/Prefabs/Enemies/Character_Rock_Golem.prefab
-  artifactKey: Guid(4f1cf08998c7b7e47a90748dd33272c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Rock_Golem.prefab using Guid(4f1cf08998c7b7e47a90748dd33272c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d8b63995108124e3ff00a52e914649') in 0.031355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.656659 seconds.
-  path: Assets/Prefabs/Enemies/Character_Rock_Golem.prefab
-  artifactKey: Guid(4f1cf08998c7b7e47a90748dd33272c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Rock_Golem.prefab using Guid(4f1cf08998c7b7e47a90748dd33272c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a752e60b56e2ceb050e34830afee61') in 0.023279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 76.200491 seconds.
-  path: Assets/Prefabs/Enemies/Character_Rock_Golem.prefab
-  artifactKey: Guid(4f1cf08998c7b7e47a90748dd33272c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Rock_Golem.prefab using Guid(4f1cf08998c7b7e47a90748dd33272c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808c773284f7997840882c372b083e12') in 0.021796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.637904 seconds.
-  path: Assets/Prefabs/Enemies/Character_Rock_Golem.prefab
-  artifactKey: Guid(fe5a8797de803544fae9c2bf56e5524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Rock_Golem.prefab using Guid(fe5a8797de803544fae9c2bf56e5524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e283f56d0829ad451580cf2eb60f73f5') in 0.023213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.363180 seconds.
-  path: Assets/Prefabs/Enemies/Character_Rock_Golem.prefab
-  artifactKey: Guid(fe5a8797de803544fae9c2bf56e5524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Rock_Golem.prefab using Guid(fe5a8797de803544fae9c2bf56e5524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f94f2ec8494c8956c5d012bfa98ba') in 0.038633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.451223 seconds.
-  path: Assets/Prefabs/Enemies/Character_Rock_Golem.prefab
-  artifactKey: Guid(fe5a8797de803544fae9c2bf56e5524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Rock_Golem.prefab using Guid(fe5a8797de803544fae9c2bf56e5524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a370c430b393796c6e5d311d7ea0edf9') in 0.022146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.601831 seconds.
-  path: Assets/Prefabs/Enemies/Character_Tormented_Soul.prefab
-  artifactKey: Guid(5d81ba355b413cf4f9972f5b55adfd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Character_Tormented_Soul.prefab using Guid(5d81ba355b413cf4f9972f5b55adfd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1ad4aaeeac65093a60105b2349b0d8') in 0.038252 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

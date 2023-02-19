@@ -30,6 +30,8 @@ public class EnemyMeleeAttack : MonoBehaviour
         animator = meleeEnemy.gameObject.GetComponent<Animator>();
         lightCollider.enabled = false;
         heavyCollider.enabled = false;
+        lightAttackTimer = 0.0f;
+        heavyAttackTimer = 0.0f;
     }
 
     // Update is called once per frame
@@ -56,7 +58,7 @@ public class EnemyMeleeAttack : MonoBehaviour
             heavyAttackTimer -= Time.deltaTime;
             if (heavyAttackTimer <= 0){
                 heavyCollider.enabled = false; 
-                heavyAttackTimer = 3.5f;
+                heavyAttackTimer = 0.5f;
                 isHeavyAttack = false;
             } 
         }
@@ -65,14 +67,14 @@ public class EnemyMeleeAttack : MonoBehaviour
     }
 
     void MeleeAttack(){
-        int rand = Random.Range(1, 3);
+        int rand = Random.Range(1, 5);
 
         if (rand == 1 && (controller.isGrounded) && (Time.time > nextFireTimeLightAttack)){
             animator.SetTrigger("isLightAttack");
             nextFireTimeLightAttack = Time.time + lightAttackCoolDownTime;
         }
 
-        if (rand == 2 && (controller.isGrounded) && (Time.time > nextFireTimeHeavyAttack)){
+        if (rand == 4 && (controller.isGrounded) && (Time.time > nextFireTimeHeavyAttack)){
             animator.SetTrigger("isHeavyAttack");
             nextFireTimeHeavyAttack = Time.time + heavyAttackCoolDownTime;
         }

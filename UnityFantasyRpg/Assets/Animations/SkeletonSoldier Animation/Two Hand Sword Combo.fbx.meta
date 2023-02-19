@@ -58,21 +58,21 @@ ModelImporter:
       curves: []
       events:
       - time: 0.1534091
-        functionName: LightAttack
+        functionName: HeavyAttack
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.35227272
-        functionName: Light
+        functionName: HeavyAttack
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.5738636
-        functionName: Light
+        functionName: HeavyAttack
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
