@@ -39,6 +39,8 @@ TagManager:
   - TormentedChains
   - ChiefLight
   - ChiefHeavy
+  - TormentedSoul
+  - GoblinWarChief
   layers:
   - Default
   - TransparentFX

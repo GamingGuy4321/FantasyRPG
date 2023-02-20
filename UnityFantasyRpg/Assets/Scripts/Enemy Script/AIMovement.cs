@@ -73,7 +73,7 @@ public class AIMovement : MonoBehaviour
             nav.SetDestination(player.position);
             transform.LookAt(player.transform);
 
-            if (dist <= 12 && this.gameObject.tag == "RangeEnemy"){
+            if (dist <= 12 && (this.gameObject.tag == "RangeEnemy") || (this.gameObject.tag == "TormentedSoul") ){
                 AttackScript.SetActive(true);
             } else if ((dist <= 3 && this.gameObject.tag == "MeleeEnemy")||(dist <= 3 && this.gameObject.tag == "Goblin") || (dist <= 5 && this.gameObject.tag == "Golem")){
                 AttackScript.SetActive(true);

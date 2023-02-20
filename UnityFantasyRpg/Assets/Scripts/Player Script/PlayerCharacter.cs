@@ -248,7 +248,10 @@ public class PlayerCharacter : MonoBehaviour
 
         void OnTriggerEnter(Collider other) {
 
-            if (other.gameObject.tag == "LightningBolt") {
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "LightningBolt")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            } else if (other.gameObject.tag == "LightningBolt") {
                 currentHealth -= 30;
             }
 
@@ -339,16 +342,24 @@ public class PlayerCharacter : MonoBehaviour
                 print("Player was hit by Lightning Bolt!");
                 currentHealth --;
             }
-            if (other.gameObject.tag == "ShamanLaser"){
+
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "ShamanLaser")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "ShamanLaser"){
                 print("Player was lasered");
                 currentHealth --;
             }
+            
             if (other.gameObject.tag == "ShamanDeathOrb"){
                 print("Player was drained");
                 currentHealth --;
             }
-
-            if (other.gameObject.tag == "TormentedLaser"){
+            
+            if((shieldCollider.enabled == true) && (other.gameObject.tag == "TormentedLaser")){
+                Debug.Log("Blocked");
+                hitSoundClips.blockHit();
+            }else if (other.gameObject.tag == "TormentedLaser"){
                 print("Player was lasered");
                 currentHealth --;
             }

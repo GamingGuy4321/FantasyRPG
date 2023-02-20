@@ -8,6 +8,11 @@ public class AiHitDetection : MonoBehaviour
 
     public float maxHealth;
     public float currentHealth;
+
+    public bool tormentedDead;
+    public bool golemDead;
+    public bool goblinWarDead;
+
     private Healthbar healthbar;
     public Transform coinSpawn;
     public GameObject coinPrefab;
@@ -43,17 +48,31 @@ public class AiHitDetection : MonoBehaviour
             currentHealth -= 75.0f;
         }
         if (currentHealth <= 0){
+            if(gameObject.tag == "Golem"){
+                golemDead = true;
+            }
+
+            if(gameObject.tag == "TormentedSoul"){
+                tormentedDead = true;
+            }
+
+            if(gameObject.tag == "GoblinWarChief"){
+                goblinWarDead = true;
+            }
+
             m_animator.SetTrigger("isDead");
             Instantiate(coinPrefab, coinSpawn.position, coinSpawn.rotation);
             Destroy(gameObject);
         }
+    }
 
-        void OnTriggerStay(Collider other) {
-            if (other.gameObject.tag == "KnifeHail"){
+
+    void OnTriggerStay(Collider other) {
+
+        if (other.gameObject.tag == "KnifeHail"){
             print("Enemy was hit with Knife Hail!");
             m_animator.SetTrigger("isHit");
             currentHealth --;
-        }
         }
     }
 
@@ -70,6 +89,10 @@ public class AiHitDetection : MonoBehaviour
             healthbar.SetMaxHealth(maxHealth);
         }
         m_animator = GetComponent<Animator>();
+
+        tormentedDead = false;
+        golemDead = false;
+        goblinWarDead = false;
     }
 
     public void swordHit(){

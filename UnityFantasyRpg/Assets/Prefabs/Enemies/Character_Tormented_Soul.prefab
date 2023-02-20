@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 342261865859211965}
   m_Layer: 0
   m_Name: Character_Tormented_Soul
-  m_TagString: RangeEnemy
+  m_TagString: TormentedSoul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1740,8 +1740,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
-  m_CollisionDetection: 1
+  m_Constraints: 80
+  m_CollisionDetection: 2
 --- !u!136 &342261865859211960
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1788,8 +1788,12 @@ MonoBehaviour:
   m_animator: {fileID: 342261865849743903}
   maxHealth: 300
   currentHealth: 0
+  tormentedDead: 0
+  golemDead: 0
+  goblinWarDead: 0
   coinSpawn: {fileID: 342261867059624585}
   coinPrefab: {fileID: 140112, guid: 20b7b23b86efa8e46a703fab1a8a1058, type: 3}
+  swordHitClips: []
 --- !u!195 &342261865859211965
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2086,7 +2090,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2273,7 +2277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 342261867579257095}
-  - component: {fileID: 342261867579257092}
+  - component: {fileID: 696384991212004019}
   m_Layer: 0
   m_Name: AttackScript
   m_TagString: AttackScript
@@ -2296,7 +2300,7 @@ Transform:
   m_Father: {fileID: 342261865859261243}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &342261867579257092
+--- !u!114 &696384991212004019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2305,7 +2309,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 342261867579257094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04244bf779fac6743bf280c33f3273c7, type: 3}
+  m_Script: {fileID: 11500000, guid: bd4e802dc6875c04c9fb7ea21fb9794b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rangeEnemy: {fileID: 342261865859183397}
