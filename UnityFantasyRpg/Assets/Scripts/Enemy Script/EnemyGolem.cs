@@ -8,7 +8,7 @@ public class EnemyGolem : MonoBehaviour
     public Rigidbody rigid;
     public NavMeshAgent navMesh;
 
-    public Transform Player;
+    Transform player;
     public GameObject Golem;
 
     CharacterController controller;
@@ -18,7 +18,6 @@ public class EnemyGolem : MonoBehaviour
     private float nextFireTimeSlam;
     public float slamCoolDownTime;
     public GameObject slamEnd;
-    public float slamTimer;
 
     private float nextFireTimeSwipe;
     public float swipeCoolDownTime;
@@ -39,9 +38,11 @@ public class EnemyGolem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        controller = Player.gameObject.GetComponent<CharacterController>();
+        player = GameObject.Find("Player").transform;
+        controller = player.gameObject.GetComponent<CharacterController>();
         animator = Golem.gameObject.GetComponent<Animator>();
         swipeCollider.enabled = false; 
+        slamEnd.SetActive(false);
     }
 
     // Update is called once per frame
@@ -64,7 +65,7 @@ public class EnemyGolem : MonoBehaviour
             swipeTimer -= Time.deltaTime;
             if (swipeTimer <= 0){
             swipeCollider.enabled = false; 
-            swipeTimer = 1.5f;
+            swipeTimer = 1.0f;
             isSwiping = false;
            }
         }
@@ -84,7 +85,7 @@ public class EnemyGolem : MonoBehaviour
 
             if(jumpTimer <=0){
                 isJumping = false;
-                jumpTimer = 1.0f;
+                jumpTimer = 2.0f;
                 hasSavePosition = false;
                 if (!navMesh.isOnNavMesh){
                     Vector3 warpPosition = tempPosition; //Set to position you want to warp to

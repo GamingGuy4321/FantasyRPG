@@ -12,6 +12,27 @@ public class PickupCollider : MonoBehaviour
    public Animator Door3;
    public Animator Door4;
 
+    int maxTormented = 1;
+    int tormentedSpawn = 0;
+
+    int maxGoblin = 1;
+    int goblinSpawn = 0;
+
+    int maxGolem = 1;
+    int golemSpawn = 0;
+
+    public Transform SpawnTormented;
+    public Transform SpawnGoblin;
+    public Transform SpawnGolem;
+
+   public GameObject TormentedSoul;
+   public GameObject GoblinWarchief;
+   public GameObject Golem;
+
+    public GameObject Door1Canvas;
+    public GameObject Door2Canvas;
+    public GameObject Door3Canvas;
+
    void OnTriggerStay(Collider other){
             
         if (other.gameObject.tag == "HealthPotion" && (Input.GetKey(KeyCode.E))){
@@ -40,9 +61,14 @@ public class PickupCollider : MonoBehaviour
 
         if (other.gameObject.tag == "TormentedDoor" && (Input.GetKey(KeyCode.E))){
             {
-                if (player.currentCoins >= 1){
+                if (player.currentCoins >= 8){
                     Debug.Log("Released Tormented Soul");
                     Door.SetTrigger("DoorOpen");
+                    Door1Canvas.SetActive(false);
+                    if(tormentedSpawn < maxTormented ){
+                        Instantiate(TormentedSoul, SpawnTormented.position, Quaternion.identity);
+                        tormentedSpawn++;
+                    }
                 }
                
             }
@@ -50,9 +76,15 @@ public class PickupCollider : MonoBehaviour
 
         if (other.gameObject.tag == "GoblinWarchiefDoor" && (Input.GetKey(KeyCode.E))){
             {
-                if (player.currentCoins >= 10){
+                if (player.currentCoins >= 3){
                     Debug.Log("Released Warchief");
                     Door2.SetTrigger("Door2Open");
+                    Door2Canvas.SetActive(false);
+                    if(goblinSpawn < maxGoblin){
+                        Instantiate(GoblinWarchief, SpawnGoblin.position, Quaternion.identity);
+                        goblinSpawn++;
+                    }
+
                 }
                
             }
@@ -60,8 +92,13 @@ public class PickupCollider : MonoBehaviour
 
         if (other.gameObject.tag == "GolemDoorLeft" && (Input.GetKey(KeyCode.E))){
             {
-                if (player.currentCoins >= 20){
+                if (player.currentCoins >= 12){
                     Door3.SetTrigger("Door3Open");
+                    Door3Canvas.SetActive(false);
+                    if (golemSpawn < maxGolem){
+                        Instantiate(Golem, SpawnGolem.position, Quaternion.identity);
+                        golemSpawn++;
+                    }
                 }
                
             }
@@ -69,7 +106,7 @@ public class PickupCollider : MonoBehaviour
 
         if (other.gameObject.tag == "GolemDoorRight" && (Input.GetKey(KeyCode.E))){
             {
-                if (player.currentCoins >= 40){
+                if (player.currentCoins >= 12){
                     Debug.Log("Released Golem");
                     Door4.SetTrigger("Door4Open");
                 }
