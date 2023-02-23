@@ -26,7 +26,7 @@ public class AiHitDetection : MonoBehaviour
          if (other.gameObject.tag == "Melee"){
             print("Enemy was hit with light attack!");
             m_animator.SetTrigger("isHit");
-            currentHealth -= 10.0f;
+            currentHealth -= 250.0f;
             swordHit();
         }
 
@@ -48,22 +48,37 @@ public class AiHitDetection : MonoBehaviour
             currentHealth -= 75.0f;
         }
         if (currentHealth <= 0){
+
             if(gameObject.tag == "Golem"){
-                golemDead = true;
+                if (!golemDead)
+                {
+                    golemDead = true;
+                    GameManager.Instance.SetBossesDefeated(GameManager.Instance.GetBossesDefeated() + 1);
+                    Debug.Log($"Bosses Defeated: {GameManager.Instance.GetBossesDefeated()}");
+                }
             }
-
             if(gameObject.tag == "TormentedSoul"){
-                tormentedDead = true;
+                if (!tormentedDead)
+                {
+                    tormentedDead = true;
+                    GameManager.Instance.SetBossesDefeated(GameManager.Instance.GetBossesDefeated() + 1);
+                    Debug.Log($"Bosses Defeated: {GameManager.Instance.GetBossesDefeated()}");
+                }
             }
-
             if(gameObject.tag == "GoblinWarChief"){
-                goblinWarDead = true;
+                if (!goblinWarDead)
+                {
+                    goblinWarDead = true;
+                    GameManager.Instance.SetBossesDefeated(GameManager.Instance.GetBossesDefeated() + 1);
+                    Debug.Log($"Bosses Defeated: {GameManager.Instance.GetBossesDefeated()}");
+                }
             }
-
             m_animator.SetTrigger("isDead");
             Instantiate(coinPrefab, coinSpawn.position, coinSpawn.rotation);
             Destroy(gameObject);
         }
+            
+        
     }
 
 

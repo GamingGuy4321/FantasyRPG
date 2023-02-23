@@ -75,7 +75,7 @@ public class AIMovement : MonoBehaviour
 
             if (dist <= 12 && (this.gameObject.tag == "RangeEnemy") || (this.gameObject.tag == "TormentedSoul") ){
                 AttackScript.SetActive(true);
-            } else if ((dist <= 3 && this.gameObject.tag == "MeleeEnemy")||(dist <= 3 && this.gameObject.tag == "Goblin") || (dist <= 5 && this.gameObject.tag == "Golem")){
+            } else if ((dist <= 3 && this.gameObject.tag == "MeleeEnemy")||(dist <= 3 && this.gameObject.tag == "Goblin") || (dist <= 5 && this.gameObject.tag == "Golem") || (dist <= 5 && this.gameObject.tag == "GoblinWarChief")){
                 AttackScript.SetActive(true);
             }
             else
@@ -140,7 +140,7 @@ public class AIMovement : MonoBehaviour
         Vector3 directionOfPlayer = transform.position - player.position;
         float angle = Vector3.Angle(transform.forward, directionOfPlayer);
 
-        if(Mathf.Abs(angle) > 90 && Mathf.Abs(angle) < 270){
+        if(Mathf.Abs(angle) > 30 && Mathf.Abs(angle) < 330){
             Debug.DrawLine(transform.position, player.position, Color.red);
             return true;
         }

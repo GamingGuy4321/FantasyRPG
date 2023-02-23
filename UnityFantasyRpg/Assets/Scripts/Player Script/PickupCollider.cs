@@ -93,6 +93,7 @@ public class PickupCollider : MonoBehaviour
         if (other.gameObject.tag == "GolemDoorLeft" && (Input.GetKey(KeyCode.E))){
             {
                 if (player.currentCoins >= 12){
+                    Debug.Log("Released Golem");
                     Door3.SetTrigger("Door3Open");
                     Door3Canvas.SetActive(false);
                     if (golemSpawn < maxGolem){
@@ -107,7 +108,6 @@ public class PickupCollider : MonoBehaviour
         if (other.gameObject.tag == "GolemDoorRight" && (Input.GetKey(KeyCode.E))){
             {
                 if (player.currentCoins >= 12){
-                    Debug.Log("Released Golem");
                     Door4.SetTrigger("Door4Open");
                 }
                

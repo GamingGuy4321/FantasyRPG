@@ -153,7 +153,7 @@ public class PlayerCharacter : MonoBehaviour
                     healthPotion.SetActive(true);
                     m_animator.SetTrigger("isDrinkingPotion");
                     healAura.SetActive(true);
-                    currentHealth += 50;
+                    currentHealth += 125;
                     currentHealthPotion -= 1;
                     nextFireTime = Time.time + healthpotioncoolDownTime;
                     internalTimer = enableTimer;
@@ -169,7 +169,7 @@ public class PlayerCharacter : MonoBehaviour
                     shieldCollider.enabled = false;
                     manaPotion.SetActive(true);
                     m_animator.SetTrigger("isDrinkingPotion");
-                    currentMana += 50;
+                    currentMana += 70;
                     currentManaPotion -= 1;
                     nextFireTime = Time.time + manapotioncoolDownTime;
                     internalTimer = enableTimer;
@@ -238,7 +238,6 @@ public class PlayerCharacter : MonoBehaviour
         if(currentHealth <= 0){
             m_gameManager.LoseGame();
         }
-
     }
 
         void takeMana(int spellUse){

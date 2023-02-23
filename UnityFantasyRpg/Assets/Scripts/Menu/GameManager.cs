@@ -16,6 +16,10 @@ public class GameManager : MonoBehaviour
     public bool m_isWon;
     public bool m_isPaused;
 
+    private int bossesDefeated = 0;
+    public int GetBossesDefeated() { return bossesDefeated; }
+    public void SetBossesDefeated(int bossesDefeated) { this.bossesDefeated = bossesDefeated;}
+
     void Awake() {
         // On Awake, create the instance of the GameManager that will be used for the duration of the program
         SetInstance();
@@ -80,7 +84,9 @@ public class GameManager : MonoBehaviour
             // Set the m_isPaused bool to true, indicating a paused gamestate.
             m_isLost = true;
             // Turn on the PauseMenu gameobject
+            
             m_LoseMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
@@ -93,6 +99,13 @@ public class GameManager : MonoBehaviour
             m_isWon = true;
             // Turn on the PauseMenu gameobject
             m_WinMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
+    void Update() {
+        if (bossesDefeated >= 3){
+            WinGame();
         }
     }
 }

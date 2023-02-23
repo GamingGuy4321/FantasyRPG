@@ -19,6 +19,7 @@ public class EnemGoblinWarchief : MonoBehaviour
 
     public bool isLightAttack;
     public bool isHeavyAttack;
+    
     public Collider lightCollider;
     public Collider heavyCollider;
 
@@ -37,6 +38,8 @@ public class EnemGoblinWarchief : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         if(isLightAttack){
             lightCollider.enabled = true;
         }

@@ -13,7 +13,6 @@ public class EnemyGolem : MonoBehaviour
 
     CharacterController controller;
     Animator animator;
-
    
     private float nextFireTimeSlam;
     public float slamCoolDownTime;
@@ -46,8 +45,9 @@ public class EnemyGolem : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {   if(isSwiping){
+    void Update(){   
+
+        if(isSwiping){
             swipeCollider.enabled = true; 
         }
 

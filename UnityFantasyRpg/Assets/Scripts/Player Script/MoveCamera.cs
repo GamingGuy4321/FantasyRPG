@@ -21,8 +21,7 @@ public class MoveCamera : MonoBehaviour
     }
     void Update()
     {
-        if(gameManager.m_isPaused == false)
-        {
+        if((gameManager.m_isPaused == false) && (!gameManager.m_isLost) && (!gameManager.m_isWon)){
             Cursor.lockState = CursorLockMode.Locked;
             
             turn.x += Input.GetAxis("Mouse X") * sensitivity;
